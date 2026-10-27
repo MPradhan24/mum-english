@@ -8,9 +8,9 @@
         ["niceweather", "Nice weather today!", "नाइस **वे**दर टुडे!", "आज मौसम राम्रो छ!", "🌤️"],
         ["livenear", "Do you live near here?", "डु यू लिव़ **नियर** हियर?", "तपाईं यतै नजिक बस्नुहुन्छ?", "📍"],
         ["livewith", "I live here with my family.", "आइ लिव़ हियर विद माइ **फ़्या**मिली", "म यहाँ परिवारसँग बस्छु।", "🏠"],
-        ["howmany", "How many children do you have?", "हाउ मेनी **चिल्**ड्रन डु यू ह्याव़?", "तपाईंका कति सन्तान छन्?", "👨‍👩‍👧"],
+        ["howmany", "How many children do you have?", "हाउ मेनी **चिल्**ड्रन डु यू ह्याव़?", "तपाईंका कति छोराछोरी छन्?", "👨‍👩‍👧"],
         ["oneeach", "One son and one daughter.", "वन सन ऍन्ड वन **डो**टर", "एउटा छोरा र एउटी छोरी।", "👦"],
-        ["retired", "My husband is retired.", "माइ हज़्बन्ड इज़ रि**टाय**र्ड", "मेरो श्रीमान् सेवानिवृत्त हुनुहुन्छ।", "👴"],
+        ["retired", "My husband is retired.", "माइ हज़्बन्ड इज़ रि**टाय**र्ड", "मेरो श्रीमान् रिटायर हुनुभएको छ।", "👴"],
         ["nicetalking", "It was nice talking to you.", "इट वज़ नाइस **टकिङ** टु यू", "तपाईंसँग कुरा गरेर रमाइलो लाग्यो।", "😊"]
       ],
       "grammar": {
@@ -23,7 +23,7 @@
       "quiz": [
         ["reply", "I have two sons. What about you?", "One son and one daughter.", ["Nice weather today!", "It was nice talking to you."], "मेरा दुई छोरा छन्। तपाईंका नि?"],
         ["reply", "Do you live near here?", "Yes, I live here with my family.", ["Yes, I did.", "Maybe."], "तपाईं यतै नजिक बस्नुहुन्छ?"],
-        ["build", "How many children do you have?", "तपाईंका कति सन्तान छन्?"],
+        ["build", "How many children do you have?", "तपाईंका कति छोराछोरी छन्?"],
         ["reply", "It was nice talking to you.", "Yes, see you again!", ["I am lost.", "Since Monday."]]
       ]
     },
@@ -61,7 +61,7 @@
         ["withdraw", "I want to withdraw money.", "आइ वन्ट टु विद्**ड्रो** मनी", "मलाई पैसा झिक्नु छ।", "💵"],
         ["form", "Please fill in this form.", "प्लीज़ फ़िल इन दिस **फ़ोर्म**", "यो फारम भर्नुहोस्।", "📝"],
         ["sign", "Where do I sign?", "वेयर डु आइ **साइन**?", "कहाँ सही गर्ने?", "✍️", "sign मा g बोलिँदैन: साइन।"],
-        ["idcard", "Here is my ID card.", "हियर इज़ माइ आइ**डी** कार्ड", "यो मेरो परिचयपत्र।", "🪪"],
+        ["idcard", "Here is my ID card.", "हियर इज़ माइ आइ**डी** कार्ड", "यो मेरो आइडी कार्ड।", "🪪"],
         ["counter", "Which counter?", "विच **काउन्**टर?", "कुन काउन्टर?", "🪟"],
         ["queue", "Please wait in the queue.", "प्लीज़ वेट इन द **क्यू**", "लाइनमा पर्खनुहोस्।", "🚶"]
       ],
@@ -74,7 +74,7 @@
       "speak": ["account", "sign", "idcard"],
       "quiz": [
         ["reply", "How can I help you?", "I want to withdraw money.", ["I am withdraw.", "Which counter?"], "म तपाईंलाई कसरी मद्दत गरूँ?"],
-        ["reply", "Can I see your ID card?", "Yes, here is my ID card.", ["Where do I sign?", "Please wait in the queue."], "तपाईंको परिचयपत्र हेर्न सक्छु?"],
+        ["reply", "Can I see your ID card?", "Yes, here is my ID card.", ["Where do I sign?", "Please wait in the queue."], "तपाईंको आइडी कार्ड हेर्न सक्छु?"],
         ["build", "I want to open a bank account.", "मलाई बैंक खाता खोल्नु छ।"],
         ["gap", "Please fill ___ this form.", "in", ["on", "at"], "यो फारम भर्नुहोस्।"]
       ]
@@ -83,9 +83,9 @@
       "id": "u6l4", "title_ne": "विमानस्थल र यात्रा", "title_en": "At the airport", "emoji": "✈️",
       "intro": "विदेश जाँदा विमानस्थलमा चाहिने सबै वाक्य। अध्यागमनमा सोधिने प्रश्नको जवाफ पनि!",
       "items": [
-        ["passport", "Here is my passport.", "हियर इज़ माइ **पास्**पोर्ट", "यो मेरो राहदानी।", "🛂"],
+        ["passport", "Here is my passport.", "हियर इज़ माइ **पास्**पोर्ट", "यो मेरो पासपोर्ट।", "🛂"],
         ["checkin", "Where is the check-in counter?", "वेयर इज़ द **चेक्**इन काउन्टर?", "चेक-इन काउन्टर कहाँ छ?", "🛫"],
-        ["flight", "My flight is at ten o'clock.", "माइ **फ़्लाइट** इज़ ऍट टेन अक्लक", "मेरो उडान दस बजे छ।", "✈️"],
+        ["flight", "My flight is at ten o'clock.", "माइ **फ़्लाइट** इज़ ऍट टेन अक्लक", "मेरो प्लेन दस बजे छ।", "✈️"],
         ["gate", "Is this the gate for London?", "इज़ दिस द **गेट** फ़र लन्डन?", "लन्डन जाने गेट यही हो?", "🚪"],
         ["luggage", "Where can I get my luggage?", "वेयर क्यान आइ गेट माइ **ल**गिज?", "मेरो सामान कहाँ पाइन्छ?", "🧳"],
         ["visitingson", "I am visiting my son.", "आइ ऍम व़िज़िटिङ माइ **सन**", "म छोरालाई भेट्न आएकी हुँ।", "👩‍👦"],
@@ -96,13 +96,13 @@
         "title": "अध्यागमन (immigration) मा सोधिने प्रश्न",
         "lines": ["छोटो र स्पष्ट जवाफ दिनुहोस्। नबुझे 'Sorry, can you say that again?' भन्नुहोस्।"],
         "table": [["Why are you visiting?", "किन आउनुभयो? → I am visiting my son."], ["How long are you staying?", "कति समय बस्नुहुन्छ? → For three months."], ["Where are you staying?", "कहाँ बस्नुहुन्छ? → With my son."]],
-        "ex": [["Passport, please.", "राहदानी दिनुहोस्।"], ["Here is my passport.", "यो मेरो राहदानी।"]]
+        "ex": [["Passport, please.", "पासपोर्ट दिनुहोस्।"], ["Here is my passport.", "यो मेरो पासपोर्ट।"]]
       },
       "speak": ["visitingson", "staying", "luggage"],
       "quiz": [
         ["reply", "Why are you visiting?", "I am visiting my son.", ["My flight is at ten o'clock.", "Here is my passport."], "किन आउनुभयो?"],
         ["reply", "How long are you staying?", "For three months.", ["At ten o'clock.", "With my son."], "कति समय बस्नुहुन्छ?"],
-        ["reply", "Passport, please.", "Here is my passport.", ["I am staying.", "Which counter?"], "राहदानी दिनुहोस्।"],
+        ["reply", "Passport, please.", "Here is my passport.", ["I am staying.", "Which counter?"], "पासपोर्ट दिनुहोस्।"],
         ["build", "Where can I get my luggage?", "मेरो सामान कहाँ पाइन्छ?"]
       ]
     },
@@ -210,7 +210,7 @@
         ["E", "Ha ha! Your English is very good.", "हा हा! योर इङ्ग्लिश इज़ व़ेरी गुड।", "हाहा! तपाईंको अङ्ग्रेजी धेरै राम्रो छ।"],
         ["Y", "Thank you! I am still learning. I practise every day.", "थ्याङ्क यू! आइ ऍम स्टिल लर्निङ। आइ प्र्याक्टिस एव़्री डे।", "धन्यवाद! म अझै सिक्दै छु। हरेक दिन अभ्यास गर्छु।"],
         ["E", "Well done! Would you like to have tea with me tomorrow?", "वेल डन! वुड यू लाइक टु ह्याव़ टी विद मी टुमोरो?", "स्याबास! भोलि मसँग चिया खान आउनुहुन्छ?"],
-        ["Y", "Yes, I would love to. Darjeeling tea, of course!", "येस, आइ वुड लव़् टु। दार्जीलिङ टी, अव़ कोर्स!", "हुन्छ, खुसीसाथ! दार्जिलिङको चिया, अवश्य पनि!"],
+        ["Y", "Yes, I would love to. Darjeeling tea, of course!", "येस, आइ वुड लव़् टु। दार्जीलिङ टी, अव़ कोर्स!", "हुन्छ, खुसीसाथ! दार्जिलिङकै चिया नि!"],
         ["E", "Perfect! See you tomorrow at ten.", "पर्फ़ेक्ट! सी यू टुमोरो ऍट टेन।", "एकदम! भोलि दस बजे भेटौं।"],
         ["Y", "See you tomorrow. Have a nice day!", "सी यू टुमोरो। ह्याव़ अ नाइस डे!", "भोलि भेटौंला। तपाईंको दिन राम्रो रहोस्!"]
       ],

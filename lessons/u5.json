@@ -34,7 +34,7 @@
         ["cooked", "I cooked rice and dal.", "आइ **कुक्ट्** राइस ऍन्ड दाल", "मैले दाल-भात पकाएँ।", "🍛"],
         ["called", "I called my son.", "आइ **कल्ड्** माइ सन", "मैले छोरालाई फोन गरेँ।", "📞"],
         ["cleaned", "I cleaned the house.", "आइ **क्लीन्ड्** द हाउस", "मैले घर सफा गरेँ।", "🧹"],
-        ["watched", "We watched a film.", "वी **वच्ट्** अ फ़िल्म", "हामीले सिनेमा हेर्यौं।", "🎬"],
+        ["watched", "We watched a film.", "वी **वच्ट्** अ फ़िल्म", "हामीले फिलिम हेर्यौं।", "🎬"],
         ["visited", "I visited my sister.", "आइ **व़िज़ि**टिड माइ सिस्टर", "म बहिनीकहाँ घुम्न गएँ।", "👭"],
         ["walked", "She walked to the market.", "शी **वक्ट्** टु द मार्किट", "उनी हिँडेर बजार गइन्।", "🚶‍♀️"],
         ["washed", "I washed the clothes.", "आइ **वश्ट्** द क्लोद्ज़", "मैले लुगा धोएँ।", "👕"]
@@ -58,7 +58,7 @@
       "intro": "केही क्रियामा -ed लाग्दैन, रूपै फेरिन्छ। सबैभन्दा धेरै चाहिने यी हुन्।",
       "items": [
         ["went", "I went to the market.", "आइ **वेन्ट्** टु द मार्किट", "म बजार गएँ।", "🛒"],
-        ["ate", "We ate momos.", "वी **एट्** मोमोज़", "हामीले मःम खायौं।", "🥟"],
+        ["ate", "We ate momos.", "वी **एट्** मोमोज़", "हामीले मोमो खायौं।", "🥟"],
         ["saw", "I saw an old friend.", "आइ **सो** ऍन ओल्ड फ़्रेन्ड", "मैले एक पुरानो साथीलाई देखेँ।", "👀"],
         ["came", "My son came home.", "माइ सन **केम्** होम", "मेरो छोरा घर आयो।", "🏡"],
         ["bought", "I bought vegetables.", "आइ **बोट्** व़ेज्टबल्ज़", "मैले तरकारी किनेँ।", "🥕"],
@@ -74,7 +74,7 @@
       "speak": ["went", "saw", "bought"],
       "quiz": [
         ["gap", "Yesterday I ___ to the market.", "went", ["go", "goed"], "हिजो म बजार गएँ।"],
-        ["gap", "We ___ momos last night.", "ate", ["eat", "eated"], "हिजो राति हामीले मःम खायौं।"],
+        ["gap", "We ___ momos last night.", "ate", ["eat", "eated"], "हिजो राति हामीले मोमो खायौं।"],
         ["build", "My son came home.", "मेरो छोरा घर आयो।"],
         ["mc", "buy (किन्नु) को भूतकाल कुन हो?", "bought", ["buyed", "buys"]]
       ]
@@ -111,7 +111,7 @@
       "items": [
         ["goingvisit", "I am going to visit my son.", "आइ ऍम गोइङ टु **व़िज़ि**ट माइ सन", "म छोरालाई भेट्न जाँदै छु।", "✈️"],
         ["whatgoing", "What are you going to do tomorrow?", "ह्वाट आर यू गोइङ टु डु टु**मो**रो?", "भोलि के गर्ने योजना छ?", "🗓️"],
-        ["makemomos", "We are going to make momos.", "वी आर गोइङ टु मेक **मो**मोज़", "हामी मःम बनाउँदै छौं।", "🥟"],
+        ["makemomos", "We are going to make momos.", "वी आर गोइङ टु मेक **मो**मोज़", "हामी मोमो बनाउँदै छौं।", "🥟"],
         ["rain", "It is going to rain.", "इट इज़ गोइङ टु **रेन**", "पानी पर्ला जस्तो छ।", "🌧️"],
         ["nextweek", "next week", "नेक्स्ट **वीक**", "अर्को हप्ता", "⏩"],
         ["nextmonth", "next month", "नेक्स्ट **मन्थ**", "अर्को महिना", "📆"],
@@ -185,12 +185,12 @@
       ]
     },
     {
-      "id": "u5l8", "title_ne": "कुराकानी: मेरो शनि-आइतबार", "title_en": "Talk: my weekend", "emoji": "🌈",
-      "intro": "साथीलाई आफ्नो शनि-आइतबारको कुरा सुनाऔं। भूतकाल र भविष्य दुवै!",
+      "id": "u5l8", "title_ne": "कुराकानी: मेरो शनिबार-आइतबार", "title_en": "Talk: my weekend", "emoji": "🌈",
+      "intro": "साथीलाई आफ्नो शनिबार-आइतबारको कुरा सुनाऔं। भूतकाल र भविष्य दुवै!",
       "items": [
-        ["howweekend", "How was your weekend?", "हाउ वज़ योर वीक**एन्ड**?", "तपाईंको शनि-आइतबार कस्तो रह्यो?", "🌈"],
+        ["howweekend", "How was your weekend?", "हाउ वज़ योर वीक**एन्ड**?", "तपाईंको शनिबार-आइतबार कस्तो रह्यो?", "🌈"],
         ["verynice", "It was very nice.", "इट वज़ व़ेरी **नाइस**", "एकदम राम्रो रह्यो।", "😊"],
-        ["then", "Then I cooked momos.", "**देन** आइ कुक्ट् मोमोज़", "त्यसपछि मैले मःम पकाएँ।", "🥟"],
+        ["then", "Then I cooked momos.", "**देन** आइ कुक्ट् मोमोज़", "त्यसपछि मैले मोमो पकाएँ।", "🥟"],
         ["together", "We ate together.", "वी एट टु**गे**दर", "हामीले सँगै खायौं।", "👨‍👩‍👧"],
         ["lovely", "That sounds lovely!", "द्याट साउन्ड्ज़ **लव़्**ली!", "कति राम्रो!", "💐"],
         ["trip", "Have a good trip!", "ह्याव़ अ गुड **ट्रिप**!", "यात्रा राम्रो होस्!", "🧳"]
@@ -198,21 +198,21 @@
       "speak": ["howweekend", "together"],
       "people": {"F": "👩 रीता (साथी)"},
       "talk": [
-        ["F", "Hi! How was your weekend?", "हाइ! हाउ वज़ योर वीकएन्ड?", "नमस्ते! तपाईंको शनि-आइतबार कस्तो रह्यो?"],
+        ["F", "Hi! How was your weekend?", "हाइ! हाउ वज़ योर वीकएन्ड?", "नमस्ते! तपाईंको शनिबार-आइतबार कस्तो रह्यो?"],
         ["Y", "It was very nice, thank you.", "इट वज़ व़ेरी नाइस, थ्याङ्क यू।", "एकदम राम्रो रह्यो, धन्यवाद।"],
         ["F", "What did you do?", "ह्वाट डिड यू डु?", "के गर्नुभयो?"],
-        ["Y", "On Saturday, I went to the temple. Then I cooked momos.", "अन स्याटर्डे, आइ वेन्ट टु द टेम्पल। देन आइ कुक्ट् मोमोज़।", "शनिबार म मन्दिर गएँ। त्यसपछि मैले मःम पकाएँ।"],
+        ["Y", "On Saturday, I went to the temple. Then I cooked momos.", "अन स्याटर्डे, आइ वेन्ट टु द टेम्पल। देन आइ कुक्ट् मोमोज़।", "शनिबार म मन्दिर गएँ। त्यसपछि मैले मोमो पकाएँ।"],
         ["F", "Wow! Did your family come?", "वाउ! डिड योर फ़्यामिली कम?", "वाह! परिवार आएको थियो?"],
         ["Y", "Yes, my daughter came with her children. We ate together.", "येस, माइ डोटर केम विद हर चिल्ड्रन। वी एट टुगेदर।", "हो, छोरी आफ्ना बच्चासँग आइन्। हामीले सँगै खायौं।"],
         ["F", "That sounds lovely! And on Sunday?", "द्याट साउन्ड्ज़ लव़्ली! ऍन्ड अन सन्डे?", "कति राम्रो! अनि आइतबार?"],
         ["Y", "On Sunday, I was tired. I slept and watched TV.", "अन सन्डे, आइ वज़ टायर्ड। आइ स्लेप्ट ऍन्ड वच्ट् टीव़ी।", "आइतबार म थाकेकी थिएँ। म सुतेँ र टिभी हेरेँ।"],
-        ["F", "What are you going to do next weekend?", "ह्वाट आर यू गोइङ टु डु नेक्स्ट वीकएन्ड?", "अर्को शनि-आइतबार के गर्ने योजना छ?"],
+        ["F", "What are you going to do next weekend?", "ह्वाट आर यू गोइङ टु डु नेक्स्ट वीकएन्ड?", "अर्को शनिबार-आइतबार के गर्ने योजना छ?"],
         ["Y", "I am going to visit my sister in Siliguri.", "आइ ऍम गोइङ टु व़िज़िट माइ सिस्टर इन सिलिगुडी।", "म सिलिगुडीमा बहिनीलाई भेट्न जाँदै छु।"],
         ["F", "Have a good trip!", "ह्याव़ अ गुड ट्रिप!", "यात्रा राम्रो होस्!"],
         ["Y", "Thank you! I will call you when I come back.", "थ्याङ्क यू! आइ विल कल यू वेन आइ कम ब्याक।", "धन्यवाद! फर्केपछि म तपाईंलाई फोन गर्छु।"]
       ],
       "quiz": [
-        ["reply", "How was your weekend?", "It was very nice, thank you.", ["It is very nice.", "I will go next week."], "तपाईंको शनि-आइतबार कस्तो रह्यो?"],
+        ["reply", "How was your weekend?", "It was very nice, thank you.", ["It is very nice.", "I will go next week."], "तपाईंको शनिबार-आइतबार कस्तो रह्यो?"],
         ["reply", "What did you do on Saturday?", "I went to the temple.", ["I go to the temple.", "I am going to the temple."], "शनिबार के गर्नुभयो?"],
         ["reply", "Have a good trip!", "Thank you!", ["I was tired.", "Yes, I did."], "यात्रा राम्रो होस्!"],
         ["build", "We ate together.", "हामीले सँगै खायौं।"]

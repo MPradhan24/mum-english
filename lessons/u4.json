@@ -97,7 +97,7 @@
         "title": "am / is / are + -ing = गर्दै छु",
         "lines": ["हरेक दिन गर्ने काम: I cook (म पकाउँछु)।", "अहिले यही बेला: I am cook**ing** (म पकाउँदै छु)।"],
         "table": [["I am cooking.", "म पकाउँदै छु।"], ["She is sleeping.", "उनी सुतिरहेकी छिन्।"], ["They are playing.", "उनीहरू खेल्दै छन्।"]],
-        "ex": [["What is he doing?", "उहाँ के गर्दै हुनुहुन्छ?"], ["He is reading the newspaper.", "उहाँ पत्रिका पढ्दै हुनुहुन्छ।"]]
+        "ex": [["What is he doing?", "उहाँ के गर्दै हुनुहुन्छ?"], ["He is reading the newspaper.", "उहाँ पेपर पढ्दै हुनुहुन्छ।"]]
       },
       "speak": ["whatdoing", "cooking", "waiting"],
       "quiz": [
@@ -169,7 +169,7 @@
         ["better", "This one is better.", "दिस वन इज़ **बे**टर", "यो चाहिँ अझ राम्रो छ।", "👍"],
         ["bigger", "bigger", "**बि**गर", "भन्दा ठूलो", "🐘"],
         ["best", "the best", "द **बेस्ट**", "सबैभन्दा राम्रो", "🏆"],
-        ["bestmomo", "Your momos are the best!", "योर मोमोज़ आर द **बेस्ट**!", "तपाईंको मःम सबैभन्दा मीठो!", "🥟"]
+        ["bestmomo", "Your momos are the best!", "योर मोमोज़ आर द **बेस्ट**!", "तपाईंको मोमो सबैभन्दा मीठो!", "🥟"]
       ],
       "grammar": {
         "title": "-er than = भन्दा",
@@ -194,18 +194,18 @@
         ["mydear", "my dear", "माइ **डियर**", "मेरो प्यारो / प्यारी", "💕"],
         ["there", "What time is it there?", "ह्वाट टाइम इज़ इट **देयर**?", "त्यहाँ कति बज्यो?", "🌍"],
         ["takecare", "Take care.", "टेक **केयर**", "आफ्नो ख्याल राख्नू।", "🫶"],
-        ["grandma", "Grandma", "**ग्र्यान्**मा", "हजुरआमा", "👵"]
+        ["grandma", "Grandma", "**ग्र्यान्**मा", "बोजु", "👵"]
       ],
       "speak": ["hearme", "there", "takecare"],
       "people": {"G": "👧 नातिनी (लन्डनबाट)"},
       "talk": [
-        ["G", "Hello, Grandma! Can you hear me?", "हेलो, ग्र्यान्मा! क्यान यू हियर मी?", "नमस्ते हजुरआमा! मेरो आवाज सुनिन्छ?"],
+        ["G", "Hello, Grandma! Can you hear me?", "हेलो, ग्र्यान्मा! क्यान यू हियर मी?", "नमस्ते बोजु! मेरो आवाज सुनिन्छ?"],
         ["Y", "Yes, I can hear you. How are you, my dear?", "येस, आइ क्यान हियर यू। हाउ आर यू, माइ डियर?", "हो, सुनिन्छ। तिमीलाई कस्तो छ, मेरी प्यारी?"],
         ["G", "I am very well. What are you doing?", "आइ ऍम व़ेरी वेल। ह्वाट आर यू डुइङ?", "म एकदम राम्रो छु। तपाईं के गर्दै हुनुहुन्छ?"],
         ["Y", "I am cooking dinner. What time is it there?", "आइ ऍम कुकिङ डिनर। ह्वाट टाइम इज़ इट देयर?", "म बेलुकीको खाना पकाउँदै छु। त्यहाँ कति बज्यो?"],
         ["G", "It is two o'clock in the afternoon. Is it cold in Darjeeling?", "इट इज़ टू अक्लक इन द आफ़्टरनून। इज़ इट कोल्ड इन दार्जीलिङ?", "दिउँसोको दुई बज्यो। दार्जिलिङमा जाडो छ?"],
         ["Y", "Yes, it is very cold and foggy. How is the weather in London?", "येस, इट इज़ व़ेरी कोल्ड ऍन्ड फ़गी। हाउ इज़ द वेदर इन लन्डन?", "हो, धेरै जाडो र कुहिरो छ। लन्डनमा मौसम कस्तो छ?"],
-        ["G", "It is raining here. I miss you, Grandma!", "इट इज़ रेनिङ हियर। आइ मिस यू, ग्र्यान्मा!", "यहाँ पानी परिरहेको छ। मलाई तपाईंको याद आयो, हजुरआमा!"],
+        ["G", "It is raining here. I miss you, Grandma!", "इट इज़ रेनिङ हियर। आइ मिस यू, ग्र्यान्मा!", "यहाँ पानी परिरहेको छ। मलाई तपाईंको याद आयो, बोजु!"],
         ["Y", "I miss you too. I am proud of you.", "आइ मिस यू टू। आइ ऍम प्राउड अव़ यू।", "मलाई पनि तिम्रो याद आयो। मलाई तिमीमाथि गर्व छ।"],
         ["G", "Thank you! Are you learning English?", "थ्याङ्क यू! आर यू लर्निङ इङ्ग्लिश?", "धन्यवाद! तपाईं अङ्ग्रेजी सिक्दै हुनुहुन्छ?"],
         ["Y", "Yes, I am learning English every day!", "येस, आइ ऍम लर्निङ इङ्ग्लिश एव़्री डे!", "हो, म हरेक दिन अङ्ग्रेजी सिक्दै छु!"],
@@ -215,7 +215,7 @@
       "quiz": [
         ["reply", "Can you hear me?", "Yes, I can hear you.", ["Yes, I have.", "I am bored."], "मेरो आवाज सुनिन्छ?"],
         ["reply", "Is it cold in Darjeeling?", "Yes, it is very cold and foggy.", ["Yes, I can.", "I have a cough."], "दार्जिलिङमा जाडो छ?"],
-        ["reply", "I miss you, Grandma!", "I miss you too, my dear.", ["Turn left.", "It is mine."], "मलाई तपाईंको याद आयो, हजुरआमा!"],
+        ["reply", "I miss you, Grandma!", "I miss you too, my dear.", ["Turn left.", "It is mine."], "मलाई तपाईंको याद आयो, बोजु!"],
         ["build", "What time is it there?", "त्यहाँ कति बज्यो?"]
       ]
     }

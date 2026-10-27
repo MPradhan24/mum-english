@@ -61,11 +61,11 @@
       "items": [
         ["like", "I like tea.", "आइ **लाइक** टी", "मलाई चिया मन पर्छ।", "☕"],
         ["dontlike", "I don't like coffee.", "आइ डोन्ट लाइक **कफ़ी**", "मलाई कफी मन पर्दैन।", "🙅‍♀️"],
-        ["doyoulike", "Do you like momos?", "डु यू लाइक **मो**मोज़?", "तपाईंलाई मःम मन पर्छ?", "🥟"],
+        ["doyoulike", "Do you like momos?", "डु यू लाइक **मो**मोज़?", "तपाईंलाई मोमो मन पर्छ?", "🥟"],
         ["yesido", "Yes, I do.", "येस, आइ **डु**", "हो, मन पर्छ।", "👍"],
         ["noidont", "No, I don't.", "नो, आइ **डोन्ट**", "अहँ, मन पर्दैन।", "👎"],
         ["love", "I love cooking.", "आइ लव़ **कु**किङ", "मलाई खाना पकाउन धेरै मन पर्छ।", "👩‍🍳"],
-        ["favourite", "My favourite food is momos.", "माइ **फ़े**व़रिट फ़ुड इज़ मोमोज़", "मेरो सबैभन्दा मनपर्ने खाना मःम हो।", "😍"]
+        ["favourite", "My favourite food is momos.", "माइ **फ़े**व़रिट फ़ुड इज़ मोमोज़", "मेरो सबैभन्दा मनपर्ने खाना मोमो हो।", "😍"]
       ],
       "grammar": {
         "title": "मन पर्छ = I like",
@@ -77,7 +77,7 @@
       "quiz": [
         ["reply", "Do you like tea?", "Yes, I do.", ["Yes, it is.", "Yes, I am."], "तपाईंलाई चिया मन पर्छ?"],
         ["build", "I don't like coffee.", "मलाई कफी मन पर्दैन।"],
-        ["gap", "___ you like momos?", "Do", ["Are", "Is"], "तपाईंलाई मःम मन पर्छ?"],
+        ["gap", "___ you like momos?", "Do", ["Are", "Is"], "तपाईंलाई मोमो मन पर्छ?"],
         ["build", "I love cooking.", "मलाई खाना पकाउन धेरै मन पर्छ।"]
       ]
     },
@@ -97,7 +97,7 @@
         "title": "He / She भए क्रियामा -s",
         "lines": ["हरेक दिन गर्ने काम: I cook, You cook, We cook।", "तर He वा She भए क्रियामा -s थपिन्छ: She cook**s**। यो अङ्ग्रेजीको सबैभन्दा धेरै बिर्सिने नियम हो!"],
         "table": [["I cook", "म पकाउँछु"], ["She cooks", "उनी पकाउँछिन्"], ["I go", "म जान्छु"], ["He goes", "उहाँ जानुहुन्छ"], ["I watch", "म हेर्छु"], ["She watches", "उनी हेर्छिन्"]],
-        "ex": [["My husband reads the newspaper.", "मेरो श्रीमान् पत्रिका पढ्नुहुन्छ।"], ["My daughter works in Delhi.", "मेरी छोरी दिल्लीमा काम गर्छिन्।"]]
+        "ex": [["My husband reads the newspaper.", "मेरो श्रीमान् पेपर पढ्नुहुन्छ।"], ["My daughter works in Delhi.", "मेरी छोरी दिल्लीमा काम गर्छिन्।"]]
       },
       "speak": ["wakeup", "drinktea", "tv"],
       "quiz": [
@@ -169,19 +169,19 @@
         ["fifty", "fifty", "**फ़िफ़्**टी", "पचास (५०)", "💵"],
         ["hundred", "one hundred", "वन **हन्**ड्रड", "एक सय (१००)", "💯"],
         ["thousand", "one thousand", "वन **थाउ**ज़न्ड", "एक हजार (१०००)", "💰"],
-        ["rupees", "two hundred rupees", "टू हन्ड्रड **रु**पीज़", "दुई सय रुपैयाँ", "💵"],
-        ["fiftyrs", "It is fifty rupees.", "इट इज़ फ़िफ़्टी **रु**पीज़", "यो पचास रुपैयाँ पर्छ।", "🏷️"]
+        ["rupees", "two hundred rupees", "टू हन्ड्रड **रु**पीज़", "दुई सय रुपियाँ", "💵"],
+        ["fiftyrs", "It is fifty rupees.", "इट इज़ फ़िफ़्टी **रु**पीज़", "यो पचास रुपियाँ पर्छ।", "🏷️"]
       ],
       "grammar": {
         "title": "दहाइहरू (२०, ३०, ४० ...)",
         "lines": ["thir**teen** (१३) र **thir**ty (३०) मा ध्यान: १३ मा पछाडि जोड, ३० मा अगाडि जोड।", "२५ = twenty-five (ट्वेन्टी फ़ाइव़): दहाइ अनि एकाइ।"],
         "table": [["20 twenty", "ट्वेन्टी"], ["30 thirty", "थर्टी"], ["40 forty", "फ़ोर्टी"], ["50 fifty", "फ़िफ़्टी"], ["60 sixty", "सिक्स्टी"], ["70 seventy", "सेव़न्टी"], ["80 eighty", "एटी"], ["90 ninety", "नाइन्टी"]],
-        "ex": [["twenty-five rupees", "पच्चीस रुपैयाँ"], ["one hundred and fifty", "एक सय पचास"]]
+        "ex": [["twenty-five rupees", "पच्चीस रुपियाँ"], ["one hundred and fifty", "एक सय पचास"]]
       },
       "speak": ["fiftyrs", "rupees", "thousand"],
       "quiz": [
         ["mc", "सुन्नुहोस्: कुन अङ्क हो?", "50", ["15", "5"], "fifty"],
-        ["mc", "सुन्नुहोस्: कति पैसा?", "२०० रुपैयाँ", ["२० रुपैयाँ", "१२० रुपैयाँ"], "It is two hundred rupees."],
+        ["mc", "सुन्नुहोस्: कति पैसा?", "२०० रुपियाँ", ["२० रुपियाँ", "१२० रुपियाँ"], "It is two hundred rupees."],
         ["mc", "सुन्नुहोस्: कुन अङ्क हो?", "30", ["13", "3"], "thirty"],
         ["mc", "सुन्नुहोस्: कुन अङ्क हो?", "1000", ["100", "10"], "one thousand"]
       ]
@@ -207,7 +207,7 @@
       },
       "speak": ["toodear", "cheaper", "thatsall"],
       "quiz": [
-        ["reply", "That is five hundred rupees.", "That is too expensive.", ["Good night!", "Yes, I am."], "त्यो पाँच सय रुपैयाँ पर्छ।"],
+        ["reply", "That is five hundred rupees.", "That is too expensive.", ["Good night!", "Yes, I am."], "त्यो पाँच सय रुपियाँ पर्छ।"],
         ["build", "Can you make it cheaper?", "अलि सस्तो गरिदिनुहुन्छ?"],
         ["gap", "I ___ two kilos of potatoes.", "want", ["wants", "am"], "मलाई दुई किलो आलु चाहियो।"],
         ["reply", "Anything else?", "That's all, thank you.", ["Where are you from?", "I am hungry."], "अरू केही?"]
@@ -217,8 +217,8 @@
       "id": "u2l9", "title_ne": "कुराकानी: तरकारी बजारमा", "title_en": "Talk: at the vegetable market", "emoji": "🥕",
       "intro": "बजारमा तरकारी किन्ने पूरा कुराकानी गरौं।",
       "items": [
-        ["tomatoes", "How much are the tomatoes?", "हाउ मच आर द ट**मा**टोज़?", "गोलभेँडा कति हो?", "🍅"],
-        ["akilo", "sixty rupees a kilo", "सिक्स्टी रुपीज़ अ **की**लो", "किलोको साठी रुपैयाँ", "⚖️"],
+        ["tomatoes", "How much are the tomatoes?", "हाउ मच आर द ट**मा**टोज़?", "टमाटर कति हो?", "🍅"],
+        ["akilo", "sixty rupees a kilo", "सिक्स्टी रुपीज़ अ **की**लो", "किलोको साठी रुपियाँ", "⚖️"],
         ["onions", "one kilo of onions", "वन **की**लो अव़ अनियन्ज़", "एक किलो प्याज", "🧅"],
         ["anything", "Anything else?", "एनिथिङ **एल्स**?", "अरू केही?", "🛒"],
         ["niceday", "Have a nice day!", "ह्याव़ अ नाइस **डे**!", "तपाईंको दिन राम्रो रहोस्!", "🌞"],
@@ -228,12 +228,12 @@
       "people": {"A": "🧑‍🌾 तरकारी पसले"},
       "talk": [
         ["A", "Good morning! What would you like?", "गुड मर्निङ! ह्वाट वुड यू लाइक?", "शुभ प्रभात! के चाहियो?"],
-        ["Y", "Good morning! How much are the tomatoes?", "गुड मर्निङ! हाउ मच आर द टमाटोज़?", "शुभ प्रभात! गोलभेँडा कति हो?"],
-        ["A", "Sixty rupees a kilo.", "सिक्स्टी रुपीज़ अ कीलो।", "किलोको साठी रुपैयाँ।"],
+        ["Y", "Good morning! How much are the tomatoes?", "गुड मर्निङ! हाउ मच आर द टमाटोज़?", "शुभ प्रभात! टमाटर कति हो?"],
+        ["A", "Sixty rupees a kilo.", "सिक्स्टी रुपीज़ अ कीलो।", "किलोको साठी रुपियाँ।"],
         ["Y", "I want two kilos, please.", "आइ वन्ट टू कीलोज़, प्लीज़।", "मलाई दुई किलो दिनुहोस्।"],
         ["A", "Here you are. Anything else?", "हियर यू आर। एनिथिङ एल्स?", "लिनुहोस्। अरू केही?"],
         ["Y", "Yes, one kilo of onions. How much is that?", "येस, वन कीलो अव़ अनियन्ज़। हाउ मच इज़ द्याट?", "हजुर, एक किलो प्याज। सबै कति भयो?"],
-        ["A", "That is one hundred and sixty rupees.", "द्याट इज़ वन हन्ड्रड ऍन्ड सिक्स्टी रुपीज़।", "एक सय साठी रुपैयाँ भयो।"],
+        ["A", "That is one hundred and sixty rupees.", "द्याट इज़ वन हन्ड्रड ऍन्ड सिक्स्टी रुपीज़।", "एक सय साठी रुपियाँ भयो।"],
         ["Y", "That is too expensive. Can you make it cheaper?", "द्याट इज़ टू इक्स्पेन्सिव़। क्यान यू मेक इट चीपर?", "धेरै महँगो भयो। अलि सस्तो गरिदिनुहुन्छ?"],
         ["A", "Okay, one hundred and fifty.", "ओके, वन हन्ड्रड ऍन्ड फ़िफ़्टी।", "ल ठिक छ, एक सय पचास।"],
         ["Y", "Thank you. Here is the money.", "थ्याङ्क यू। हियर इज़ द मनी।", "धन्यवाद। पैसा लिनुहोस्।"],
@@ -244,7 +244,7 @@
         ["reply", "Have a nice day!", "You too. Goodbye!", ["Anything else?", "Sixty rupees a kilo."], "तपाईंको दिन राम्रो रहोस्!"],
         ["reply", "Sixty rupees a kilo.", "I want two kilos, please.", ["I am two kilos.", "Have a nice day!"]],
         ["reply", "Anything else?", "No, that's all, thank you.", ["Yes, I do.", "Good evening!"]],
-        ["build", "How much are the tomatoes?", "गोलभेँडा कति हो?"]
+        ["build", "How much are the tomatoes?", "टमाटर कति हो?"]
       ]
     }
   ]
