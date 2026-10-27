@@ -1,0 +1,222 @@
+{
+  "unit": 5, "title_ne": "हिजो र भोलि", "title_en": "Yesterday and tomorrow", "emoji": "📆",
+  "lessons": [
+    {
+      "id": "u5l1", "title_ne": "थिएँ, थियो: was / were", "title_en": "Was and were", "emoji": "⏪",
+      "intro": "हिजो कहाँ थिएँ, कस्तो थियो भन्न सिकौं।",
+      "items": [
+        ["athome", "I was at home yesterday.", "आइ वज़ ऍट होम **येस्**टरडे", "म हिजो घरमा थिएँ।", "🏠"],
+        ["wherewere", "Where were you?", "वेयर **वर** यू?", "तपाईं कहाँ हुनुहुन्थ्यो?", "❓"],
+        ["wascold", "It was very cold last night.", "इट वज़ व़ेरी कोल्ड लास्ट **नाइट**", "हिजो राति धेरै जाडो थियो।", "🥶"],
+        ["delicious", "The food was delicious.", "द फ़ुड वज़ डि**लि**शस", "खाना मीठो थियो।", "😋"],
+        ["werehappy", "They were very happy.", "दे वर व़ेरी **ह्या**पी", "उनीहरू धेरै खुसी थिए।", "😊"],
+        ["yesterday", "yesterday", "**येस्**टरडे", "हिजो", "⏪"],
+        ["wasill", "I was ill last week.", "आइ वज़ **इल** लास्ट वीक", "म गत हप्ता बिरामी थिएँ।", "🤒"]
+      ],
+      "grammar": {
+        "title": "am / is → was,  are → were",
+        "lines": ["पहिले भएको कुरा भन्दा am र is को सट्टा **was**, are को सट्टा **were**।"],
+        "table": [["I am → I was", "म छु → म थिएँ"], ["He / She / It is → was", "छ → थियो"], ["You / We / They are → were", "छन् → थिए"]],
+        "ex": [["Where were you yesterday?", "तपाईं हिजो कहाँ हुनुहुन्थ्यो?"], ["I was at the temple.", "म मन्दिरमा थिएँ।"]]
+      },
+      "speak": ["athome", "wascold", "delicious"],
+      "quiz": [
+        ["gap", "I ___ at home yesterday.", "was", ["were", "am"], "म हिजो घरमा थिएँ।"],
+        ["gap", "They ___ very happy.", "were", ["was", "is"], "उनीहरू धेरै खुसी थिए।"],
+        ["reply", "Where were you yesterday?", "I was at the temple.", ["I am cooking.", "Take care."], "तपाईं हिजो कहाँ हुनुहुन्थ्यो?"],
+        ["build", "The food was delicious.", "खाना मीठो थियो।"]
+      ]
+    },
+    {
+      "id": "u5l2", "title_ne": "गरेँ: -ed", "title_en": "Past: cooked, called", "emoji": "✅",
+      "intro": "हिजो के के गर्नुभयो? -ed थपेर भूतकाल बनाउन सिकौं।",
+      "items": [
+        ["cooked", "I cooked rice and dal.", "आइ **कुक्ट्** राइस ऍन्ड दाल", "मैले दाल-भात पकाएँ।", "🍛"],
+        ["called", "I called my son.", "आइ **कल्ड्** माइ सन", "मैले छोरालाई फोन गरेँ।", "📞"],
+        ["cleaned", "I cleaned the house.", "आइ **क्लीन्ड्** द हाउस", "मैले घर सफा गरेँ।", "🧹"],
+        ["watched", "We watched a film.", "वी **वच्ट्** अ फ़िल्म", "हामीले सिनेमा हेर्यौं।", "🎬"],
+        ["visited", "I visited my sister.", "आइ **व़िज़ि**टिड माइ सिस्टर", "म बहिनीकहाँ घुम्न गएँ।", "👭"],
+        ["walked", "She walked to the market.", "शी **वक्ट्** टु द मार्किट", "उनी हिँडेर बजार गइन्।", "🚶‍♀️"],
+        ["washed", "I washed the clothes.", "आइ **वश्ट्** द क्लोद्ज़", "मैले लुगा धोएँ।", "👕"]
+      ],
+      "grammar": {
+        "title": "-ed = गरेँ (भूतकाल)",
+        "lines": ["हिजो वा पहिले भएको काम भन्दा क्रियामा -ed थप्नुहोस्। I, he, she सबैका लागि एउटै!", "-ed लाई 'एड' नभन्नुहोस्: cooked = कुक्ट्, called = कल्ड्। t वा d पछि मात्र 'इड': visited = व़िज़िटिड।"],
+        "table": [["cook → cooked", "पकाउँछु → पकाएँ"], ["call → called", "फोन गर्छु → गरेँ"], ["visit → visited", "भेट्छु → भेटेँ"], ["watch → watched", "हेर्छु → हेरेँ"]],
+        "ex": [["Yesterday I cleaned the kitchen.", "हिजो मैले भान्सा सफा गरेँ।"], ["My son called me last night.", "हिजो राति छोराले मलाई फोन गर्यो।"]]
+      },
+      "speak": ["cooked", "called", "visited"],
+      "quiz": [
+        ["gap", "Yesterday I ___ my son.", "called", ["call", "calling"], "हिजो मैले छोरालाई फोन गरेँ।"],
+        ["gap", "She ___ to the market yesterday.", "walked", ["walks", "walk"], "उनी हिजो हिँडेर बजार गइन्।"],
+        ["build", "I cleaned the house.", "मैले घर सफा गरेँ।"],
+        ["reply", "What did you do yesterday?", "I visited my sister.", ["I visit my sister.", "I am visiting."], "हिजो के गर्नुभयो?"]
+      ]
+    },
+    {
+      "id": "u5l3", "title_ne": "गएँ, खाएँ, देखेँ", "title_en": "Past: went, ate, saw", "emoji": "🛒",
+      "intro": "केही क्रियामा -ed लाग्दैन, रूपै फेरिन्छ। सबैभन्दा धेरै चाहिने यी हुन्।",
+      "items": [
+        ["went", "I went to the market.", "आइ **वेन्ट्** टु द मार्किट", "म बजार गएँ।", "🛒"],
+        ["ate", "We ate momos.", "वी **एट्** मोमोज़", "हामीले मःम खायौं।", "🥟"],
+        ["saw", "I saw an old friend.", "आइ **सो** ऍन ओल्ड फ़्रेन्ड", "मैले एक पुरानो साथीलाई देखेँ।", "👀"],
+        ["came", "My son came home.", "माइ सन **केम्** होम", "मेरो छोरा घर आयो।", "🏡"],
+        ["bought", "I bought vegetables.", "आइ **बोट्** व़ेज्टबल्ज़", "मैले तरकारी किनेँ।", "🥕"],
+        ["hadtea", "I had tea with my neighbour.", "आइ **ह्याड्** टी विद माइ नेबर", "मैले छिमेकीसँग चिया खाएँ।", "🍵"],
+        ["slept", "I slept well.", "आइ स्लेप्ट **वेल**", "मलाई राम्रो निद्रा लाग्यो।", "😴"]
+      ],
+      "grammar": {
+        "title": "-ed नलाग्ने क्रियाहरू (याद गर्नुपर्छ)",
+        "lines": ["यिनलाई गीत जस्तै दोहोर्याएर याद गर्नुहोस्: go-went, eat-ate, see-saw ..."],
+        "table": [["go → went", "जान्छु → गएँ"], ["eat → ate", "खान्छु → खाएँ"], ["see → saw", "देख्छु → देखेँ"], ["come → came", "आउँछु → आएँ"], ["buy → bought", "किन्छु → किनेँ"], ["have → had", "खान्छु / छ → खाएँ / थियो"], ["sleep → slept", "सुत्छु → सुतेँ"]],
+        "ex": [["I saw your son at the market.", "मैले तपाईंको छोरालाई बजारमा देखेँ।"], ["We had a good time.", "हामीलाई धेरै रमाइलो भयो।"]]
+      },
+      "speak": ["went", "saw", "bought"],
+      "quiz": [
+        ["gap", "Yesterday I ___ to the market.", "went", ["go", "goed"], "हिजो म बजार गएँ।"],
+        ["gap", "We ___ momos last night.", "ate", ["eat", "eated"], "हिजो राति हामीले मःम खायौं।"],
+        ["build", "My son came home.", "मेरो छोरा घर आयो।"],
+        ["mc", "buy (किन्नु) को भूतकाल कुन हो?", "bought", ["buyed", "buys"]]
+      ]
+    },
+    {
+      "id": "u5l4", "title_ne": "खानुभयो? Did you ...?", "title_en": "Did you eat?", "emoji": "🍽️",
+      "intro": "'खाना खानुभयो?' जस्ता भूतकालका प्रश्न सोध्न र 'होइन' भन्न सिकौं।",
+      "items": [
+        ["dideat", "Did you eat?", "डिड यू **ईट**?", "तपाईंले खाना खानुभयो?", "🍽️"],
+        ["yesidid", "Yes, I did.", "येस, आइ **डिड**", "हो, खाएँ।", "✅"],
+        ["noididnt", "No, I didn't.", "नो, आइ **डिड्**न्ट", "अहँ, खाइनँ।", "❌"],
+        ["sleepwell", "Did you sleep well?", "डिड यू स्लीप **वेल**?", "राम्रो निद्रा लाग्यो?", "🛌"],
+        ["whatate", "What did you eat?", "ह्वाट डिड यू **ईट**?", "के खानुभयो?", "🍲"],
+        ["didntgo", "I didn't go to work.", "आइ डिड्न्ट गो टु **वर्क**", "म काममा गइनँ।", "🏢"],
+        ["whencome", "When did you come?", "वेन डिड यू **कम**?", "तपाईं कहिले आउनुभयो?", "🕒"]
+      ],
+      "grammar": {
+        "title": "did = भूतकालको प्रश्न र 'होइन'",
+        "lines": ["प्रश्नमा did आएपछि क्रिया आफ्नै रूपमा फर्किन्छ: Did you **eat**? (ate होइन)।", "didn't = did not (गरिनँ)।"],
+        "table": [["You ate.", "तपाईंले खानुभयो।"], ["Did you eat?", "खानुभयो?"], ["I didn't eat.", "मैले खाइनँ।"], ["What did you eat?", "के खानुभयो?"]],
+        "ex": [["Did you call your daughter?", "छोरीलाई फोन गर्नुभयो?"], ["No, I didn't. I will call tonight.", "अहँ, गरिनँ। आज राति गर्छु।"]]
+      },
+      "speak": ["dideat", "sleepwell", "whatate"],
+      "quiz": [
+        ["gap", "Did you ___ well?", "sleep", ["slept", "sleeps"], "राम्रो निद्रा लाग्यो?"],
+        ["reply", "Did you eat?", "Yes, I did.", ["Yes, I was.", "Yes, I am."], "खाना खानुभयो?"],
+        ["build", "What did you eat?", "के खानुभयो?"],
+        ["gap", "I ___ go to work yesterday.", "didn't", ["don't", "wasn't"], "म हिजो काममा गइनँ।"]
+      ]
+    },
+    {
+      "id": "u5l5", "title_ne": "योजना: going to", "title_en": "Plans: going to", "emoji": "🗓️",
+      "intro": "भोलि, अर्को हप्ता के गर्ने योजना छ, भन्न सिकौं।",
+      "items": [
+        ["goingvisit", "I am going to visit my son.", "आइ ऍम गोइङ टु **व़िज़ि**ट माइ सन", "म छोरालाई भेट्न जाँदै छु।", "✈️"],
+        ["whatgoing", "What are you going to do tomorrow?", "ह्वाट आर यू गोइङ टु डु टु**मो**रो?", "भोलि के गर्ने योजना छ?", "🗓️"],
+        ["makemomos", "We are going to make momos.", "वी आर गोइङ टु मेक **मो**मोज़", "हामी मःम बनाउँदै छौं।", "🥟"],
+        ["rain", "It is going to rain.", "इट इज़ गोइङ टु **रेन**", "पानी पर्ला जस्तो छ।", "🌧️"],
+        ["nextweek", "next week", "नेक्स्ट **वीक**", "अर्को हप्ता", "⏩"],
+        ["nextmonth", "next month", "नेक्स्ट **मन्थ**", "अर्को महिना", "📆"],
+        ["learneng", "She is going to learn English.", "शी इज़ गोइङ टु लर्न **इङ्**ग्लिश", "उनी अङ्ग्रेजी सिक्ने योजनामा छिन्।", "📚"]
+      ],
+      "grammar": {
+        "title": "going to = गर्ने योजना छ",
+        "lines": ["पहिल्यै सोचेको योजना: am / is / are + going to + क्रिया।", "आकाश कालो छ? It is going to rain (पानी पर्ने भयो)।"],
+        "table": [["I am going to cook.", "म पकाउने छु।"], ["She is going to visit.", "उनी भेट्न जाँदै छिन्।"], ["It is going to rain.", "पानी पर्ने भयो।"]],
+        "ex": [["I am going to visit London next month.", "म अर्को महिना लन्डन जाँदै छु।"], ["What are you going to cook?", "के पकाउने योजना छ?"]]
+      },
+      "speak": ["goingvisit", "whatgoing", "rain"],
+      "quiz": [
+        ["gap", "I am going ___ visit my son.", "to", ["for", "at"], "म छोरालाई भेट्न जाँदै छु।"],
+        ["reply", "What are you going to do tomorrow?", "I am going to make momos.", ["I made momos.", "I make momos."], "भोलि के गर्ने योजना छ?"],
+        ["build", "It is going to rain.", "पानी पर्ला जस्तो छ।"],
+        ["gap", "We are going to visit London ___ month.", "next", ["last", "yesterday"], "हामी अर्को महिना लन्डन जाँदै छौं।"]
+      ]
+    },
+    {
+      "id": "u5l6", "title_ne": "गर्छु (वाचा): will", "title_en": "Will: offers and promises", "emoji": "🤝",
+      "intro": "'म गरिदिन्छु', 'म बिर्सिन्नँ' जस्ता वाचा र प्रस्ताव गर्न सिकौं।",
+      "items": [
+        ["willcall", "I will call you tomorrow.", "आइ विल कल यू टु**मो**रो", "म भोलि तिमीलाई फोन गर्छु।", "📞"],
+        ["illhelp", "I'll help you.", "आइल **हेल्प्** यू", "म तपाईंलाई मद्दत गर्छु।", "🤝"],
+        ["willcome", "Will you come to my house?", "विल यू कम टु माइ **हाउस**?", "तपाईं मेरो घर आउनुहुन्छ?", "🏠"],
+        ["yesiwill", "Yes, I will.", "येस, आइ **विल**", "हुन्छ, आउँछु।", "👍"],
+        ["wontforget", "I won't forget.", "आइ वोन्ट फ़र**गेट**", "म बिर्सिन्नँ।", "🧠"],
+        ["maybe", "Maybe.", "**मे**बी", "सायद।", "🤷‍♀️"],
+        ["onsunday", "See you on Sunday!", "सी यू अन **सन्**डे!", "आइतबार भेटौंला!", "👋"]
+      ],
+      "grammar": {
+        "title": "will = गर्छु (भविष्य, वाचा)",
+        "lines": ["will पछि क्रिया आफ्नै रूपमा: She will **come** (comes होइन)।", "बोल्दा छोटो रूप: I will = I'll (आइल)। will not = won't (वोन्ट)।"],
+        "table": [["I will call.", "म फोन गर्छु।"], ["I'll help.", "म मद्दत गर्छु।"], ["I won't forget.", "म बिर्सिन्नँ।"], ["Will you come?", "तपाईं आउनुहुन्छ?"]],
+        "ex": [["I'll make tea.", "म चिया बनाउँछु।"], ["She will come on Sunday.", "उनी आइतबार आउँछिन्।"]]
+      },
+      "speak": ["willcall", "illhelp", "wontforget"],
+      "quiz": [
+        ["reply", "This bag is very heavy!", "I'll help you.", ["I won't forget.", "Maybe."], "यो झोला धेरै गह्रौं छ!"],
+        ["reply", "Will you come to my house?", "Yes, I will.", ["Yes, I did.", "Yes, it is."], "तपाईं मेरो घर आउनुहुन्छ?"],
+        ["build", "I will call you tomorrow.", "म भोलि तिमीलाई फोन गर्छु।"],
+        ["gap", "She will ___ on Sunday.", "come", ["comes", "came"], "उनी आइतबार आउँछिन्।"]
+      ]
+    },
+    {
+      "id": "u5l7", "title_ne": "कहिले? समयका शब्द", "title_en": "When? Time words", "emoji": "⏳",
+      "intro": "पहिले, अहिले, पछि, सधैं, कहिल्यै: आफ्नो जीवनको कुरा गर्न चाहिने शब्द।",
+      "items": [
+        ["ago", "two years ago", "टू यियर्ज़ अ**गो**", "दुई वर्ष पहिले", "⏳"],
+        ["lastweek", "last week", "लास्ट **वीक**", "गत हप्ता", "⏮️"],
+        ["nextyear", "next year", "नेक्स्ट **यियर**", "अर्को वर्ष", "🎆"],
+        ["born", "I was born in a small village.", "आइ वज़ बोर्न इन अ स्मल **व़ि**लिज", "म एउटा सानो गाउँमा जन्मिएँ।", "🏡"],
+        ["married", "I got married young.", "आइ गट **म्या**रिड यङ", "मेरो बिहे सानै उमेरमा भयो।", "💍"],
+        ["always", "I always drink tea in the morning.", "आइ **अल्**वेज़ ड्रिङ्क टी इन द मर्निङ", "म सधैं बिहान चिया पिउँछु।", "🔁"],
+        ["sometimes", "Sometimes I go to Siliguri.", "**सम्**टाइम्ज़ आइ गो टु सिलिगुडी", "कहिलेकाहीँ म सिलिगुडी जान्छु।", "🚙"],
+        ["never", "I never eat meat on Tuesday.", "आइ **ने**व़र ईट मीट अन ट्यूज़्डे", "म मङ्गलबार कहिल्यै मासु खान्नँ।", "🙅‍♀️"]
+      ],
+      "grammar": {
+        "title": "समयका शब्द र क्रिया",
+        "lines": ["समयको शब्दले कुन काल प्रयोग गर्ने भनेर संकेत गर्छ।", "always, sometimes, never क्रियाको अगाडि आउँछन्: I **always** drink tea।"],
+        "table": [["yesterday, last week, two years ago", "हिजो, गत हप्ता, दुई वर्ष पहिले (was, went)"], ["today, now", "आज, अहिले (am, is, -ing)"], ["tomorrow, next week, next year", "भोलि, अर्को हप्ता, अर्को वर्ष (will, going to)"], ["always / sometimes / never", "सधैं / कहिलेकाहीँ / कहिल्यै होइन"]],
+        "ex": [["My son went to London five years ago.", "मेरो छोरा पाँच वर्ष पहिले लन्डन गयो।"], ["I will visit him next year.", "म उसलाई अर्को वर्ष भेट्न जान्छु।"]]
+      },
+      "speak": ["born", "always", "never"],
+      "quiz": [
+        ["gap", "My son went to London five years ___.", "ago", ["next", "last"], "मेरो छोरा पाँच वर्ष पहिले लन्डन गयो।"],
+        ["gap", "I ___ drink tea in the morning. Every day!", "always", ["never", "sometimes"], "म सधैं बिहान चिया पिउँछु। हरेक दिन!"],
+        ["reply", "Where were you born?", "I was born in a small village.", ["I will go next year.", "I always drink tea."], "तपाईं कहाँ जन्मनुभएको?"],
+        ["build", "I got married young.", "मेरो बिहे सानै उमेरमा भयो।"]
+      ]
+    },
+    {
+      "id": "u5l8", "title_ne": "कुराकानी: मेरो शनि-आइतबार", "title_en": "Talk: my weekend", "emoji": "🌈",
+      "intro": "साथीलाई आफ्नो शनि-आइतबारको कुरा सुनाऔं। भूतकाल र भविष्य दुवै!",
+      "items": [
+        ["howweekend", "How was your weekend?", "हाउ वज़ योर वीक**एन्ड**?", "तपाईंको शनि-आइतबार कस्तो रह्यो?", "🌈"],
+        ["verynice", "It was very nice.", "इट वज़ व़ेरी **नाइस**", "एकदम राम्रो रह्यो।", "😊"],
+        ["then", "Then I cooked momos.", "**देन** आइ कुक्ट् मोमोज़", "त्यसपछि मैले मःम पकाएँ।", "🥟"],
+        ["together", "We ate together.", "वी एट टु**गे**दर", "हामीले सँगै खायौं।", "👨‍👩‍👧"],
+        ["lovely", "That sounds lovely!", "द्याट साउन्ड्ज़ **लव़्**ली!", "कति राम्रो!", "💐"],
+        ["trip", "Have a good trip!", "ह्याव़ अ गुड **ट्रिप**!", "यात्रा राम्रो होस्!", "🧳"]
+      ],
+      "speak": ["howweekend", "together"],
+      "people": {"F": "👩 रीता (साथी)"},
+      "talk": [
+        ["F", "Hi! How was your weekend?", "हाइ! हाउ वज़ योर वीकएन्ड?", "नमस्ते! तपाईंको शनि-आइतबार कस्तो रह्यो?"],
+        ["Y", "It was very nice, thank you.", "इट वज़ व़ेरी नाइस, थ्याङ्क यू।", "एकदम राम्रो रह्यो, धन्यवाद।"],
+        ["F", "What did you do?", "ह्वाट डिड यू डु?", "के गर्नुभयो?"],
+        ["Y", "On Saturday, I went to the temple. Then I cooked momos.", "अन स्याटर्डे, आइ वेन्ट टु द टेम्पल। देन आइ कुक्ट् मोमोज़।", "शनिबार म मन्दिर गएँ। त्यसपछि मैले मःम पकाएँ।"],
+        ["F", "Wow! Did your family come?", "वाउ! डिड योर फ़्यामिली कम?", "वाह! परिवार आएको थियो?"],
+        ["Y", "Yes, my daughter came with her children. We ate together.", "येस, माइ डोटर केम विद हर चिल्ड्रन। वी एट टुगेदर।", "हो, छोरी आफ्ना बच्चासँग आइन्। हामीले सँगै खायौं।"],
+        ["F", "That sounds lovely! And on Sunday?", "द्याट साउन्ड्ज़ लव़्ली! ऍन्ड अन सन्डे?", "कति राम्रो! अनि आइतबार?"],
+        ["Y", "On Sunday, I was tired. I slept and watched TV.", "अन सन्डे, आइ वज़ टायर्ड। आइ स्लेप्ट ऍन्ड वच्ट् टीव़ी।", "आइतबार म थाकेकी थिएँ। म सुतेँ र टिभी हेरेँ।"],
+        ["F", "What are you going to do next weekend?", "ह्वाट आर यू गोइङ टु डु नेक्स्ट वीकएन्ड?", "अर्को शनि-आइतबार के गर्ने योजना छ?"],
+        ["Y", "I am going to visit my sister in Siliguri.", "आइ ऍम गोइङ टु व़िज़िट माइ सिस्टर इन सिलिगुडी।", "म सिलिगुडीमा बहिनीलाई भेट्न जाँदै छु।"],
+        ["F", "Have a good trip!", "ह्याव़ अ गुड ट्रिप!", "यात्रा राम्रो होस्!"],
+        ["Y", "Thank you! I will call you when I come back.", "थ्याङ्क यू! आइ विल कल यू वेन आइ कम ब्याक।", "धन्यवाद! फर्केपछि म तपाईंलाई फोन गर्छु।"]
+      ],
+      "quiz": [
+        ["reply", "How was your weekend?", "It was very nice, thank you.", ["It is very nice.", "I will go next week."], "तपाईंको शनि-आइतबार कस्तो रह्यो?"],
+        ["reply", "What did you do on Saturday?", "I went to the temple.", ["I go to the temple.", "I am going to the temple."], "शनिबार के गर्नुभयो?"],
+        ["reply", "Have a good trip!", "Thank you!", ["I was tired.", "Yes, I did."], "यात्रा राम्रो होस्!"],
+        ["build", "We ate together.", "हामीले सँगै खायौं।"]
+      ]
+    }
+  ]
+}

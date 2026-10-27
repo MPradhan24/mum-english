@@ -1,0 +1,221 @@
+{
+  "unit": 3, "title_ne": "बाहिर निस्कँदा", "title_en": "Out and about", "emoji": "🚌",
+  "lessons": [
+    {
+      "id": "u3l1", "title_ne": "बाटो सोध्ने", "title_en": "Asking the way", "emoji": "🧭",
+      "intro": "बाटो बिराउँदा कसरी सोध्ने र बुझ्ने, सिकौं।",
+      "items": [
+        ["left", "Turn left.", "टर्न **लेफ़्ट**", "बायाँ मोड्नुहोस्।", "⬅️"],
+        ["right", "Turn right.", "टर्न **राइट**", "दायाँ मोड्नुहोस्।", "➡️"],
+        ["straight", "Go straight.", "गो **स्ट्रेट**", "सिधा जानुहोस्।", "⬆️"],
+        ["busstop", "Where is the bus stop?", "वेयर इज़ द **बस्** स्टप?", "बस बिसौनी कहाँ छ?", "🚏"],
+        ["near", "It is near the temple.", "इट इज़ नियर द **टेम्**पल", "मन्दिर नजिकै छ।", "🛕"],
+        ["far", "Is it far?", "इज़ इट **फ़ार**?", "टाढा छ?", "🗺️"],
+        ["lost", "I am lost.", "आइ ऍम **लस्ट**", "म बाटो बिराएँ।", "😟"]
+      ],
+      "grammar": {
+        "title": "बाटो बताउँदा: क्रियाबाट सुरु",
+        "lines": ["बाटो बताउँदा वाक्य सिधै क्रियाबाट सुरु हुन्छ: **Turn** left. **Go** straight.", "विनम्र बनाउन please थप्नुहोस्: Please wait here."],
+        "table": [["Turn", "मोड्नुहोस्"], ["Go", "जानुहोस्"], ["Stop", "रोक्नुहोस्"], ["Come", "आउनुहोस्"], ["Wait", "पर्खनुहोस्"]],
+        "ex": [["Go straight and turn right.", "सिधा गएर दायाँ मोड्नुहोस्।"], ["Excuse me, I am lost.", "सुन्नुहोस् त, म बाटो बिराएँ।"]]
+      },
+      "speak": ["busstop", "near", "lost"],
+      "quiz": [
+        ["mc", "⬅️ यो चिन्हले के भन्छ?", "Turn left.", ["Turn right.", "Go straight."]],
+        ["reply", "Excuse me, where is the bus stop?", "Go straight and turn right.", ["I am from Darjeeling.", "It is half past seven."], "सुन्नुहोस्, बस बिसौनी कहाँ छ?"],
+        ["build", "Where is the bus stop?", "बस बिसौनी कहाँ छ?"],
+        ["reply", "Is it far?", "No, it is near.", ["Yes, I do.", "Good night!"], "टाढा छ?"]
+      ]
+    },
+    {
+      "id": "u3l2", "title_ne": "यातायात", "title_en": "Getting around", "emoji": "🚕",
+      "intro": "बस, ट्याक्सी, रेल चढ्दा चाहिने शब्द र वाक्य सिकौं।",
+      "items": [
+        ["bybus", "by bus", "बाइ **बस**", "बसमा (चढेर)", "🚌"],
+        ["taxi", "taxi", "**ट्या**क्सी", "ट्याक्सी (भाडाको गाडी)", "🚕"],
+        ["train", "train", "ट्रेन", "रेल", "🚆"],
+        ["station", "station", "**स्टे**शन", "स्टेसन", "🚉"],
+        ["market", "I go to the market by bus.", "आइ गो टु द **मार्**किट बाइ बस", "म बसमा बजार जान्छु।", "🛒"],
+        ["stophere", "Please stop here.", "प्लीज़ स्टप **हियर**", "यहाँ रोकिदिनुहोस्।", "🛑"],
+        ["howget", "How do I get to the hospital?", "हाउ डु आइ गेट टु द **हस्**पिटल?", "अस्पताल कसरी जाने?", "🏥"]
+      ],
+      "grammar": {
+        "title": "by = ... मा चढेर",
+        "lines": ["कुन साधनमा जाने भन्दा by प्रयोग हुन्छ। हिँडेर भए on foot।"],
+        "table": [["by bus", "बसमा"], ["by car", "गाडीमा"], ["by train", "रेलमा"], ["on foot", "हिँडेर"]],
+        "ex": [["I go to the temple on foot.", "म हिँडेर मन्दिर जान्छु।"], ["My son comes by train.", "मेरो छोरा रेलमा आउँछ।"]]
+      },
+      "speak": ["market", "stophere", "howget"],
+      "quiz": [
+        ["gap", "I go to the market ___ bus.", "by", ["in", "at"], "म बसमा बजार जान्छु।"],
+        ["build", "Please stop here.", "यहाँ रोकिदिनुहोस्।"],
+        ["reply", "Where do you want to go?", "To the hospital, please.", ["I like tea.", "Yes, I am."], "कहाँ जाने?"],
+        ["build", "How do I get to the hospital?", "अस्पताल कसरी जाने?"]
+      ]
+    },
+    {
+      "id": "u3l3", "title_ne": "सक्छु, सक्दिनँ", "title_en": "Can and can't", "emoji": "💪",
+      "intro": "आफूले के गर्न सक्छु र के सक्दिनँ भन्न, अनि मद्दत माग्न सिकौं।",
+      "items": [
+        ["cancook", "I can cook.", "आइ क्यान **कुक**", "म खाना पकाउन सक्छु।", "👩‍🍳"],
+        ["cantswim", "I can't swim.", "आइ **कान्ट्** स्विम", "म पौडी खेल्न सक्दिनँ।", "🏊‍♀️"],
+        ["speakeng", "Can you speak English?", "क्यान यू स्पीक **इङ्**ग्लिश?", "तपाईं अङ्ग्रेजी बोल्न सक्नुहुन्छ?", "🗣️"],
+        ["alittle", "Yes, a little.", "येस, अ **लि**टल", "हो, अलिअलि।", "🤏"],
+        ["helpme", "Can you help me?", "क्यान यू **हेल्प्** मी?", "मलाई मद्दत गर्नुहुन्छ?", "🆘"],
+        ["ofcourse", "Of course!", "अव़ **कोर्स**!", "अवश्य पनि!", "😊"],
+        ["learning", "I am learning English.", "आइ ऍम **लर्**निङ इङ्ग्लिश", "म अङ्ग्रेजी सिक्दै छु।", "📚"]
+      ],
+      "grammar": {
+        "title": "can = सक्छु",
+        "lines": ["can पछि क्रिया जस्ताको तस्तै रहन्छ: She can cook (cooks होइन)।", "can't = cannot (सक्दिनँ)।"],
+        "table": [["I can cook.", "म पकाउन सक्छु।"], ["I can't swim.", "म पौडी खेल्न सक्दिनँ।"], ["Can you ...?", "तपाईं ... सक्नुहुन्छ?"], ["Yes, I can. / No, I can't.", "सक्छु / सक्दिनँ"]],
+        "ex": [["She can sing very well.", "उनी धेरै राम्रो गाउन सक्छिन्।"], ["Can you read this?", "तपाईं यो पढ्न सक्नुहुन्छ?"]]
+      },
+      "speak": ["speakeng", "helpme", "learning"],
+      "quiz": [
+        ["gap", "She can ___ very well.", "sing", ["sings", "singing"], "उनी धेरै राम्रो गाउन सक्छिन्।"],
+        ["reply", "Can you speak English?", "Yes, a little. I am learning.", ["I am from Darjeeling.", "No, it isn't."], "तपाईं अङ्ग्रेजी बोल्न सक्नुहुन्छ?"],
+        ["build", "Can you help me?", "मलाई मद्दत गर्नुहुन्छ?"],
+        ["reply", "Can you help me?", "Of course!", ["I don't like coffee.", "Good night!"]]
+      ]
+    },
+    {
+      "id": "u3l4", "title_ne": "नबुझ्दा के भन्ने?", "title_en": "When you don't understand", "emoji": "🛟",
+      "intro": "यो पाठ सबैभन्दा काम लाग्ने हो! नबुझ्दा नडराउनुहोस्, यी वाक्य भन्नुहोस्।",
+      "items": [
+        ["understand", "I don't understand.", "आइ डोन्ट अन्डर**स्ट्या**न्ड", "मैले बुझिनँ।", "🤔"],
+        ["slowly", "Please speak slowly.", "प्लीज़ स्पीक **स्लो**ली", "कृपया बिस्तारै बोल्नुहोस्।", "🐢"],
+        ["again", "Can you say that again?", "क्यान यू से द्याट अ**गेन**?", "फेरि भन्नुहुन्छ?", "🔁"],
+        ["mean", "What does this mean?", "ह्वाट डज़ दिस **मीन**?", "यसको अर्थ के हो?", "❓"],
+        ["howsay", "How do you say this in English?", "हाउ डु यू से दिस इन **इङ्**ग्लिश?", "यसलाई अङ्ग्रेजीमा के भन्छ?", "🗨️"],
+        ["notgood", "My English is not very good.", "माइ इङ्ग्लिश इज़ नट व़ेरी **गुड**", "मेरो अङ्ग्रेजी त्यति राम्रो छैन।", "😅"],
+        ["writedown", "Please write it down.", "प्लीज़ राइट इट **डाउन**", "कृपया लेखिदिनुहोस्।", "✍️"]
+      ],
+      "grammar": {
+        "title": "नडराउनुहोस्, सोध्नुहोस्!",
+        "lines": ["नबुझेको बेला चुप लाग्नुभन्दा सोध्नु राम्रो। सबैले खुसीसाथ फेरि भनिदिन्छन्।", "छोटकरीमा एक शब्द मात्र भने पनि हुन्छ: Sorry? ↗ (आवाज माथि उठाएर)"],
+        "table": [["Sorry? ↗", "के भन्नुभयो?"], ["Pardon? ↗", "माफ गर्नुहोस्, फेरि भन्नुहोस् त?"], ["Slowly, please.", "बिस्तारै, कृपया।"]],
+        "ex": [["Sorry, I don't understand. Please speak slowly.", "माफ गर्नुहोस्, मैले बुझिनँ। बिस्तारै बोल्नुहोस्।"]]
+      },
+      "speak": ["understand", "slowly", "again"],
+      "quiz": [
+        ["mc", "कसैले धेरै छिटो बोल्यो। के भन्ने?", "Please speak slowly.", ["Good night!", "I like tea."]],
+        ["build", "I don't understand.", "मैले बुझिनँ।"],
+        ["mc", "कुनै शब्दको अर्थ सोध्न के भन्ने?", "What does this mean?", ["What time is it?", "Where is the bus stop?"]],
+        ["build", "Can you say that again?", "फेरि भन्नुहुन्छ?"]
+      ]
+    },
+    {
+      "id": "u3l5", "title_ne": "डाक्टरकहाँ", "title_en": "Health and the doctor", "emoji": "🩺",
+      "intro": "बिरामी हुँदा आफ्नो समस्या अङ्ग्रेजीमा भन्न सिकौं।",
+      "items": [
+        ["headache", "I have a headache.", "आइ ह्याव़ अ **हेड्**एक", "मेरो टाउको दुख्यो।", "🤕"],
+        ["fever", "I have a fever.", "आइ ह्याव़ अ **फ़ी**व़र", "मलाई ज्वरो आयो।", "🤒"],
+        ["stomach", "My stomach hurts.", "माइ **स्ट**मक हर्ट्स", "मेरो पेट दुख्यो।", "🤢"],
+        ["cough", "I have a cough.", "आइ ह्याव़ अ **कफ़**", "मलाई खोकी लाग्यो।", "😷"],
+        ["knee", "My knee hurts.", "माइ **नी** हर्ट्स", "मेरो घुँडा दुख्यो।", "🦵", "knee मा k बोलिँदैन: नी।"],
+        ["medicine", "Take this medicine twice a day.", "टेक दिस **मेड्**सिन ट्वाइस अ डे", "यो औषधि दिनको दुई पटक खानुहोस्।", "💊"],
+        ["getwell", "Get well soon!", "गेट वेल **सून**!", "छिट्टै निको हुनुहोस्!", "💐"]
+      ],
+      "grammar": {
+        "title": "दुख्यो: hurts / I have a ...",
+        "lines": ["शरीरको भाग दुख्दा: My ... hurts। रोग भए: I have a ...।"],
+        "table": [["My head hurts.", "टाउको दुख्यो"], ["My back hurts.", "ढाड दुख्यो"], ["I have a fever.", "ज्वरो आयो"], ["once a day", "दिनको एक पटक"], ["twice a day", "दिनको दुई पटक"]],
+        "ex": [["My back hurts.", "मेरो ढाड दुख्यो।"], ["I have a cold.", "मलाई रुघा लाग्यो।"]]
+      },
+      "speak": ["headache", "stomach", "fever"],
+      "quiz": [
+        ["reply", "What's the problem?", "I have a fever.", ["I like tea.", "See you tomorrow!"], "के समस्या छ?"],
+        ["gap", "My stomach ___.", "hurts", ["hurt", "is"], "मेरो पेट दुख्यो।"],
+        ["build", "I have a headache.", "मेरो टाउको दुख्यो।"],
+        ["mc", "'दिनको दुई पटक' लाई अङ्ग्रेजीमा?", "twice a day", ["once a day", "two days"]]
+      ]
+    },
+    {
+      "id": "u3l6", "title_ne": "मौसम", "title_en": "The weather", "emoji": "🌦️",
+      "intro": "अङ्ग्रेजी बोल्नेहरू मौसमको कुरा धेरै गर्छन्। कुराकानी सुरु गर्ने सजिलो उपाय!",
+      "items": [
+        ["cold", "It is very cold today.", "इट इज़ व़ेरी **कोल्ड** टुडे", "आज धेरै जाडो छ।", "🥶"],
+        ["raining", "It is raining.", "इट इज़ **रे**निङ", "पानी परिरहेको छ।", "🌧️"],
+        ["sunny", "It is sunny.", "इट इज़ **स**नी", "घाम लागेको छ।", "☀️"],
+        ["foggy", "It is foggy.", "इट इज़ **फ़**गी", "कुहिरो लागेको छ।", "🌫️"],
+        ["winter", "winter", "**विन्**टर", "जाडो मौसम", "❄️"],
+        ["summer", "summer", "**स**मर", "गर्मी मौसम", "🏖️"],
+        ["monsoon", "monsoon", "मन्**सून**", "बर्खा", "🌦️"],
+        ["umbrella", "Take an umbrella.", "टेक ऍन अम्**ब्रे**ला", "छाता लिएर जानुहोस्।", "☂️"]
+      ],
+      "grammar": {
+        "title": "मौसम भन्दा: It is ...",
+        "lines": ["मौसमको कुरा गर्दा सधैं It is ... बाट सुरु गर्नुहोस्। यहाँ It को अर्थ 'मौसम' हो।"],
+        "table": [["It is hot.", "गर्मी छ।"], ["It is cold.", "जाडो छ।"], ["It is raining.", "पानी परिरहेको छ।"], ["It is windy.", "हावा चलेको छ।"]],
+        "ex": [["How is the weather today?", "आज मौसम कस्तो छ?"], ["It is cold and foggy.", "जाडो र कुहिरो छ।"]]
+      },
+      "speak": ["cold", "raining", "umbrella"],
+      "quiz": [
+        ["reply", "How is the weather today?", "It is very cold today.", ["I have a fever.", "Yes, I do."], "आज मौसम कस्तो छ?"],
+        ["gap", "It is ___ today. Take an umbrella.", "raining", ["sunny", "hot"], "आज पानी परिरहेको छ। छाता लिएर जानुहोस्।"],
+        ["build", "It is very cold today.", "आज धेरै जाडो छ।"]
+      ]
+    },
+    {
+      "id": "u3l7", "title_ne": "विनम्र अनुरोध", "title_en": "Polite requests", "emoji": "🤲",
+      "intro": "अरूलाई केही गरिदिन विनम्र तरिकाले कसरी भन्ने, सिकौं।",
+      "items": [
+        ["openwindow", "Could you open the window, please?", "कुड यू **ओ**पन द विन्डो, प्लीज़?", "झ्याल खोलिदिनुहुन्छ?", "🪟"],
+        ["calltaxi", "Could you call a taxi for me?", "कुड यू कल अ **ट्या**क्सी फ़र मी?", "मेरो लागि ट्याक्सी बोलाइदिनुहुन्छ?", "🚕"],
+        ["usephone", "Can I use your phone?", "क्यान आइ यूज़ योर **फ़ोन**?", "म तपाईंको फोन चलाउन सक्छु?", "📱"],
+        ["sure", "Sure.", "**श्योर**", "हुन्छ नि।", "👍"],
+        ["minute", "Just a minute.", "जस्ट अ **मि**निट", "एकछिन पर्खनुहोस्।", "⏳"],
+        ["louder", "Could you speak louder?", "कुड यू स्पीक **लाउ**डर?", "अलि ठूलो स्वरमा बोल्नुहुन्छ?", "🔊"],
+        ["thanksfor", "Thank you for your help.", "थ्याङ्क यू फ़र योर **हेल्प**", "मद्दतको लागि धन्यवाद।", "🙏"]
+      ],
+      "grammar": {
+        "title": "Can you ...? / Could you ...?",
+        "lines": ["Could you ..., please? सबैभन्दा विनम्र तरिका हो। अपरिचित, डाक्टर, अफिसमा यही प्रयोग गर्नुहोस्।"],
+        "table": [["Open the window.", "आदेश जस्तो (कडा सुनिन्छ)"], ["Can you open the window?", "ठिकै"], ["Could you open the window, please?", "धेरै विनम्र"]],
+        "ex": [["Could you help me, please?", "मलाई मद्दत गरिदिनुहुन्छ?"], ["Just a minute.", "एकछिन पर्खनुहोस्।"]]
+      },
+      "speak": ["openwindow", "usephone", "thanksfor"],
+      "quiz": [
+        ["mc", "सबैभन्दा विनम्र कुन हो?", "Could you open the window, please?", ["Open the window.", "Window!"]],
+        ["reply", "Can I use your phone?", "Sure. Here you are.", ["I have a cough.", "It is sunny."], "म तपाईंको फोन चलाउन सक्छु?"],
+        ["build", "Thank you for your help.", "मद्दतको लागि धन्यवाद।"],
+        ["reply", "Thank you for your help.", "You're welcome.", ["Get well soon!", "Turn left."]]
+      ]
+    },
+    {
+      "id": "u3l8", "title_ne": "कुराकानी: डाक्टरकहाँ", "title_en": "Talk: at the doctor's", "emoji": "👨‍⚕️",
+      "intro": "डाक्टरसँग आफ्नो समस्या भन्ने र नबुझेको कुरा सोध्ने पूरा कुराकानी।",
+      "items": [
+        ["sitdown", "Please sit down.", "प्लीज़ सिट **डाउन**", "बस्नुहोस्।", "🪑"],
+        ["since", "Since Monday.", "सिन्स **मन्**डे", "सोमबारदेखि।", "📅"],
+        ["throat", "My throat hurts.", "माइ **थ्रोट** हर्ट्स", "मेरो घाँटी दुख्यो।", "🗣️"],
+        ["afterfood", "after food", "आफ़्टर **फ़ुड**", "खाना खाएपछि", "🍛"],
+        ["warmwater", "Drink a lot of warm water.", "ड्रिङ्क अ लट अव़ **वोर्म्** वोटर", "धेरै मनतातो पानी पिउनुहोस्।", "🫖"],
+        ["thankdoc", "Thank you, doctor.", "थ्याङ्क यू, **डक्**टर", "धन्यवाद, डाक्टर साब।", "👨‍⚕️"]
+      ],
+      "speak": ["throat", "thankdoc"],
+      "people": {"D": "👨‍⚕️ डाक्टर"},
+      "talk": [
+        ["D", "Good morning. Please sit down. What's the problem?", "गुड मर्निङ। प्लीज़ सिट डाउन। ह्वाट्स द प्रब्लम?", "नमस्ते। बस्नुहोस्। के समस्या छ?"],
+        ["Y", "Good morning, doctor. I have a fever and a cough.", "गुड मर्निङ, डक्टर। आइ ह्याव़ अ फ़ीव़र ऍन्ड अ कफ़।", "नमस्ते डाक्टर साब। मलाई ज्वरो र खोकी लागेको छ।"],
+        ["D", "Since when?", "सिन्स वेन?", "कहिलेदेखि?"],
+        ["Y", "Since Monday.", "सिन्स मन्डे।", "सोमबारदेखि।"],
+        ["D", "Do you have a headache?", "डु यू ह्याव़ अ हेड्एक?", "टाउको दुख्छ?"],
+        ["Y", "Yes, a little. My throat hurts too.", "येस, अ लिटल। माइ थ्रोट हर्ट्स टू।", "हो, अलिअलि। घाँटी पनि दुखेको छ।"],
+        ["D", "It is just a cold. Take this medicine twice a day.", "इट इज़ जस्ट अ कोल्ड। टेक दिस मेड्सिन ट्वाइस अ डे।", "रुघा मात्र हो। यो औषधि दिनको दुई पटक खानुहोस्।"],
+        ["Y", "Sorry, I don't understand. Can you say that again?", "सोरी, आइ डोन्ट अन्डरस्ट्यान्ड। क्यान यू से द्याट अगेन?", "माफ गर्नुहोस्, मैले बुझिनँ। फेरि भन्नुहुन्छ?"],
+        ["D", "Of course. Take this medicine two times a day, after food.", "अव़ कोर्स। टेक दिस मेड्सिन टू टाइम्ज़ अ डे, आफ़्टर फ़ुड।", "अवश्य। यो औषधि दिनमा दुई पटक, खाना खाएपछि खानुहोस्।"],
+        ["Y", "Thank you, doctor.", "थ्याङ्क यू, डक्टर।", "धन्यवाद, डाक्टर साब।"],
+        ["D", "Drink a lot of warm water. Get well soon!", "ड्रिङ्क अ लट अव़ वोर्म् वोटर। गेट वेल सून!", "धेरै मनतातो पानी पिउनुहोस्। छिट्टै निको हुनुहोस्!"],
+        ["Y", "Thank you. Goodbye!", "थ्याङ्क यू। गुडबाइ!", "धन्यवाद। बिदा!"]
+      ],
+      "quiz": [
+        ["reply", "What's the problem?", "I have a fever and a cough.", ["Since Monday.", "After food."], "के समस्या छ?"],
+        ["reply", "Since when?", "Since Monday.", ["After food.", "Yes, a little."], "कहिलेदेखि?"],
+        ["build", "My throat hurts.", "मेरो घाँटी दुख्यो।"],
+        ["reply", "Get well soon!", "Thank you. Goodbye!", ["I have a cough.", "Please sit down."]]
+      ]
+    }
+  ]
+}

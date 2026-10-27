@@ -1,0 +1,225 @@
+{
+  "unit": 6, "title_ne": "साँच्चैको कुराकानी", "title_en": "Real conversations", "emoji": "💬",
+  "lessons": [
+    {
+      "id": "u6l1", "title_ne": "गफगाफ सुरु गर्ने", "title_en": "Small talk", "emoji": "☕",
+      "intro": "अपरिचितसँग पनि सजिलै कुरा सुरु गर्ने र चलाइराख्ने तरिका सिकौं।",
+      "items": [
+        ["niceweather", "Nice weather today!", "नाइस **वे**दर टुडे!", "आज मौसम राम्रो छ!", "🌤️"],
+        ["livenear", "Do you live near here?", "डु यू लिव़ **नियर** हियर?", "तपाईं यतै नजिक बस्नुहुन्छ?", "📍"],
+        ["livewith", "I live here with my family.", "आइ लिव़ हियर विद माइ **फ़्या**मिली", "म यहाँ परिवारसँग बस्छु।", "🏠"],
+        ["howmany", "How many children do you have?", "हाउ मेनी **चिल्**ड्रन डु यू ह्याव़?", "तपाईंका कति सन्तान छन्?", "👨‍👩‍👧"],
+        ["oneeach", "One son and one daughter.", "वन सन ऍन्ड वन **डो**टर", "एउटा छोरा र एउटी छोरी।", "👦"],
+        ["retired", "My husband is retired.", "माइ हज़्बन्ड इज़ रि**टाय**र्ड", "मेरो श्रीमान् सेवानिवृत्त हुनुहुन्छ।", "👴"],
+        ["nicetalking", "It was nice talking to you.", "इट वज़ नाइस **टकिङ** टु यू", "तपाईंसँग कुरा गरेर रमाइलो लाग्यो।", "😊"]
+      ],
+      "grammar": {
+        "title": "कुराकानी चलाउने जादु: प्रश्न फर्काउनुहोस्",
+        "lines": ["जवाफ दिएपछि उही प्रश्न फर्काउनुहोस्: ... **And you?** / **What about you?**", "यसले कुराकानी लामो र रमाइलो बनाउँछ।"],
+        "table": [["And you?", "अनि तपाईं?"], ["What about you?", "तपाईंको नि?"], ["Really?", "साँच्चै?"], ["That's nice!", "कति राम्रो!"]],
+        "ex": [["I have two sons. What about you?", "मेरा दुई छोरा छन्। तपाईंका नि?"], ["Really? That's nice!", "साँच्चै? कति राम्रो!"]]
+      },
+      "speak": ["livenear", "howmany", "nicetalking"],
+      "quiz": [
+        ["reply", "I have two sons. What about you?", "One son and one daughter.", ["Nice weather today!", "It was nice talking to you."], "मेरा दुई छोरा छन्। तपाईंका नि?"],
+        ["reply", "Do you live near here?", "Yes, I live here with my family.", ["Yes, I did.", "Maybe."], "तपाईं यतै नजिक बस्नुहुन्छ?"],
+        ["build", "How many children do you have?", "तपाईंका कति सन्तान छन्?"],
+        ["reply", "It was nice talking to you.", "Yes, see you again!", ["I am lost.", "Since Monday."]]
+      ]
+    },
+    {
+      "id": "u6l2", "title_ne": "फोनमा कुरा", "title_en": "On the phone", "emoji": "☎️",
+      "intro": "फोन उठाउँदा, कसैलाई खोज्दा र आवाज नसुनिँदा के भन्ने, सिकौं।",
+      "items": [
+        ["whospeaking", "Hello, who is speaking?", "हेलो, हू इज़ **स्पी**किङ?", "हेलो, को बोल्नुभएको?", "☎️"],
+        ["thisissita", "This is Sita speaking.", "दिस इज़ सीता **स्पी**किङ", "म सीता बोल्दै छु।", "🙋‍♀️"],
+        ["speakto", "Can I speak to Ram?", "क्यान आइ स्पीक टु **राम**?", "रामसँग कुरा गर्न पाउँछु?", "📞"],
+        ["notathome", "He is not at home.", "ही इज़ नट ऍट **होम**", "उहाँ घरमा हुनुहुन्न।", "🚪"],
+        ["callback", "Please call back later.", "प्लीज़ कल ब्याक **ले**टर", "पछि फेरि फोन गर्नुहोस्।", "🔁"],
+        ["wrongnumber", "Sorry, wrong number.", "सोरी, रङ **नम्**बर", "माफ गर्नुहोस्, गलत नम्बर।", "❌", "wrong मा w बोलिँदैन: रङ।"],
+        ["canthear", "I can't hear you.", "आइ कान्ट **हियर** यू", "तपाईंको आवाज सुनिएन।", "🔇"]
+      ],
+      "grammar": {
+        "title": "फोनमा परिचय",
+        "lines": ["फोनमा 'I am Sita' भन्नुभन्दा 'This is Sita' वा 'Sita speaking' भनिन्छ।"],
+        "table": [["This is Sita.", "म सीता (फोनमा)"], ["Who is speaking?", "को बोल्नुभएको?"], ["Hold on, please.", "एकछिन होल्ड गर्नुहोस्।"], ["I'll call you back.", "म पछि फोन गर्छु।"]],
+        "ex": [["Hold on, please. I'll call him.", "एकछिन पर्खनुहोस्। म उहाँलाई बोलाउँछु।"], ["The line is bad.", "लाइन राम्रो छैन।"]]
+      },
+      "speak": ["whospeaking", "speakto", "callback"],
+      "quiz": [
+        ["reply", "Hello, who is speaking?", "This is Sita speaking.", ["I am speaking.", "He is not at home."], "हेलो, को बोल्नुभएको?"],
+        ["reply", "Can I speak to Ram?", "Sorry, he is not at home.", ["I can cook.", "It was very nice."], "रामसँग कुरा गर्न पाउँछु?"],
+        ["build", "Please call back later.", "पछि फेरि फोन गर्नुहोस्।"],
+        ["mc", "फोनमा आवाज सुनिएन भने के भन्ने?", "I can't hear you.", ["I don't like you.", "I can't swim."]]
+      ]
+    },
+    {
+      "id": "u6l3", "title_ne": "बैंक र अफिसमा", "title_en": "At the bank", "emoji": "🏦",
+      "intro": "बैंक वा अफिसमा काम बताउन र फारम भर्दा चाहिने वाक्य सिकौं।",
+      "items": [
+        ["account", "I want to open a bank account.", "आइ वन्ट टु ओपन अ ब्याङ्क अ**काउन्ट्**", "मलाई बैंक खाता खोल्नु छ।", "🏦"],
+        ["withdraw", "I want to withdraw money.", "आइ वन्ट टु विद्**ड्रो** मनी", "मलाई पैसा झिक्नु छ।", "💵"],
+        ["form", "Please fill in this form.", "प्लीज़ फ़िल इन दिस **फ़ोर्म**", "यो फारम भर्नुहोस्।", "📝"],
+        ["sign", "Where do I sign?", "वेयर डु आइ **साइन**?", "कहाँ सही गर्ने?", "✍️", "sign मा g बोलिँदैन: साइन।"],
+        ["idcard", "Here is my ID card.", "हियर इज़ माइ आइ**डी** कार्ड", "यो मेरो परिचयपत्र।", "🪪"],
+        ["counter", "Which counter?", "विच **काउन्**टर?", "कुन काउन्टर?", "🪟"],
+        ["queue", "Please wait in the queue.", "प्लीज़ वेट इन द **क्यू**", "लाइनमा पर्खनुहोस्।", "🚶"]
+      ],
+      "grammar": {
+        "title": "I want to ... = मलाई ... गर्नु छ",
+        "lines": ["काम बताउँदा: I want to + क्रिया।"],
+        "table": [["I want to open ...", "... खोल्नु छ"], ["I want to send money.", "पैसा पठाउनु छ"], ["I want to pay a bill.", "बिल तिर्नु छ"]],
+        "ex": [["How can I help you?", "म तपाईंलाई कसरी मद्दत गरूँ?"], ["I want to send money to my son.", "मलाई छोरालाई पैसा पठाउनु छ।"]]
+      },
+      "speak": ["account", "sign", "idcard"],
+      "quiz": [
+        ["reply", "How can I help you?", "I want to withdraw money.", ["I am withdraw.", "Which counter?"], "म तपाईंलाई कसरी मद्दत गरूँ?"],
+        ["reply", "Can I see your ID card?", "Yes, here is my ID card.", ["Where do I sign?", "Please wait in the queue."], "तपाईंको परिचयपत्र हेर्न सक्छु?"],
+        ["build", "I want to open a bank account.", "मलाई बैंक खाता खोल्नु छ।"],
+        ["gap", "Please fill ___ this form.", "in", ["on", "at"], "यो फारम भर्नुहोस्।"]
+      ]
+    },
+    {
+      "id": "u6l4", "title_ne": "विमानस्थल र यात्रा", "title_en": "At the airport", "emoji": "✈️",
+      "intro": "विदेश जाँदा विमानस्थलमा चाहिने सबै वाक्य। अध्यागमनमा सोधिने प्रश्नको जवाफ पनि!",
+      "items": [
+        ["passport", "Here is my passport.", "हियर इज़ माइ **पास्**पोर्ट", "यो मेरो राहदानी।", "🛂"],
+        ["checkin", "Where is the check-in counter?", "वेयर इज़ द **चेक्**इन काउन्टर?", "चेक-इन काउन्टर कहाँ छ?", "🛫"],
+        ["flight", "My flight is at ten o'clock.", "माइ **फ़्लाइट** इज़ ऍट टेन अक्लक", "मेरो उडान दस बजे छ।", "✈️"],
+        ["gate", "Is this the gate for London?", "इज़ दिस द **गेट** फ़र लन्डन?", "लन्डन जाने गेट यही हो?", "🚪"],
+        ["luggage", "Where can I get my luggage?", "वेयर क्यान आइ गेट माइ **ल**गिज?", "मेरो सामान कहाँ पाइन्छ?", "🧳"],
+        ["visitingson", "I am visiting my son.", "आइ ऍम व़िज़िटिङ माइ **सन**", "म छोरालाई भेट्न आएकी हुँ।", "👩‍👦"],
+        ["staying", "I am staying for three months.", "आइ ऍम **स्टे**इङ फ़र थ्री मन्थ्स", "म तीन महिना बस्छु।", "📆"],
+        ["windowseat", "Can I have a window seat?", "क्यान आइ ह्याव़ अ **विन्**डो सीट?", "झ्यालतिरको सिट पाउँछु?", "💺"]
+      ],
+      "grammar": {
+        "title": "अध्यागमन (immigration) मा सोधिने प्रश्न",
+        "lines": ["छोटो र स्पष्ट जवाफ दिनुहोस्। नबुझे 'Sorry, can you say that again?' भन्नुहोस्।"],
+        "table": [["Why are you visiting?", "किन आउनुभयो? → I am visiting my son."], ["How long are you staying?", "कति समय बस्नुहुन्छ? → For three months."], ["Where are you staying?", "कहाँ बस्नुहुन्छ? → With my son."]],
+        "ex": [["Passport, please.", "राहदानी दिनुहोस्।"], ["Here is my passport.", "यो मेरो राहदानी।"]]
+      },
+      "speak": ["visitingson", "staying", "luggage"],
+      "quiz": [
+        ["reply", "Why are you visiting?", "I am visiting my son.", ["My flight is at ten o'clock.", "Here is my passport."], "किन आउनुभयो?"],
+        ["reply", "How long are you staying?", "For three months.", ["At ten o'clock.", "With my son."], "कति समय बस्नुहुन्छ?"],
+        ["reply", "Passport, please.", "Here is my passport.", ["I am staying.", "Which counter?"], "राहदानी दिनुहोस्।"],
+        ["build", "Where can I get my luggage?", "मेरो सामान कहाँ पाइन्छ?"]
+      ]
+    },
+    {
+      "id": "u6l5", "title_ne": "आफ्नो विचार", "title_en": "Giving your opinion", "emoji": "💭",
+      "intro": "'मलाई यस्तो लाग्छ', 'म सहमत छु' भन्न सिकौं। अब तपाईं छलफलमा पनि भाग लिन सक्नुहुन्छ!",
+      "items": [
+        ["whatthink", "What do you think?", "ह्वाट डु यू **थिङ्क**?", "तपाईंलाई के लाग्छ?", "💭"],
+        ["ithink", "I think it is a good idea.", "आइ थिङ्क इट इज़ अ गुड आइ**डिया**", "मलाई यो राम्रो विचार लाग्छ।", "💡"],
+        ["dontthink", "I don't think so.", "आइ डोन्ट थिङ्क **सो**", "मलाई त्यस्तो लाग्दैन।", "🙅‍♀️"],
+        ["agree", "I agree.", "आइ अ**ग्री**", "म सहमत छु।", "🤝"],
+        ["right", "You are right.", "यू आर **राइट**", "तपाईंले ठिक भन्नुभयो।", "✔️"],
+        ["notsure", "I'm not sure.", "आइम नट **श्योर**", "मलाई पक्का थाहा छैन।", "🤔"],
+        ["opinion", "In my opinion, Darjeeling tea is the best.", "इन माइ अ**पि**नियन, दार्जीलिङ टी इज़ द बेस्ट", "मेरो विचारमा दार्जिलिङको चिया सबैभन्दा राम्रो हो।", "🍵"]
+      ],
+      "grammar": {
+        "title": "विचार भन्ने तरिका",
+        "lines": ["I think ले कुरा नरम बनाउँछ। सिधै 'No!' भन्नुभन्दा 'I don't think so' भन्नु विनम्र हुन्छ।"],
+        "table": [["I think ...", "मलाई ... लाग्छ"], ["I don't think ...", "मलाई ... लाग्दैन"], ["I agree. / I don't agree.", "म सहमत छु / छैन"], ["Maybe you are right.", "सायद तपाईं ठिक हुनुहुन्छ"]],
+        "ex": [["I think it is going to rain.", "मलाई पानी पर्ला जस्तो लाग्छ।"], ["Maybe you are right.", "सायद तपाईंले ठिक भन्नुभयो।"]]
+      },
+      "speak": ["ithink", "dontthink", "opinion"],
+      "quiz": [
+        ["reply", "Darjeeling tea is the best!", "I agree.", ["I am lost.", "I didn't go."], "दार्जिलिङको चिया सबैभन्दा राम्रो!"],
+        ["reply", "What do you think?", "I think it is a good idea.", ["I am thinking.", "Yes, I did."], "तपाईंलाई के लाग्छ?"],
+        ["build", "I don't think so.", "मलाई त्यस्तो लाग्दैन।"],
+        ["mc", "पक्का थाहा नहुँदा के भन्ने?", "I'm not sure.", ["You are right.", "I agree."]]
+      ]
+    },
+    {
+      "id": "u6l6", "title_ne": "वाक्य जोड्ने: and, but, because", "title_en": "Joining ideas", "emoji": "🔗",
+      "intro": "छोटा वाक्यलाई जोडेर लामो र राम्रो वाक्य बनाउन सिकौं।",
+      "items": [
+        ["but", "I like tea, but I don't like coffee.", "आइ लाइक टी, **बट** आइ डोन्ट लाइक कफ़ी", "मलाई चिया मन पर्छ, तर कफी मन पर्दैन।", "⚖️"],
+        ["because", "I am happy because my son is coming.", "आइ ऍम ह्यापी बि**कज़्** माइ सन इज़ कमिङ", "म खुसी छु किनभने छोरा आउँदै छ।", "😊"],
+        ["so", "It was raining, so I stayed at home.", "इट वज़ रेनिङ, **सो** आइ स्टेड ऍट होम", "पानी परिरहेको थियो, त्यसैले म घरमै बसेँ।", "🌧️"],
+        ["and", "I cooked and my husband washed the dishes.", "आइ कुक्ट् **ऍन्ड्** माइ हज़्बन्ड वश्ट् द डिशिज़", "मैले पकाएँ र श्रीमान्ले भाँडा माझ्नुभयो।", "🍽️"],
+        ["first", "First, I make tea.", "**फ़र्स्ट्**, आइ मेक टी", "सबैभन्दा पहिले म चिया बनाउँछु।", "1️⃣"],
+        ["afterthat", "After that, we went for a walk.", "**आफ़्**टर द्याट, वी वेन्ट फ़र अ वक", "त्यसपछि हामी हिँड्न गयौं।", "🚶"]
+      ],
+      "grammar": {
+        "title": "जोड्ने शब्दहरू",
+        "lines": ["कथा भन्दा First, Then, After that प्रयोग गर्नुहोस्। सुन्नेलाई बुझ्न सजिलो हुन्छ।"],
+        "table": [["and", "र"], ["but", "तर"], ["because", "किनभने"], ["so", "त्यसैले"], ["first ... then ...", "पहिले ... त्यसपछि ..."]],
+        "ex": [["First, I pray. Then, I make tea.", "पहिले म पूजा गर्छु। त्यसपछि चिया बनाउँछु।"], ["I am tired because I worked all day.", "दिनभर काम गरेकोले म थाकेँ।"]]
+      },
+      "speak": ["but", "because", "so"],
+      "quiz": [
+        ["gap", "I like tea, ___ I don't like coffee.", "but", ["because", "so"], "मलाई चिया मन पर्छ, तर कफी मन पर्दैन।"],
+        ["gap", "It was raining, ___ I stayed at home.", "so", ["but", "because"], "पानी परिरहेको थियो, त्यसैले म घरमै बसेँ।"],
+        ["gap", "I am happy ___ my son is coming.", "because", ["so", "but"], "म खुसी छु किनभने छोरा आउँदै छ।"],
+        ["build", "First, I make tea.", "सबैभन्दा पहिले म चिया बनाउँछु।"]
+      ]
+    },
+    {
+      "id": "u6l7", "title_ne": "मेरो कथा", "title_en": "My life story", "emoji": "📖",
+      "intro": "अब आफ्नो जीवनको कथा अङ्ग्रेजीमा भन्ने बेला आयो! पाठपछि आफ्नै बारेमा ५ वाक्य भन्ने कोसिस गर्नुहोस्।",
+      "items": [
+        ["grewup", "I grew up in Darjeeling.", "आइ ग्रू **अप** इन दार्जीलिङ", "म दार्जिलिङमा हुर्किएँ।", "🌄"],
+        ["whenyoung", "When I was young, I loved dancing.", "वेन आइ वज़ **यङ**, आइ लव़्ड डान्सिङ", "म सानो छँदा मलाई नाच्न धेरै मन पर्थ्यो।", "💃"],
+        ["school", "I went to a small school.", "आइ वेन्ट टु अ स्मल **स्कूल**", "म एउटा सानो स्कूलमा पढेँ।", "🏫"],
+        ["hard", "I worked very hard.", "आइ वर्क्ट् व़ेरी **हार्ड**", "मैले धेरै मेहनत गरेँ।", "💪"],
+        ["nowlive", "Now I live with my husband.", "**नाउ** आइ लिव़ विद माइ हज़्बन्ड", "अहिले म श्रीमान्सँग बस्छु।", "🏡"],
+        ["whylearn", "I am learning English because I want to talk to my grandchildren.", "आइ ऍम लर्निङ इङ्ग्लिश बिकज़ आइ वन्ट टु टक टु माइ **ग्र्यान्**चिल्ड्रन", "म नाति-नातिनासँग कुरा गर्न अङ्ग्रेजी सिक्दै छु।", "📖"],
+        ["neverlate", "It is never too late to learn.", "इट इज़ नेव़र टू **लेट** टु लर्न", "सिक्न कहिल्यै ढिलो हुँदैन।", "🌟"]
+      ],
+      "grammar": {
+        "title": "आफ्नो कथा: पहिले → अहिले → भविष्य",
+        "lines": ["आफ्नो कथा भन्दा समय अनुसार क्रिया बदलिन्छ।", "अब आफ्नै कथा भन्नुहोस्: कहाँ हुर्किनुभयो, के मन पर्थ्यो, अहिले को-कोसँग बस्नुहुन्छ, किन अङ्ग्रेजी सिक्दै हुनुहुन्छ।"],
+        "table": [["When I was young, ...", "म सानो छँदा ... (was, went, loved)"], ["Now I ...", "अहिले म ... (live, have, am)"], ["In the future, I will ...", "भविष्यमा म ... (will, going to)"]],
+        "ex": [["When I was young, I lived in a village.", "म सानो छँदा गाउँमा बस्थेँ।"], ["Next year, I will visit London.", "अर्को वर्ष म लन्डन जानेछु।"]]
+      },
+      "speak": ["grewup", "whenyoung", "neverlate"],
+      "quiz": [
+        ["gap", "When I ___ young, I loved dancing.", "was", ["am", "were"], "म सानो छँदा मलाई नाच्न धेरै मन पर्थ्यो।"],
+        ["gap", "Now I ___ with my husband.", "live", ["lived", "living"], "अहिले म श्रीमान्सँग बस्छु।"],
+        ["build", "I grew up in Darjeeling.", "म दार्जिलिङमा हुर्किएँ।"],
+        ["reply", "Why are you learning English?", "Because I want to talk to my grandchildren.", ["Because I grew up.", "So I am tired."], "तपाईं किन अङ्ग्रेजी सिक्दै हुनुहुन्छ?"]
+      ]
+    },
+    {
+      "id": "u6l8", "title_ne": "अन्तिम कुराकानी: नयाँ साथी", "title_en": "Final talk: a new friend", "emoji": "🎓",
+      "intro": "बधाई छ, यो अन्तिम पाठ हो! लन्डनको पार्कमा नयाँ साथीसँग पूरा कुराकानी गरौं।",
+      "items": [
+        ["lovelyday", "Lovely day, isn't it?", "लव़्ली **डे**, इज़न्ट इट?", "कति राम्रो दिन, होइन त?", "🌞"],
+        ["still", "I am still learning.", "आइ ऍम स्टिल **लर्**निङ", "म अझै सिक्दै छु।", "🌱"],
+        ["practise", "I practise every day.", "आइ **प्र्याक्**टिस एव़्री डे", "म हरेक दिन अभ्यास गर्छु।", "📅"],
+        ["wouldlove", "Yes, I would love to.", "येस, आइ वुड **लव़्** टु", "हुन्छ, खुसीसाथ!", "💖"],
+        ["welldone", "Well done!", "वेल **डन**!", "स्याबास!", "👏"],
+        ["wonderful", "Oh, wonderful!", "ओ, **वन्**डरफ़ुल!", "वाह, कति राम्रो!", "✨"]
+      ],
+      "speak": ["still", "practise", "wouldlove"],
+      "people": {"E": "👵 एमा (पार्कमा भेटिएकी)"},
+      "talk": [
+        ["E", "Good morning! Lovely day, isn't it?", "गुड मर्निङ! लव़्ली डे, इज़न्ट इट?", "शुभ प्रभात! कति राम्रो दिन, होइन त?"],
+        ["Y", "Good morning! Yes, it is very nice today.", "गुड मर्निङ! येस, इट इज़ व़ेरी नाइस टुडे।", "शुभ प्रभात! हो, आज एकदम राम्रो छ।"],
+        ["E", "I'm Emma. What's your name?", "आइम एमा। ह्वाट्स योर नेम?", "म एमा। तपाईंको नाम के हो?"],
+        ["Y", "My name is Sita. Nice to meet you, Emma.", "माइ नेम इज़ सीता। नाइस टु मीट यू, एमा।", "मेरो नाम सीता हो। तपाईंलाई भेटेर खुसी लाग्यो, एमा।"],
+        ["E", "Nice to meet you too. Where are you from?", "नाइस टु मीट यू टू। वेयर आर यू फ़्रम?", "मलाई पनि। तपाईं कहाँको हुनुहुन्छ?"],
+        ["Y", "I am from Darjeeling, in India. I am visiting my son.", "आइ ऍम फ़्रम दार्जीलिङ, इन इन्डिया। आइ ऍम व़िज़िटिङ माइ सन।", "म भारतको दार्जिलिङबाट हुँ। छोरालाई भेट्न आएकी हुँ।"],
+        ["E", "Oh, wonderful! How long are you staying?", "ओ, वन्डरफ़ुल! हाउ लङ आर यू स्टेइङ?", "वाह! कति समय बस्नुहुन्छ?"],
+        ["Y", "For three months. My son lives here with his family.", "फ़र थ्री मन्थ्स। माइ सन लिव़्ज़ हियर विद हिज़ फ़्यामिली।", "तीन महिना। मेरो छोरा यहाँ परिवारसँग बस्छ।"],
+        ["E", "Do you like London?", "डु यू लाइक लन्डन?", "तपाईंलाई लन्डन मन पर्यो?"],
+        ["Y", "Yes, I like it, but it is very cold! London is colder than Darjeeling.", "येस, आइ लाइक इट, बट इट इज़ व़ेरी कोल्ड! लन्डन इज़ कोल्डर द्यान दार्जीलिङ।", "हो, मन पर्यो, तर धेरै जाडो छ! लन्डन दार्जिलिङभन्दा जाडो छ।"],
+        ["E", "Ha ha! Your English is very good.", "हा हा! योर इङ्ग्लिश इज़ व़ेरी गुड।", "हाहा! तपाईंको अङ्ग्रेजी धेरै राम्रो छ।"],
+        ["Y", "Thank you! I am still learning. I practise every day.", "थ्याङ्क यू! आइ ऍम स्टिल लर्निङ। आइ प्र्याक्टिस एव़्री डे।", "धन्यवाद! म अझै सिक्दै छु। हरेक दिन अभ्यास गर्छु।"],
+        ["E", "Well done! Would you like to have tea with me tomorrow?", "वेल डन! वुड यू लाइक टु ह्याव़ टी विद मी टुमोरो?", "स्याबास! भोलि मसँग चिया खान आउनुहुन्छ?"],
+        ["Y", "Yes, I would love to. Darjeeling tea, of course!", "येस, आइ वुड लव़् टु। दार्जीलिङ टी, अव़ कोर्स!", "हुन्छ, खुसीसाथ! दार्जिलिङको चिया, अवश्य पनि!"],
+        ["E", "Perfect! See you tomorrow at ten.", "पर्फ़ेक्ट! सी यू टुमोरो ऍट टेन।", "एकदम! भोलि दस बजे भेटौं।"],
+        ["Y", "See you tomorrow. Have a nice day!", "सी यू टुमोरो। ह्याव़ अ नाइस डे!", "भोलि भेटौंला। तपाईंको दिन राम्रो रहोस्!"]
+      ],
+      "quiz": [
+        ["reply", "Lovely day, isn't it?", "Yes, it is very nice today.", ["Yes, I would love to.", "I am still learning."], "कति राम्रो दिन, होइन त?"],
+        ["reply", "Would you like to have tea with me?", "Yes, I would love to.", ["Yes, I am still learning.", "For three months."], "मसँग चिया खानुहुन्छ?"],
+        ["reply", "Your English is very good!", "Thank you! I practise every day.", ["I don't think so. Goodbye.", "Sorry, wrong number."], "तपाईंको अङ्ग्रेजी धेरै राम्रो छ!"],
+        ["build", "I am still learning.", "म अझै सिक्दै छु।"]
+      ]
+    }
+  ]
+}

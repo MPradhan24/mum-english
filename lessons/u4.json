@@ -1,0 +1,223 @@
+{
+  "unit": 4, "title_ne": "मानिस र भावना", "title_en": "People and feelings", "emoji": "💞",
+  "lessons": [
+    {
+      "id": "u4l1", "title_ne": "मानिसको वर्णन", "title_en": "Describing people", "emoji": "🧑‍🤝‍🧑",
+      "intro": "मानिस कस्तो छ (अग्लो, दयालु, राम्री) भन्न सिकौं।",
+      "items": [
+        ["tall", "He is tall.", "ही इज़ **टल**", "उहाँ अग्लो हुनुहुन्छ।", "🧍‍♂️"],
+        ["short", "She is short.", "शी इज़ **शोर्ट**", "उनी होची छिन्।", "🧍‍♀️"],
+        ["young", "young", "यङ", "जवान / सानो उमेरको", "🧒"],
+        ["old", "old", "ओल्ड", "बूढो / पुरानो", "👵"],
+        ["kind", "My mother is very kind.", "माइ मदर इज़ व़ेरी **काइन्ड**", "मेरी आमा धेरै दयालु हुनुहुन्छ।", "💖"],
+        ["beautiful", "beautiful", "**ब्यू**टिफ़ुल", "सुन्दर / राम्री", "🌸"],
+        ["longhair", "She has long hair.", "शी ह्याज़ लङ **हेयर**", "उनको कपाल लामो छ।", "💇‍♀️"],
+        ["glasses", "He wears glasses.", "ही वेयर्ज़ **ग्ला**सिज़", "उहाँ चस्मा लगाउनुहुन्छ।", "👓"]
+      ],
+      "grammar": {
+        "title": "कस्तो? (विशेषण)",
+        "lines": ["नेपालीमा जस्तै, विशेषण नामको अगाडि आउँछ: a **kind** woman = दयालु महिला।", "विशेषणमा -s लाग्दैन: two tall men।"],
+        "table": [["a kind woman", "दयालु महिला"], ["a big house", "ठूलो घर"], ["a small dog", "सानो कुकुर"], ["an old temple", "पुरानो मन्दिर"]],
+        "ex": [["She is a kind woman.", "उनी दयालु महिला हुन्।"], ["This is a big house.", "यो ठूलो घर हो।"]]
+      },
+      "speak": ["kind", "longhair", "glasses"],
+      "quiz": [
+        ["build", "My mother is very kind.", "मेरी आमा धेरै दयालु हुनुहुन्छ।"],
+        ["gap", "She has ___ hair.", "long", ["tall", "kind"], "उनको कपाल लामो छ।"],
+        ["mc", "'अग्लो' लाई अङ्ग्रेजीमा के भन्छ?", "tall", ["long", "old"]],
+        ["build", "This is a big house.", "यो ठूलो घर हो।", ["small"]]
+      ]
+    },
+    {
+      "id": "u4l2", "title_ne": "भावनाहरू", "title_en": "Feelings", "emoji": "😊",
+      "intro": "मनको कुरा भन्न सिकौं: खुसी, दुःख, चिन्ता, माया।",
+      "items": [
+        ["sad", "I am sad.", "आइ ऍम **स्याड**", "म दुःखी छु।", "😢"],
+        ["angry", "Why are you angry?", "वाइ आर यू **ऍङ्**ग्री?", "तपाईं किन रिसाउनुभयो?", "😠"],
+        ["worried", "I am worried about my son.", "आइ ऍम **व**रीड अबाउट माइ सन", "मलाई छोराको चिन्ता लागेको छ।", "😟"],
+        ["dontworry", "Don't worry.", "डोन्ट **व**री", "चिन्ता नगर्नुहोस्।", "🤗"],
+        ["missyou", "I miss you.", "आइ **मिस्** यू", "मलाई तिम्रो याद आयो।", "💌", "miss = कोही टाढा हुँदा याद आउनु।"],
+        ["proud", "I am proud of you.", "आइ ऍम **प्राउड** अव़ यू", "मलाई तिमीमाथि गर्व छ।", "🌟"],
+        ["excited", "I am excited.", "आइ ऍम इक्**साइ**टिड", "म धेरै उत्साहित छु।", "🤩"],
+        ["bored", "I am bored.", "आइ ऍम **बोर्ड्**", "मलाई दिक्क लाग्यो।", "😐"]
+      ],
+      "grammar": {
+        "title": "भावना: I am + भावना",
+        "lines": ["नेपालीमा 'मलाई ... लाग्यो' भनिन्छ। अङ्ग्रेजीमा 'म ... छु': I **am** worried।"],
+        "table": [["I am happy.", "म खुसी छु।"], ["I am sad.", "म दुःखी छु।"], ["I am worried.", "मलाई चिन्ता लाग्यो।"], ["I am bored.", "मलाई दिक्क लाग्यो।"]],
+        "ex": [["Don't worry, Mum.", "चिन्ता नगर्नुहोस्, आमा।"], ["I miss you too.", "मलाई पनि तिम्रो याद आयो।"]]
+      },
+      "speak": ["worried", "missyou", "proud"],
+      "quiz": [
+        ["reply", "I am worried about my exam.", "Don't worry.", ["I am bored.", "Turn left."], "मलाई परीक्षाको चिन्ता लागेको छ।"],
+        ["reply", "I miss you, Mum!", "I miss you too!", ["I am angry.", "Get well soon!"], "आमा, मलाई तपाईंको याद आयो!"],
+        ["build", "I am proud of you.", "मलाई तिमीमाथि गर्व छ।"],
+        ["gap", "I am worried ___ my son.", "about", ["of", "at"], "मलाई छोराको चिन्ता लागेको छ।"]
+      ]
+    },
+    {
+      "id": "u4l3", "title_ne": "मसँग छ: have / has", "title_en": "I have, she has", "emoji": "🎁",
+      "intro": "आफूसँग के छ, के छैन भन्न सिकौं।",
+      "items": [
+        ["garden", "I have a small garden.", "आइ ह्याव़ अ स्मल **गार्**डन", "मेरो एउटा सानो बगैंचा छ।", "🌻"],
+        ["cats", "She has two cats.", "शी ह्याज़ टू **क्याट्स**", "उनका दुई वटा बिरालो छन्।", "🐈"],
+        ["pen", "Do you have a pen?", "डु यू ह्याव़ अ **पेन**?", "तपाईंसँग कलम छ?", "🖊️"],
+        ["hereyouare", "Yes, here you are.", "येस, हियर यू **आर**", "छ, लिनुहोस्।", "🤲"],
+        ["notime", "I don't have time.", "आइ डोन्ट ह्याव़ **टाइम**", "मसँग समय छैन।", "⌛"],
+        ["newphone", "He has a new phone.", "ही ह्याज़ अ न्यू **फ़ोन**", "उहाँसँग नयाँ फोन छ।", "📱"],
+        ["grandkids", "I have three grandchildren.", "आइ ह्याव़ थ्री **ग्र्यान्**चिल्ड्रन", "मेरा तीन नाति-नातिना छन्।", "👨‍👩‍👧‍👦"]
+      ],
+      "grammar": {
+        "title": "have / has",
+        "lines": ["I, you, we, they सँग **have**। he, she, it सँग **has**।"],
+        "table": [["I have / We have", "मसँग / हामीसँग छ"], ["You have / They have", "तपाईंसँग / उनीहरूसँग छ"], ["He has / She has", "उहाँसँग / उनीसँग छ"], ["Do you have ...?", "तपाईंसँग ... छ?"], ["I don't have ...", "मसँग ... छैन"]],
+        "ex": [["My son has a car.", "मेरो छोरासँग गाडी छ।"], ["Do you have a minute?", "तपाईंसँग एकछिन समय छ?"]]
+      },
+      "speak": ["garden", "pen", "grandkids"],
+      "quiz": [
+        ["gap", "She ___ two cats.", "has", ["have", "is"], "उनका दुई वटा बिरालो छन्।"],
+        ["gap", "I ___ a small garden.", "have", ["has", "am"], "मेरो एउटा सानो बगैंचा छ।"],
+        ["reply", "Do you have a pen?", "Yes, here you are.", ["I have a fever.", "I am bored."], "तपाईंसँग कलम छ?"],
+        ["build", "I don't have time.", "मसँग समय छैन।"]
+      ]
+    },
+    {
+      "id": "u4l4", "title_ne": "अहिले गर्दै छु", "title_en": "What are you doing now?", "emoji": "🍲",
+      "intro": "अहिले यही बेला के गर्दै हुनुहुन्छ, भन्न सिकौं। फोनमा सबैभन्दा धेरै सोधिने प्रश्न!",
+      "items": [
+        ["whatdoing", "What are you doing?", "ह्वाट आर यू **डु**इङ?", "तपाईं के गर्दै हुनुहुन्छ?", "🤔"],
+        ["cooking", "I am cooking dinner.", "आइ ऍम कुकिङ **डि**नर", "म बेलुकीको खाना पकाउँदै छु।", "🍲"],
+        ["sleeping", "She is sleeping.", "शी इज़ **स्ली**पिङ", "उनी सुतिरहेकी छिन्।", "😴"],
+        ["watching", "I am watching TV.", "आइ ऍम **व**चिङ टीव़ी", "म टिभी हेर्दै छु।", "📺"],
+        ["playing", "The children are playing.", "द चिल्ड्रन आर **प्ले**इङ", "बच्चाहरू खेल्दै छन्।", "⚽"],
+        ["coming", "I am coming!", "आइ ऍम **क**मिङ!", "म आउँदै छु!", "🏃‍♀️"],
+        ["waiting", "I am waiting for the bus.", "आइ ऍम **वे**टिङ फ़र द बस", "म बस पर्खिरहेको छु।", "🚏"]
+      ],
+      "grammar": {
+        "title": "am / is / are + -ing = गर्दै छु",
+        "lines": ["हरेक दिन गर्ने काम: I cook (म पकाउँछु)।", "अहिले यही बेला: I am cook**ing** (म पकाउँदै छु)।"],
+        "table": [["I am cooking.", "म पकाउँदै छु।"], ["She is sleeping.", "उनी सुतिरहेकी छिन्।"], ["They are playing.", "उनीहरू खेल्दै छन्।"]],
+        "ex": [["What is he doing?", "उहाँ के गर्दै हुनुहुन्छ?"], ["He is reading the newspaper.", "उहाँ पत्रिका पढ्दै हुनुहुन्छ।"]]
+      },
+      "speak": ["whatdoing", "cooking", "waiting"],
+      "quiz": [
+        ["gap", "She is ___ now.", "sleeping", ["sleep", "sleeps"], "उनी अहिले सुतिरहेकी छिन्।"],
+        ["reply", "What are you doing?", "I am cooking dinner.", ["I cook every day.", "I have a cough."], "तपाईं के गर्दै हुनुहुन्छ?"],
+        ["build", "I am waiting for the bus.", "म बस पर्खिरहेको छु।"],
+        ["gap", "The children ___ playing.", "are", ["is", "am"], "बच्चाहरू खेल्दै छन्।"]
+      ]
+    },
+    {
+      "id": "u4l5", "title_ne": "मेरो, उहाँको, हाम्रो", "title_en": "My, his, her, our", "emoji": "🏷️",
+      "intro": "कुन चीज कसको हो भन्न सिकौं।",
+      "items": [
+        ["hisname", "His name is Ram.", "हिज़ **नेम** इज़ राम", "उहाँको नाम राम हो।", "👨"],
+        ["hername", "Her name is Maya.", "हर **नेम** इज़ माया", "उनको नाम माया हो।", "👩"],
+        ["our", "This is our house.", "दिस इज़ **आवर** हाउस", "यो हाम्रो घर हो।", "🏠"],
+        ["their", "Their son lives in London.", "देयर सन लिव़्ज़ इन **लन्**डन", "उनीहरूको छोरा लन्डनमा बस्छ।", "🇬🇧"],
+        ["whose", "Whose bag is this?", "हूज़ **ब्याग** इज़ दिस?", "यो कसको झोला हो?", "👜"],
+        ["mine", "It is mine.", "इट इज़ **माइन**", "यो मेरो हो।", "☝️"],
+        ["yours", "Is this yours?", "इज़ दिस **योर्ज़**?", "यो तपाईंको हो?", "🤲"]
+      ],
+      "grammar": {
+        "title": "कसको? my, your, his, her ...",
+        "lines": ["नेपालीमा 'उहाँको' पुरुष र महिला दुवैलाई हुन्छ। अङ्ग्रेजीमा पुरुषलाई **his**, महिलालाई **her**।"],
+        "table": [["I → my", "मेरो"], ["you → your", "तपाईंको"], ["he → his", "उहाँको (पुरुष)"], ["she → her", "उनको (महिला)"], ["we → our", "हाम्रो"], ["they → their", "उनीहरूको"]],
+        "ex": [["Her daughter is a doctor.", "उनकी छोरी डाक्टर हुन्।"], ["His wife is my friend.", "उहाँकी श्रीमती मेरी साथी हुन्।"]]
+      },
+      "speak": ["our", "whose", "yours"],
+      "quiz": [
+        ["gap", "___ name is Maya. She is my friend.", "Her", ["His", "My"], "उनको नाम माया हो। उनी मेरी साथी हुन्।"],
+        ["gap", "___ name is Ram. He is my neighbour.", "His", ["Her", "Their"], "उहाँको नाम राम हो। उहाँ मेरो छिमेकी हुनुहुन्छ।"],
+        ["reply", "Whose bag is this?", "It is mine.", ["I am coming!", "She is sleeping."], "यो कसको झोला हो?"],
+        ["build", "This is our house.", "यो हाम्रो घर हो।"]
+      ]
+    },
+    {
+      "id": "u4l6", "title_ne": "मेरा सोखहरू", "title_en": "Hobbies", "emoji": "🧶",
+      "intro": "फुर्सदमा के गर्न मन पर्छ भन्न सिकौं। यो कुराकानीको राम्रो विषय हो।",
+      "items": [
+        ["freetime", "What do you do in your free time?", "ह्वाट डु यू डु इन योर **फ़्री** टाइम?", "फुर्सदमा तपाईं के गर्नुहुन्छ?", "🕰️"],
+        ["gardening", "I like gardening.", "आइ लाइक **गार्**डनिङ", "मलाई बगैंचामा काम गर्न मन पर्छ।", "🌱"],
+        ["knitting", "I enjoy knitting.", "आइ इन्**जोइ** निटिङ", "मलाई बुन्न रमाइलो लाग्छ।", "🧶", "knitting मा k बोलिँदैन: निटिङ।"],
+        ["singing", "I love singing old songs.", "आइ लव़ सिङिङ **ओल्ड्** सङ्ज़", "मलाई पुराना गीत गाउन धेरै मन पर्छ।", "🎤"],
+        ["serials", "I watch Nepali serials.", "आइ वच नेपाली **सी**रियल्ज़", "म नेपाली सिरियल हेर्छु।", "📺"],
+        ["walkmorning", "I walk every morning.", "आइ **वक** एव़्री मर्निङ", "म हरेक बिहान हिँड्छु।", "🚶‍♀️"],
+        ["temple", "I go to the temple on Saturdays.", "आइ गो टु द **टेम्**पल अन स्याटर्डेज़", "म हरेक शनिबार मन्दिर जान्छु।", "🛕"]
+      ],
+      "grammar": {
+        "title": "like / love / enjoy + -ing",
+        "lines": ["मन पर्ने काम भन्दा like, love, enjoy पछि क्रियामा -ing: I like cook**ing**।"],
+        "table": [["I like cooking.", "मलाई पकाउन मन पर्छ।"], ["I love singing.", "मलाई गाउन धेरै मन पर्छ।"], ["I enjoy reading.", "मलाई पढ्न रमाइलो लाग्छ।"]],
+        "ex": [["My husband enjoys reading.", "मेरो श्रीमान्लाई पढ्न रमाइलो लाग्छ।"], ["Do you like dancing?", "तपाईंलाई नाच्न मन पर्छ?"]]
+      },
+      "speak": ["freetime", "singing", "walkmorning"],
+      "quiz": [
+        ["reply", "What do you do in your free time?", "I like gardening.", ["I am lost.", "It is mine."], "फुर्सदमा तपाईं के गर्नुहुन्छ?"],
+        ["gap", "I enjoy ___.", "knitting", ["knit", "knits"], "मलाई बुन्न रमाइलो लाग्छ।"],
+        ["build", "I walk every morning.", "म हरेक बिहान हिँड्छु।"],
+        ["gap", "I love ___ old songs.", "singing", ["sing", "sings"], "मलाई पुराना गीत गाउन धेरै मन पर्छ।"]
+      ]
+    },
+    {
+      "id": "u4l7", "title_ne": "तुलना: भन्दा ठूलो", "title_en": "Bigger, better, the best", "emoji": "⚖️",
+      "intro": "दुई चीज तुलना गर्न सिकौं: भन्दा ठूलो, भन्दा राम्रो, सबैभन्दा राम्रो।",
+      "items": [
+        ["colder", "Darjeeling is colder than Siliguri.", "दार्जीलिङ इज़ **कोल्**डर द्यान सिलिगुडी", "दार्जिलिङ सिलिगुडीभन्दा जाडो छ।", "🏔️"],
+        ["taller", "My son is taller than me.", "माइ सन इज़ **टल**र द्यान मी", "मेरो छोरा मभन्दा अग्लो छ।", "📏"],
+        ["older", "I am older than my sister.", "आइ ऍम **ओल्**डर द्यान माइ सिस्टर", "म मेरी बहिनीभन्दा जेठी हुँ।", "👵"],
+        ["better", "This one is better.", "दिस वन इज़ **बे**टर", "यो चाहिँ अझ राम्रो छ।", "👍"],
+        ["bigger", "bigger", "**बि**गर", "भन्दा ठूलो", "🐘"],
+        ["best", "the best", "द **बेस्ट**", "सबैभन्दा राम्रो", "🏆"],
+        ["bestmomo", "Your momos are the best!", "योर मोमोज़ आर द **बेस्ट**!", "तपाईंको मःम सबैभन्दा मीठो!", "🥟"]
+      ],
+      "grammar": {
+        "title": "-er than = भन्दा",
+        "lines": ["नेपालीमा 'भन्दा' नामपछि आउँछ (मभन्दा)। अङ्ग्रेजीमा than नामको अगाडि: taller **than** me।", "good को रूप फरक छ: good → better → the best।"],
+        "table": [["cold → colder", "भन्दा जाडो"], ["tall → taller", "भन्दा अग्लो"], ["big → bigger", "भन्दा ठूलो"], ["good → better", "भन्दा राम्रो"], ["the best", "सबैभन्दा राम्रो"]],
+        "ex": [["My house is bigger than your house.", "मेरो घर तपाईंको घरभन्दा ठूलो छ।"], ["Darjeeling tea is the best.", "दार्जिलिङको चिया सबैभन्दा राम्रो हो।"]]
+      },
+      "speak": ["colder", "taller", "bestmomo"],
+      "quiz": [
+        ["gap", "My son is ___ than me.", "taller", ["tall", "tallest"], "मेरो छोरा मभन्दा अग्लो छ।"],
+        ["gap", "Darjeeling is colder ___ Siliguri.", "than", ["then", "that"], "दार्जिलिङ सिलिगुडीभन्दा जाडो छ।"],
+        ["build", "This one is better.", "यो चाहिँ अझ राम्रो छ।"],
+        ["mc", "'भन्दा राम्रो' लाई के भन्छ?", "better", ["gooder", "best"]]
+      ]
+    },
+    {
+      "id": "u4l8", "title_ne": "कुराकानी: नातिनीसँग भिडियो कल", "title_en": "Talk: a video call", "emoji": "📱",
+      "intro": "विदेशमा बस्ने नातिनीसँग भिडियो कलमा कुरा गरौं!",
+      "items": [
+        ["hearme", "Can you hear me?", "क्यान यू **हियर** मी?", "मेरो आवाज सुनिन्छ?", "📞"],
+        ["canhear", "Yes, I can hear you.", "येस, आइ क्यान **हियर** यू", "हो, सुनिन्छ।", "👂"],
+        ["mydear", "my dear", "माइ **डियर**", "मेरो प्यारो / प्यारी", "💕"],
+        ["there", "What time is it there?", "ह्वाट टाइम इज़ इट **देयर**?", "त्यहाँ कति बज्यो?", "🌍"],
+        ["takecare", "Take care.", "टेक **केयर**", "आफ्नो ख्याल राख्नू।", "🫶"],
+        ["grandma", "Grandma", "**ग्र्यान्**मा", "हजुरआमा", "👵"]
+      ],
+      "speak": ["hearme", "there", "takecare"],
+      "people": {"G": "👧 नातिनी (लन्डनबाट)"},
+      "talk": [
+        ["G", "Hello, Grandma! Can you hear me?", "हेलो, ग्र्यान्मा! क्यान यू हियर मी?", "नमस्ते हजुरआमा! मेरो आवाज सुनिन्छ?"],
+        ["Y", "Yes, I can hear you. How are you, my dear?", "येस, आइ क्यान हियर यू। हाउ आर यू, माइ डियर?", "हो, सुनिन्छ। तिमीलाई कस्तो छ, मेरी प्यारी?"],
+        ["G", "I am very well. What are you doing?", "आइ ऍम व़ेरी वेल। ह्वाट आर यू डुइङ?", "म एकदम राम्रो छु। तपाईं के गर्दै हुनुहुन्छ?"],
+        ["Y", "I am cooking dinner. What time is it there?", "आइ ऍम कुकिङ डिनर। ह्वाट टाइम इज़ इट देयर?", "म बेलुकीको खाना पकाउँदै छु। त्यहाँ कति बज्यो?"],
+        ["G", "It is two o'clock in the afternoon. Is it cold in Darjeeling?", "इट इज़ टू अक्लक इन द आफ़्टरनून। इज़ इट कोल्ड इन दार्जीलिङ?", "दिउँसोको दुई बज्यो। दार्जिलिङमा जाडो छ?"],
+        ["Y", "Yes, it is very cold and foggy. How is the weather in London?", "येस, इट इज़ व़ेरी कोल्ड ऍन्ड फ़गी। हाउ इज़ द वेदर इन लन्डन?", "हो, धेरै जाडो र कुहिरो छ। लन्डनमा मौसम कस्तो छ?"],
+        ["G", "It is raining here. I miss you, Grandma!", "इट इज़ रेनिङ हियर। आइ मिस यू, ग्र्यान्मा!", "यहाँ पानी परिरहेको छ। मलाई तपाईंको याद आयो, हजुरआमा!"],
+        ["Y", "I miss you too. I am proud of you.", "आइ मिस यू टू। आइ ऍम प्राउड अव़ यू।", "मलाई पनि तिम्रो याद आयो। मलाई तिमीमाथि गर्व छ।"],
+        ["G", "Thank you! Are you learning English?", "थ्याङ्क यू! आर यू लर्निङ इङ्ग्लिश?", "धन्यवाद! तपाईं अङ्ग्रेजी सिक्दै हुनुहुन्छ?"],
+        ["Y", "Yes, I am learning English every day!", "येस, आइ ऍम लर्निङ इङ्ग्लिश एव़्री डे!", "हो, म हरेक दिन अङ्ग्रेजी सिक्दै छु!"],
+        ["G", "Wow, your English is very good!", "वाउ, योर इङ्ग्लिश इज़ व़ेरी गुड!", "वाह, तपाईंको अङ्ग्रेजी धेरै राम्रो छ!"],
+        ["Y", "Thank you, my dear. Take care. Bye!", "थ्याङ्क यू, माइ डियर। टेक केयर। बाइ!", "धन्यवाद, मेरी प्यारी। आफ्नो ख्याल राख्नू। बाइ!"]
+      ],
+      "quiz": [
+        ["reply", "Can you hear me?", "Yes, I can hear you.", ["Yes, I have.", "I am bored."], "मेरो आवाज सुनिन्छ?"],
+        ["reply", "Is it cold in Darjeeling?", "Yes, it is very cold and foggy.", ["Yes, I can.", "I have a cough."], "दार्जिलिङमा जाडो छ?"],
+        ["reply", "I miss you, Grandma!", "I miss you too, my dear.", ["Turn left.", "It is mine."], "मलाई तपाईंको याद आयो, हजुरआमा!"],
+        ["build", "What time is it there?", "त्यहाँ कति बज्यो?"]
+      ]
+    }
+  ]
+}

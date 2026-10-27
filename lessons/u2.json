@@ -1,0 +1,251 @@
+{
+  "unit": 2, "title_ne": "मेरो दिन", "title_en": "My day", "emoji": "🏠",
+  "lessons": [
+    {
+      "id": "u2l1", "title_ne": "घर र कोठाहरू", "title_en": "Home and rooms", "emoji": "🏠",
+      "intro": "घरका कोठा र चीजहरू कहाँ छन् भन्न सिकौं।",
+      "items": [
+        ["kitchen", "kitchen", "**कि**चन", "भान्सा", "🍳"],
+        ["bedroom", "bedroom", "**बेड्**रुम", "सुत्ने कोठा", "🛏️"],
+        ["bathroom", "bathroom", "**बाथ्**रुम", "नुहाउने कोठा", "🛁"],
+        ["door", "door", "डोर", "ढोका", "🚪"],
+        ["window", "window", "**विन्**डो", "झ्याल", "🪟"],
+        ["whereis", "Where is the kitchen?", "वेयर इज़ द **कि**चन?", "भान्सा कहाँ छ?", "❓"],
+        ["ontable", "The phone is on the table.", "द फ़ोन इज़ अन द **टे**बल", "फोन टेबलमाथि छ।", "📱"],
+        ["inbag", "The keys are in the bag.", "द कीज़ आर इन द **ब्याग**", "साँचो झोलाभित्र छ।", "🔑"]
+      ],
+      "grammar": {
+        "title": "in / on / under (भित्र / माथि / मुनि)",
+        "lines": ["नेपालीमा 'भित्र, माथि' शब्दपछि आउँछ (झोलाभित्र)। अङ्ग्रेजीमा भने अगाडि आउँछ: **in** the bag।", "the = त्यो खास चीज, जुन दुवैलाई थाहा छ।"],
+        "table": [["in the bag", "झोलाभित्र"], ["on the table", "टेबलमाथि"], ["under the bed", "खाटमुनि"], ["near the door", "ढोका नजिक"]],
+        "ex": [["The cat is under the bed.", "बिरालो खाटमुनि छ।"], ["My glasses are on the table.", "मेरो चस्मा टेबलमाथि छ।"]]
+      },
+      "speak": ["whereis", "ontable", "inbag"],
+      "quiz": [
+        ["gap", "The phone is ___ the table.", "on", ["in", "under"], "फोन टेबलमाथि छ।"],
+        ["gap", "The keys are ___ the bag.", "in", ["on", "under"], "साँचो झोलाभित्र छ।"],
+        ["build", "Where is the kitchen?", "भान्सा कहाँ छ?"],
+        ["reply", "Where is my phone?", "It is on the table.", ["It is hot today.", "I am fine."], "मेरो फोन कहाँ छ?"]
+      ]
+    },
+    {
+      "id": "u2l2", "title_ne": "खाना र पेय", "title_en": "Food and drink", "emoji": "🍛",
+      "intro": "दैनिक खानेकुराको नाम र भोक, तिर्खा भन्न सिकौं।",
+      "items": [
+        ["rice", "rice", "राइस", "भात / चामल", "🍚"],
+        ["veg", "vegetables", "**व़ेज्**टबल्ज़", "तरकारी", "🥦"],
+        ["milk", "milk", "मिल्क", "दूध", "🥛"],
+        ["egg", "egg", "एग", "अण्डा", "🥚"],
+        ["chicken", "chicken", "**चि**किन", "कुखुराको मासु", "🍗"],
+        ["bread", "bread", "ब्रेड", "पाउरोटी", "🍞"],
+        ["hungry", "I am hungry.", "आइ ऍम **हङ्**ग्री", "मलाई भोक लाग्यो।", "😋"],
+        ["thirsty", "I am thirsty.", "आइ ऍम **थर्**स्टी", "मलाई तिर्खा लाग्यो।", "🥤"]
+      ],
+      "grammar": {
+        "title": "Would you like ...? / I would like ...",
+        "lines": ["खाना दिँदा वा माग्दा यो विनम्र तरिका प्रयोग गर्नुहोस्। some = अलिकति।"],
+        "table": [["Would you like some rice?", "अलिकति भात खानुहुन्छ?"], ["I would like some water.", "मलाई अलिकति पानी चाहियो।"], ["Yes, please. / No, thank you.", "हुन्छ, दिनुहोस् / पर्दैन, धन्यवाद"]],
+        "ex": [["Would you like some milk?", "दूध खानुहुन्छ?"], ["No, thank you.", "पर्दैन, धन्यवाद।"]]
+      },
+      "speak": ["hungry", "thirsty", "veg"],
+      "quiz": [
+        ["reply", "Would you like some rice?", "Yes, please. I am hungry.", ["No, it isn't.", "Good evening!"], "अलिकति भात खानुहुन्छ?"],
+        ["gap", "I would like some ___, please.", "water", ["happy", "door"], "मलाई अलिकति पानी चाहियो।"],
+        ["build", "Would you like some milk?", "दूध खानुहुन्छ?"],
+        ["reply", "Would you like some tea?", "No, thank you.", ["No, I am not.", "Good night!"]]
+      ]
+    },
+    {
+      "id": "u2l3", "title_ne": "मन पर्छ, मन पर्दैन", "title_en": "I like, I don't like", "emoji": "❤️",
+      "intro": "आफूलाई के मन पर्छ र के मन पर्दैन भन्न सिकौं।",
+      "items": [
+        ["like", "I like tea.", "आइ **लाइक** टी", "मलाई चिया मन पर्छ।", "☕"],
+        ["dontlike", "I don't like coffee.", "आइ डोन्ट लाइक **कफ़ी**", "मलाई कफी मन पर्दैन।", "🙅‍♀️"],
+        ["doyoulike", "Do you like momos?", "डु यू लाइक **मो**मोज़?", "तपाईंलाई मःम मन पर्छ?", "🥟"],
+        ["yesido", "Yes, I do.", "येस, आइ **डु**", "हो, मन पर्छ।", "👍"],
+        ["noidont", "No, I don't.", "नो, आइ **डोन्ट**", "अहँ, मन पर्दैन।", "👎"],
+        ["love", "I love cooking.", "आइ लव़ **कु**किङ", "मलाई खाना पकाउन धेरै मन पर्छ।", "👩‍🍳"],
+        ["favourite", "My favourite food is momos.", "माइ **फ़े**व़रिट फ़ुड इज़ मोमोज़", "मेरो सबैभन्दा मनपर्ने खाना मःम हो।", "😍"]
+      ],
+      "grammar": {
+        "title": "मन पर्छ = I like",
+        "lines": ["नेपालीमा 'मलाई मन पर्छ' भनिन्छ। अङ्ग्रेजीमा 'म मन पराउँछु' जस्तो: **I** like।", "प्रश्न बनाउन सुरुमा Do थप्नुहोस्: **Do** you like ...?"],
+        "table": [["I like ...", "मलाई ... मन पर्छ"], ["I don't like ...", "मलाई ... मन पर्दैन"], ["Do you like ...?", "तपाईंलाई ... मन पर्छ?"], ["I love ...", "मलाई ... धेरै मन पर्छ"]],
+        "ex": [["Do you like tea?", "तपाईंलाई चिया मन पर्छ?"], ["Yes, I do. I love tea!", "हो, मलाई चिया धेरै मन पर्छ!"]]
+      },
+      "speak": ["dontlike", "doyoulike", "favourite"],
+      "quiz": [
+        ["reply", "Do you like tea?", "Yes, I do.", ["Yes, it is.", "Yes, I am."], "तपाईंलाई चिया मन पर्छ?"],
+        ["build", "I don't like coffee.", "मलाई कफी मन पर्दैन।"],
+        ["gap", "___ you like momos?", "Do", ["Are", "Is"], "तपाईंलाई मःम मन पर्छ?"],
+        ["build", "I love cooking.", "मलाई खाना पकाउन धेरै मन पर्छ।"]
+      ]
+    },
+    {
+      "id": "u2l4", "title_ne": "मेरो दिनचर्या", "title_en": "My daily routine", "emoji": "⏰",
+      "intro": "हरेक दिन गर्ने कामहरू भन्न सिकौं। यसैबाट आफ्नो दिनको कथा भन्न सकिन्छ।",
+      "items": [
+        ["wakeup", "I wake up at six.", "आइ वेक **अप** ऍट सिक्स", "म छ बजे उठ्छु।", "⏰"],
+        ["drinktea", "I drink tea in the morning.", "आइ ड्रिङ्क टी इन द **मर्**निङ", "म बिहान चिया पिउँछु।", "🍵"],
+        ["breakfast", "I cook breakfast.", "आइ कुक **ब्रेक्**फ़स्ट", "म बिहानको खाजा पकाउँछु।", "🍳"],
+        ["walk", "I go for a walk.", "आइ गो फ़र अ **वक**", "म हिँड्न जान्छु।", "🚶‍♀️", "walk मा l बोलिँदैन: वक।"],
+        ["tv", "I watch TV in the evening.", "आइ वच टीव़ी इन द **ईव़्**निङ", "म साँझ टिभी हेर्छु।", "📺"],
+        ["pray", "I pray every day.", "आइ प्रे एव़्री **डे**", "म हरेक दिन पूजा गर्छु।", "🪔"],
+        ["bed", "I go to bed at ten.", "आइ गो टु **बेड** ऍट टेन", "म दस बजे सुत्छु।", "🛏️"]
+      ],
+      "grammar": {
+        "title": "He / She भए क्रियामा -s",
+        "lines": ["हरेक दिन गर्ने काम: I cook, You cook, We cook।", "तर He वा She भए क्रियामा -s थपिन्छ: She cook**s**। यो अङ्ग्रेजीको सबैभन्दा धेरै बिर्सिने नियम हो!"],
+        "table": [["I cook", "म पकाउँछु"], ["She cooks", "उनी पकाउँछिन्"], ["I go", "म जान्छु"], ["He goes", "उहाँ जानुहुन्छ"], ["I watch", "म हेर्छु"], ["She watches", "उनी हेर्छिन्"]],
+        "ex": [["My husband reads the newspaper.", "मेरो श्रीमान् पत्रिका पढ्नुहुन्छ।"], ["My daughter works in Delhi.", "मेरी छोरी दिल्लीमा काम गर्छिन्।"]]
+      },
+      "speak": ["wakeup", "drinktea", "tv"],
+      "quiz": [
+        ["gap", "She ___ every day.", "cooks", ["cook", "cooking"], "उनी हरेक दिन खाना पकाउँछिन्।"],
+        ["gap", "I ___ tea in the morning.", "drink", ["drinks", "drinking"], "म बिहान चिया पिउँछु।"],
+        ["build", "I wake up at six.", "म छ बजे उठ्छु।"],
+        ["gap", "He ___ to bed at ten.", "goes", ["go", "going"], "उहाँ दस बजे सुत्नुहुन्छ।"]
+      ]
+    },
+    {
+      "id": "u2l5", "title_ne": "समय र बार", "title_en": "Time and days", "emoji": "🕖",
+      "intro": "कति बज्यो र आज कुन बार भन्न सिकौं।",
+      "items": [
+        ["whattime", "What time is it?", "ह्वाट **टाइम** इज़ इट?", "कति बज्यो?", "🕐"],
+        ["oclock", "It is seven o'clock.", "इट इज़ सेव़न अ**क्लक**", "सात बज्यो।", "🕖"],
+        ["half", "It is half past seven.", "इट इज़ हाफ़ पास्ट **सेव़न**", "साढे सात बज्यो।", "🕢"],
+        ["monday", "Today is Monday.", "टुडे इज़ **मन्**डे", "आज सोमबार हो।", "📅"],
+        ["sunday", "Sunday", "**सन्**डे", "आइतबार", "☀️"],
+        ["everyweek", "every week", "एव़्री **वीक**", "हरेक हप्ता", "🗓️"],
+        ["afternoon2", "in the afternoon", "इन द आफ़्टर**नून**", "दिउँसो", "🌤️"]
+      ],
+      "grammar": {
+        "title": "सातै बार, र at / on",
+        "lines": ["समयसँग **at** (at six), बारसँग **on** (on Sunday)।", "Wednesday मा बीचको d बोलिँदैन: वेन्ज़्डे।"],
+        "table": [["Sunday  सन्डे", "आइतबार"], ["Monday  मन्डे", "सोमबार"], ["Tuesday  ट्यूज़्डे", "मङ्गलबार"], ["Wednesday  वेन्ज़्डे", "बुधबार"], ["Thursday  थर्ज़्डे", "बिहीबार"], ["Friday  फ़्राइडे", "शुक्रबार"], ["Saturday  स्याटर्डे", "शनिबार"]],
+        "ex": [["I go to the temple on Saturday.", "म शनिबार मन्दिर जान्छु।"], ["I wake up at six o'clock.", "म छ बजे उठ्छु।"]]
+      },
+      "speak": ["whattime", "half", "monday"],
+      "quiz": [
+        ["reply", "What time is it?", "It is seven o'clock.", ["Today is Monday.", "I am fine."], "कति बज्यो?"],
+        ["mc", "बुधबारलाई अङ्ग्रेजीमा के भन्छ?", "Wednesday", ["Thursday", "Tuesday"]],
+        ["gap", "I go to the temple ___ Saturday.", "on", ["at", "in"], "म शनिबार मन्दिर जान्छु।"],
+        ["gap", "I wake up ___ six o'clock.", "at", ["on", "in"], "म छ बजे उठ्छु।"],
+        ["mc", "सुन्नुहोस्: कति बज्यो?", "७:३०", ["७:००", "६:३०"], "It is half past seven."]
+      ]
+    },
+    {
+      "id": "u2l6", "title_ne": "को? के? कहाँ? कहिले?", "title_en": "Question words", "emoji": "❓",
+      "intro": "प्रश्न सोध्ने शब्द सिकेपछि जोसँग पनि कुरा सुरु गर्न सकिन्छ।",
+      "items": [
+        ["who", "Who is she?", "हू इज़ **शी**?", "उनी को हुन्?", "🧑"],
+        ["where", "Where do you live?", "वेयर डु यू **लिव़**?", "तपाईं कहाँ बस्नुहुन्छ?", "📍"],
+        ["live", "I live in Darjeeling.", "आइ लिव़ इन दार्**जी**लिङ", "म दार्जिलिङमा बस्छु।", "🏔️"],
+        ["when", "When is your birthday?", "वेन इज़ योर **बर्थ्**डे?", "तपाईंको जन्मदिन कहिले हो?", "🎂"],
+        ["why", "Why are you sad?", "वाइ आर यू **स्याड**?", "तपाईं किन उदास हुनुहुन्छ?", "😢"],
+        ["howmuch", "How much is this?", "हाउ **मच** इज़ दिस?", "यो कति पर्छ?", "💰"],
+        ["whatdo", "What do you do?", "ह्वाट डु यू **डु**?", "तपाईं के काम गर्नुहुन्छ?", "💼"]
+      ],
+      "grammar": {
+        "title": "प्रश्न शब्दहरू",
+        "lines": ["प्रश्न शब्द सधैं वाक्यको सुरुमा आउँछ: **Where** do you live?"],
+        "table": [["What?", "के?"], ["Where?", "कहाँ?"], ["Who?", "को?"], ["When?", "कहिले?"], ["Why?", "किन?"], ["How?", "कसरी? / कस्तो?"], ["How much?", "कति (पैसा)?"]],
+        "ex": [["What do you do?", "तपाईं के काम गर्नुहुन्छ?"], ["I am a housewife.", "म गृहिणी हुँ।"]]
+      },
+      "speak": ["where", "live", "whatdo"],
+      "quiz": [
+        ["gap", "___ is your birthday?", "When", ["Who", "Where"], "तपाईंको जन्मदिन कहिले हो?"],
+        ["gap", "___ do you live?", "Where", ["When", "Who"], "तपाईं कहाँ बस्नुहुन्छ?"],
+        ["reply", "What do you do?", "I am a housewife.", ["I live in Darjeeling.", "It is half past seven."], "तपाईं के काम गर्नुहुन्छ?"],
+        ["build", "Where do you live?", "तपाईं कहाँ बस्नुहुन्छ?"]
+      ]
+    },
+    {
+      "id": "u2l7", "title_ne": "ठूला अङ्क र पैसा", "title_en": "Big numbers and money", "emoji": "💵",
+      "intro": "पसलमा मोलमोलाइ गर्न २०, ५०, १०० र १००० भन्न सिकौं।",
+      "items": [
+        ["twenty", "twenty", "**ट्वे**न्टी", "बीस (२०)", "🔢"],
+        ["thirty", "thirty", "**थर्**टी", "तीस (३०)", "🔢"],
+        ["fifty", "fifty", "**फ़िफ़्**टी", "पचास (५०)", "💵"],
+        ["hundred", "one hundred", "वन **हन्**ड्रड", "एक सय (१००)", "💯"],
+        ["thousand", "one thousand", "वन **थाउ**ज़न्ड", "एक हजार (१०००)", "💰"],
+        ["rupees", "two hundred rupees", "टू हन्ड्रड **रु**पीज़", "दुई सय रुपैयाँ", "💵"],
+        ["fiftyrs", "It is fifty rupees.", "इट इज़ फ़िफ़्टी **रु**पीज़", "यो पचास रुपैयाँ पर्छ।", "🏷️"]
+      ],
+      "grammar": {
+        "title": "दहाइहरू (२०, ३०, ४० ...)",
+        "lines": ["thir**teen** (१३) र **thir**ty (३०) मा ध्यान: १३ मा पछाडि जोड, ३० मा अगाडि जोड।", "२५ = twenty-five (ट्वेन्टी फ़ाइव़): दहाइ अनि एकाइ।"],
+        "table": [["20 twenty", "ट्वेन्टी"], ["30 thirty", "थर्टी"], ["40 forty", "फ़ोर्टी"], ["50 fifty", "फ़िफ़्टी"], ["60 sixty", "सिक्स्टी"], ["70 seventy", "सेव़न्टी"], ["80 eighty", "एटी"], ["90 ninety", "नाइन्टी"]],
+        "ex": [["twenty-five rupees", "पच्चीस रुपैयाँ"], ["one hundred and fifty", "एक सय पचास"]]
+      },
+      "speak": ["fiftyrs", "rupees", "thousand"],
+      "quiz": [
+        ["mc", "सुन्नुहोस्: कुन अङ्क हो?", "50", ["15", "5"], "fifty"],
+        ["mc", "सुन्नुहोस्: कति पैसा?", "२०० रुपैयाँ", ["२० रुपैयाँ", "१२० रुपैयाँ"], "It is two hundred rupees."],
+        ["mc", "सुन्नुहोस्: कुन अङ्क हो?", "30", ["13", "3"], "thirty"],
+        ["mc", "सुन्नुहोस्: कुन अङ्क हो?", "1000", ["100", "10"], "one thousand"]
+      ]
+    },
+    {
+      "id": "u2l8", "title_ne": "किनमेल", "title_en": "Shopping", "emoji": "🛍️",
+      "intro": "पसलमा चाहिने कुरा माग्न, मूल्य सोध्न र मोलमोलाइ गर्न सिकौं।",
+      "items": [
+        ["want", "I want two kilos of potatoes.", "आइ वन्ट टू **की**लोज़ अव़ पटेटोज़", "मलाई दुई किलो आलु चाहियो।", "🥔"],
+        ["cheap", "cheap", "चीप", "सस्तो", "👍"],
+        ["expensive", "expensive", "इक्**स्पेन्**सिव़", "महँगो", "💸"],
+        ["toodear", "That is too expensive.", "द्याट इज़ टू इक्**स्पेन्**सिव़", "त्यो धेरै महँगो भयो।", "😮"],
+        ["cheaper", "Can you make it cheaper?", "क्यान यू मेक इट **ची**पर?", "अलि सस्तो गरिदिनुहुन्छ?", "🙏"],
+        ["money", "Here is the money.", "हियर इज़ द **म**नी", "पैसा लिनुहोस्।", "💵"],
+        ["bagplease", "Can I have a bag?", "क्यान आइ ह्याव़ अ **ब्याग**?", "मलाई एउटा झोला दिनुहुन्छ?", "🛍️"],
+        ["thatsall", "That's all, thank you.", "द्याट्स **अल**, थ्याङ्क यू", "यति नै हो, धन्यवाद।", "✅"]
+      ],
+      "grammar": {
+        "title": "I want / I would like",
+        "lines": ["I want = मलाई चाहियो। अझ विनम्र: I would like (आइ वुड लाइक)।", "पसलेले सोध्छन्: Anything else? (अरू केही?)"],
+        "table": [["I want tea.", "मलाई चिया चाहियो।"], ["I would like tea, please.", "मलाई चिया दिनुहोस् न (विनम्र)"], ["How much?", "कति पर्छ?"], ["too expensive", "धेरै महँगो"]],
+        "ex": [["Anything else?", "अरू केही?"], ["No, that's all.", "अहँ, यति नै।"]]
+      },
+      "speak": ["toodear", "cheaper", "thatsall"],
+      "quiz": [
+        ["reply", "That is five hundred rupees.", "That is too expensive.", ["Good night!", "Yes, I am."], "त्यो पाँच सय रुपैयाँ पर्छ।"],
+        ["build", "Can you make it cheaper?", "अलि सस्तो गरिदिनुहुन्छ?"],
+        ["gap", "I ___ two kilos of potatoes.", "want", ["wants", "am"], "मलाई दुई किलो आलु चाहियो।"],
+        ["reply", "Anything else?", "That's all, thank you.", ["Where are you from?", "I am hungry."], "अरू केही?"]
+      ]
+    },
+    {
+      "id": "u2l9", "title_ne": "कुराकानी: तरकारी बजारमा", "title_en": "Talk: at the vegetable market", "emoji": "🥕",
+      "intro": "बजारमा तरकारी किन्ने पूरा कुराकानी गरौं।",
+      "items": [
+        ["tomatoes", "How much are the tomatoes?", "हाउ मच आर द ट**मा**टोज़?", "गोलभेँडा कति हो?", "🍅"],
+        ["akilo", "sixty rupees a kilo", "सिक्स्टी रुपीज़ अ **की**लो", "किलोको साठी रुपैयाँ", "⚖️"],
+        ["onions", "one kilo of onions", "वन **की**लो अव़ अनियन्ज़", "एक किलो प्याज", "🧅"],
+        ["anything", "Anything else?", "एनिथिङ **एल्स**?", "अरू केही?", "🛒"],
+        ["niceday", "Have a nice day!", "ह्याव़ अ नाइस **डे**!", "तपाईंको दिन राम्रो रहोस्!", "🌞"],
+        ["youtoo", "You too.", "यू **टू**", "तपाईंलाई पनि।", "😊"]
+      ],
+      "speak": ["tomatoes", "niceday"],
+      "people": {"A": "🧑‍🌾 तरकारी पसले"},
+      "talk": [
+        ["A", "Good morning! What would you like?", "गुड मर्निङ! ह्वाट वुड यू लाइक?", "शुभ प्रभात! के चाहियो?"],
+        ["Y", "Good morning! How much are the tomatoes?", "गुड मर्निङ! हाउ मच आर द टमाटोज़?", "शुभ प्रभात! गोलभेँडा कति हो?"],
+        ["A", "Sixty rupees a kilo.", "सिक्स्टी रुपीज़ अ कीलो।", "किलोको साठी रुपैयाँ।"],
+        ["Y", "I want two kilos, please.", "आइ वन्ट टू कीलोज़, प्लीज़।", "मलाई दुई किलो दिनुहोस्।"],
+        ["A", "Here you are. Anything else?", "हियर यू आर। एनिथिङ एल्स?", "लिनुहोस्। अरू केही?"],
+        ["Y", "Yes, one kilo of onions. How much is that?", "येस, वन कीलो अव़ अनियन्ज़। हाउ मच इज़ द्याट?", "हजुर, एक किलो प्याज। सबै कति भयो?"],
+        ["A", "That is one hundred and sixty rupees.", "द्याट इज़ वन हन्ड्रड ऍन्ड सिक्स्टी रुपीज़।", "एक सय साठी रुपैयाँ भयो।"],
+        ["Y", "That is too expensive. Can you make it cheaper?", "द्याट इज़ टू इक्स्पेन्सिव़। क्यान यू मेक इट चीपर?", "धेरै महँगो भयो। अलि सस्तो गरिदिनुहुन्छ?"],
+        ["A", "Okay, one hundred and fifty.", "ओके, वन हन्ड्रड ऍन्ड फ़िफ़्टी।", "ल ठिक छ, एक सय पचास।"],
+        ["Y", "Thank you. Here is the money.", "थ्याङ्क यू। हियर इज़ द मनी।", "धन्यवाद। पैसा लिनुहोस्।"],
+        ["A", "Thank you! Have a nice day!", "थ्याङ्क यू! ह्याव़ अ नाइस डे!", "धन्यवाद! तपाईंको दिन राम्रो रहोस्!"],
+        ["Y", "You too. Goodbye!", "यू टू। गुडबाइ!", "तपाईंलाई पनि। बिदा!"]
+      ],
+      "quiz": [
+        ["reply", "Have a nice day!", "You too. Goodbye!", ["Anything else?", "Sixty rupees a kilo."], "तपाईंको दिन राम्रो रहोस्!"],
+        ["reply", "Sixty rupees a kilo.", "I want two kilos, please.", ["I am two kilos.", "Have a nice day!"]],
+        ["reply", "Anything else?", "No, that's all, thank you.", ["Yes, I do.", "Good evening!"]],
+        ["build", "How much are the tomatoes?", "गोलभेँडा कति हो?"]
+      ]
+    }
+  ]
+}
