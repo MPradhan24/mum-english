@@ -94,6 +94,7 @@ button { font: inherit; color: inherit; border: 0; background: none; cursor: poi
 .lrow .em { font-size: 1.8rem; }
 .lrow .t { flex: 1; line-height: 1.3; }
 .lrow .t small { display: block; color: var(--soft); font-size: .8rem; }
+.lrow.on { border-color: var(--green); background: var(--green-bg); }
 .lrow.locked { opacity: .45; }
 .lrow .st { font-size: .9rem; white-space: nowrap; }
 

@@ -1,5 +1,5 @@
 // Offline cache. build.py rewrites the version below whenever the app or lessons change.
-const V = 'me-718990ae';
+const V = 'me-c0d9b04e';
 const FILES = ['./', 'index.html', 'app.css', 'app.js', 'lessons.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png'];
 

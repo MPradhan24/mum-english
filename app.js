@@ -135,10 +135,13 @@
   }
   function loadVoices() {
     if (!TTS.ok) return;
-    TTS.voices = speechSynthesis.getVoices().filter(v => /^en/i.test(v.lang));
+    const before = TTS.voices.length;
+    TTS.voices = speechSynthesis.getVoices().filter(v => /^en/i.test(v.lang)).sort((a, b) => scoreVoice(b) - scoreVoice(a));
     let v = st.set.voice && TTS.voices.find(x => x.voiceURI === st.set.voice);
-    if (!v) v = TTS.voices.slice().sort((a, b) => scoreVoice(b) - scoreVoice(a))[0];
+    if (!v) v = TTS.voices[0];
     TTS.voice = v || null;
+    // Android often lists its voices a moment after the page opens: refresh the settings screen if it is showing
+    if (TTS.voices.length !== before && document.getElementById('voices')) settings('', true);
   }
   if (TTS.ok) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
   function speak(text, slow, onend) {
@@ -148,6 +151,7 @@
       const u = new SpeechSynthesisUtterance(text);
       if (TTS.voice) { u.voice = TTS.voice; u.lang = TTS.voice.lang; } else u.lang = 'en-IN';
       u.rate = slow ? 0.6 : (st.set.rate || 0.85);
+      u.pitch = st.set.pitch || 1;
       if (onend) { u.onend = onend; u.onerror = onend; }
       speechSynthesis.speak(u);
     } catch (e) { if (onend) onend(); }
@@ -279,17 +283,25 @@
     view(h);
   }
 
-  function settings(msg) {
+  function settings(msg, keepScroll) {
     S = null; stopAll();
     const seg = (act, cur, opts) => `<div class="seg">${opts.map(o => `<button class="${cur === o[0] ? 'on' : ''}" data-a="${act}" data-v="${o[0]}">${o[1]}</button>`).join('')}</div>`;
-    const vopts = TTS.voices.map(v => `<option value="${esc(v.voiceURI)}" ${TTS.voice && v.voiceURI === TTS.voice.voiceURI ? 'selected' : ''}>${esc(v.name)} (${esc(v.lang)})</option>`).join('');
+    const ACCENT = { 'en-in': '🇮🇳 भारतीय', 'en-gb': '🇬🇧 बेलायती', 'en-us': '🇺🇸 अमेरिकी', 'en-au': '🇦🇺 अस्ट्रेलियाली', 'en-ca': '🇨🇦 क्यानडेली', 'en-ie': '🇮🇪 आइरिस', 'en-za': '🇿🇦 दक्षिण अफ्रिकी', 'en-nz': '🇳🇿 न्युजिल्यान्डी' };
+    const vbtns = TTS.voices.map((v, i) => {
+      const on = TTS.voice && v.voiceURI === TTS.voice.voiceURI;
+      const acc = ACCENT[v.lang.replace('_', '-').toLowerCase()] || v.lang;
+      return `<button class="lrow ${on ? 'on' : ''}" data-a="pickVoice" data-v="${i}"><span class="em">${on ? '✅' : '🔈'}</span>
+        <span class="t">${esc(acc)} आवाज ${nn(i + 1)}<small class="en">${esc(v.name)}</small></span><span class="st">▶</span></button>`;
+    }).join('');
     let h = `<div class="top"><button class="x" data-a="home" aria-label="घर">←</button><div class="hello" style="margin:0">⚙️ सेटिङ</div></div>
       ${msg ? `<div class="done-today">${msg}</div>` : ''}
       <div class="set-h">अक्षरको आकार</div>${seg('size', st.set.size, [[1, 'ठूलो'], [1.15, 'अझ ठूलो'], [1.3, 'धेरै ठूलो']])}
       <div class="set-h">बोल्ने गति</div>${seg('rate', st.set.rate, [[0.7, 'बिस्तारै'], [0.85, 'सामान्य'], [1, 'छिटो']])}
-      <div class="set-h">आवाज</div>
-      ${TTS.voices.length ? `<select id="voice">${vopts}</select>` : '<p class="small">यो फोनमा अङ्ग्रेजी आवाज भेटिएन। Settings → Text-to-speech मा Google आवाज राख्नुहोस्।</p>'}
-      <button class="btn blue" data-a="testVoice">🔊 सुन्नुहोस्</button>
+      <div class="set-h">आवाज छान्नुहोस्</div>
+      <p class="small">एउटा थिच्नुहोस्, सुन्नुहोस्। मन परेको आवाजमा ✅ लाग्छ।</p>
+      <div id="voices">${TTS.voices.length ? vbtns : '<p class="small">आवाजहरू खोज्दै... केही नआए फोनको Settings मा Google Text-to-speech राख्नुहोस्।</p>'}</div>
+      <div class="set-h">आवाजको स्वर</div>${seg('pitch', st.set.pitch || 1, [[0.9, 'मोटो'], [1, 'सामान्य'], [1.15, 'मसिनो']])}
+      <div class="note">💡 <b>अझ राम्रो आवाज चाहिए?</b> फोनको <b>Settings</b> मा "Text-to-speech" खोज्नुहोस् → <b>Google</b> को ⚙️ → <b>Install voice data</b> → <b>English (India)</b> → त्यहाँ Voice I, II, III, IV मध्ये मन परेको छान्नुहोस् (Wi-Fi मा डाउनलोड गर्नुहोस्)। अनि यहाँ फर्केर फेरि सुन्नुहोस्।</div>
       <div class="set-h">ब्याकअप (नयाँ फोनमा सार्न)</div>
       <p class="small">यो कोड कपी गरेर कतै राख्नुहोस् (जस्तै WhatsApp मा आफैंलाई पठाउनुहोस्)। नयाँ फोनमा तल टाँसेर "फिर्ता ल्याउनुहोस्" थिच्नुहोस्।</p>
       <textarea id="bk" readonly>${esc(JSON.stringify(st))}</textarea>
@@ -299,9 +311,7 @@
       <div class="set-h">सबै मेटाउने</div>
       <button class="btn white" data-a="reset">🗑️ सुरुदेखि सुरु गर्नुहोस्</button>
       <p class="small center">संस्करण ${esc(window.APP_VERSION || '')}</p>`;
-    view(h);
-    const sel = document.getElementById('voice');
-    if (sel) sel.onchange = () => { st.set.voice = sel.value; save(); loadVoices(); speak('Hello! How are you?'); };
+    view(h, keepScroll);
   }
 
   // ---------- building a session
@@ -644,8 +654,10 @@
     talkAgain: () => { const s = S.steps[S.i]; s.at = 0; s.finished = false; rTalk(); },
     install: async () => { if (!installEvt) return; installEvt.prompt(); try { await installEvt.userChoice; } catch (e) { /* ignore */ } installEvt = null; home(); },
     hideInstall: () => { st.hideInstall = true; save(); home(); },
-    size: v => { st.set.size = +v; save(); applySize(); settings(); },
-    rate: v => { st.set.rate = +v; save(); settings(); speak('Good morning! How are you?'); },
+    size: v => { st.set.size = +v; save(); applySize(); settings('', true); },
+    rate: v => { st.set.rate = +v; save(); settings('', true); speak('Good morning! How are you?'); },
+    pitch: v => { st.set.pitch = +v; save(); settings('', true); speak('Good morning! How are you?'); },
+    pickVoice: v => { const vo = TTS.voices[+v]; if (!vo) return; st.set.voice = vo.voiceURI; save(); loadVoices(); settings('', true); speak('Hello! My name is Maya. Nice to meet you.'); },
     testVoice: () => speak('Hello! My name is Maya. Nice to meet you.'),
     copyBackup: async () => {
       const t = document.getElementById('bk');
