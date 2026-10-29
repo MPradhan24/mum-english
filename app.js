@@ -15,8 +15,7 @@
   // ---------- small helpers
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const pron = s => esc(s).replace(/[*][*](.+?)[*][*]/g, '<b>$1</b>');
-  const NEDIG = '०१२३४५६७८९';
-  const nn = n => String(n).replace(/[0-9]/g, d => NEDIG[+d]);
+  const nn = n => String(n); // plain digits: she reads these on her phone every day
   const pickOne = a => a[Math.floor(Math.random() * a.length)];
   function shuffle(a) {
     a = a.slice();
@@ -242,42 +241,42 @@
     S = null; stopAll();
     const L = nextLesson(), t = today(), due = dueCards(99).length, sk = streak();
     const doneToday = st.lastNew === t;
-    let h = `<div class="top"><div class="hello">नमस्ते! 🙏</div><button class="gear" data-a="settings" aria-label="सेटिङ">⚙️</button></div>
+    let h = `<div class="top"><div class="hello">नमस्ते! 🙏</div><button class="gear" data-a="settings" aria-label="Settings">⚙️</button></div>
       <p class="sub">आज पनि अलिकति अङ्ग्रेजी सिकौं।</p>
-      <div class="streak"><span class="fire">${sk ? '🔥' : '🌱'}</span><div>${sk ? nn(sk) + ' दिन लगातार!' : 'आज सुरु गरौं!'}
-      <div class="small">पाठ सकियो: ${nn(doneCount())} / ${nn(LESSONS.length)}</div></div></div>`;
+      <div class="streak"><span class="fire">${sk ? '🔥' : '🌱'}</span><div>${sk ? sk + '-day streak!' : 'Start today!'}
+      <div class="small">Lessons done: ${nn(doneCount())} / ${nn(LESSONS.length)}</div></div></div>`;
     if (!L) {
-      h += `<div class="done-today">🎉 सबै पाठ सकियो! तपाईं अब अङ्ग्रेजीमा कुरा गर्न सक्नुहुन्छ।</div>
-        <button class="btn huge green" data-a="review">🔁 दोहोर्याऔं<small>${due ? nn(due) + ' वटा दोहोर्याउन बाँकी' : 'पुराना शब्दहरू'}</small></button>`;
+      h += `<div class="done-today">🎉 All lessons done! तपाईं अब अङ्ग्रेजीमा कुरा गर्न सक्नुहुन्छ।</div>
+        <button class="btn huge green" data-a="review">🔁 Review<small>${due ? due + ' words' : 'Old words'}</small></button>`;
     } else if (doneToday) {
-      h += `<div class="done-today">✓ आजको पाठ सकियो! स्याबास! 👏</div>`;
-      if (due) h += `<button class="btn huge green" data-a="review">🔁 दोहोर्याऔं<small>${nn(due)} वटा</small></button>`;
-      h += `<button class="btn white" data-a="lesson" data-v="${L.id}">अर्को पाठ पनि गर्ने? <br>पाठ ${nn(L.n)}: ${esc(L.title_ne)}</button>`;
+      h += `<div class="done-today">✓ Today's lesson done! स्याबास! 👏</div>`;
+      if (due) h += `<button class="btn huge green" data-a="review">🔁 Review<small>${due} words</small></button>`;
+      h += `<button class="btn white" data-a="lesson" data-v="${L.id}">Next Lesson ▶<br>Lesson ${L.n}: ${esc(L.title_en)}</button>`;
     } else {
-      h += `<button class="btn huge" data-a="lesson" data-v="${L.id}">▶ आजको पाठ<small>पाठ ${nn(L.n)}: ${esc(L.emoji)} ${esc(L.title_ne)}</small></button>`;
-      if (due) h += `<p class="small center">सुरुमा ${nn(Math.min(due, 8))} वटा पुराना शब्द दोहोर्याइन्छ।</p>`;
+      h += `<button class="btn huge" data-a="lesson" data-v="${L.id}">▶ Today's Lesson<small>Lesson ${L.n}: ${esc(L.emoji)} ${esc(L.title_en)}</small></button>`;
+      if (due) h += `<p class="small center">पहिले ${Math.min(due, 8)} वटा पुराना शब्दको Review हुन्छ।</p>`;
     }
-    h += `<button class="btn white" data-a="list">📚 सबै पाठहरू</button>`;
+    h += `<button class="btn white" data-a="list">📚 All Lessons</button>`;
     if (!standalone() && !st.hideInstall) {
-      h += `<div class="banner"><p><b>📲 यो एपलाई फोनको होम स्क्रिनमा राख्नुहोस्</b></p>` +
-        (installEvt ? `<button class="btn blue" data-a="install">होम स्क्रिनमा राख्नुहोस्</button>`
+      h += `<div class="banner"><p><b>📲 Install this app</b></p>` +
+        (installEvt ? `<button class="btn blue" data-a="install">📲 Install App</button>`
           : `<p class="small">Chrome मा माथि दायाँ <b>⋮</b> थिच्नुहोस्, अनि <b>"Add to Home screen"</b> वा <b>"Install app"</b> थिच्नुहोस्।</p>`) +
-        `<button class="btn white" data-a="hideInstall" style="min-height:56px">पछि</button></div>`;
+        `<button class="btn white" data-a="hideInstall" style="min-height:56px">Later</button></div>`;
     }
     view(h);
   }
 
   function list() {
     S = null; stopAll();
-    let h = `<div class="top"><button class="x" data-a="home" aria-label="घर">←</button><div class="hello" style="margin:0">📚 सबै पाठहरू</div></div>`;
+    let h = `<div class="top"><button class="x" data-a="home" aria-label="Home">←</button><div class="hello" style="margin:0">📚 All Lessons</div></div>`;
     const next = nextLesson();
     UNITS.forEach(U => {
-      h += `<div class="unit-h">${esc(U.emoji)} भाग ${nn(U.n)}: ${esc(U.title_ne)} <span class="small en">${esc(U.title_en)}</span></div>`;
+      h += `<div class="unit-h">${esc(U.emoji)} Unit ${U.n}: ${esc(U.title_en)} <span class="small">${esc(U.title_ne)}</span></div>`;
       LESSONS.filter(L => L.unit === U.n).forEach(L => {
         const d = st.done[L.id], open = unlocked(L);
         const stat = d ? '⭐'.repeat(d.stars) : (next === L ? '▶' : '🔒');
         h += `<button class="lrow ${open ? '' : 'locked'}" ${open ? `data-a="lesson" data-v="${L.id}"` : ''}>
-          <span class="em">${esc(L.emoji)}</span><span class="t">पाठ ${nn(L.n)}: ${esc(L.title_ne)}<small class="en">${esc(L.title_en)}</small></span><span class="st">${stat}</span></button>`;
+          <span class="em">${esc(L.emoji)}</span><span class="t"><span class="en">${esc(L.title_en)}</span><small>Lesson ${L.n} · ${esc(L.title_ne)}</small></span><span class="st">${stat}</span></button>`;
       });
     });
     view(h);
@@ -286,31 +285,31 @@
   function settings(msg, keepScroll) {
     S = null; stopAll();
     const seg = (act, cur, opts) => `<div class="seg">${opts.map(o => `<button class="${cur === o[0] ? 'on' : ''}" data-a="${act}" data-v="${o[0]}">${o[1]}</button>`).join('')}</div>`;
-    const ACCENT = { 'en-in': '🇮🇳 भारतीय', 'en-gb': '🇬🇧 बेलायती', 'en-us': '🇺🇸 अमेरिकी', 'en-au': '🇦🇺 अस्ट्रेलियाली', 'en-ca': '🇨🇦 क्यानडेली', 'en-ie': '🇮🇪 आइरिस', 'en-za': '🇿🇦 दक्षिण अफ्रिकी', 'en-nz': '🇳🇿 न्युजिल्यान्डी' };
+    const ACCENT = { 'en-in': '🇮🇳 Indian English', 'en-gb': '🇬🇧 UK English', 'en-us': '🇺🇸 American English', 'en-au': '🇦🇺 Australian English', 'en-ca': '🇨🇦 Canadian English', 'en-ie': '🇮🇪 Irish English', 'en-za': '🇿🇦 South African English', 'en-nz': '🇳🇿 New Zealand English' };
     const vbtns = TTS.voices.map((v, i) => {
       const on = TTS.voice && v.voiceURI === TTS.voice.voiceURI;
       const acc = ACCENT[v.lang.replace('_', '-').toLowerCase()] || v.lang;
       return `<button class="lrow ${on ? 'on' : ''}" data-a="pickVoice" data-v="${i}"><span class="em">${on ? '✅' : '🔈'}</span>
-        <span class="t">${esc(acc)} आवाज ${nn(i + 1)}<small class="en">${esc(v.name)}</small></span><span class="st">▶</span></button>`;
+        <span class="t">${esc(acc)} · Voice ${i + 1}<small class="en">${esc(v.name)}</small></span><span class="st">▶</span></button>`;
     }).join('');
-    let h = `<div class="top"><button class="x" data-a="home" aria-label="घर">←</button><div class="hello" style="margin:0">⚙️ सेटिङ</div></div>
+    let h = `<div class="top"><button class="x" data-a="home" aria-label="Home">←</button><div class="hello" style="margin:0">⚙️ Settings</div></div>
       ${msg ? `<div class="done-today">${msg}</div>` : ''}
-      <div class="set-h">अक्षरको आकार</div>${seg('size', st.set.size, [[1, 'ठूलो'], [1.15, 'अझ ठूलो'], [1.3, 'धेरै ठूलो']])}
-      <div class="set-h">बोल्ने गति</div>${seg('rate', st.set.rate, [[0.7, 'बिस्तारै'], [0.85, 'सामान्य'], [1, 'छिटो']])}
-      <div class="set-h">आवाज छान्नुहोस्</div>
+      <div class="set-h">Font Size</div>${seg('size', st.set.size, [[1, 'Big'], [1.15, 'Bigger'], [1.3, 'Biggest']])}
+      <div class="set-h">Speech Rate</div>${seg('rate', st.set.rate, [[0.7, 'Slow'], [0.85, 'Normal'], [1, 'Fast']])}
+      <div class="set-h">Voice</div>
       <p class="small">एउटा थिच्नुहोस्, सुन्नुहोस्। मन परेको आवाजमा ✅ लाग्छ।</p>
       <div id="voices">${TTS.voices.length ? vbtns : '<p class="small">आवाजहरू खोज्दै... केही नआए फोनको Settings मा Google Text-to-speech राख्नुहोस्।</p>'}</div>
-      <div class="set-h">आवाजको स्वर</div>${seg('pitch', st.set.pitch || 1, [[0.9, 'मोटो'], [1, 'सामान्य'], [1.15, 'मसिनो']])}
+      <div class="set-h">Voice Pitch</div>${seg('pitch', st.set.pitch || 1, [[0.9, 'Low'], [1, 'Normal'], [1.15, 'High']])}
       <div class="note">💡 <b>अझ राम्रो आवाज चाहिए?</b> फोनको <b>Settings</b> मा "Text-to-speech" खोज्नुहोस् → <b>Google</b> को ⚙️ → <b>Install voice data</b> → <b>English (India)</b> → त्यहाँ Voice I, II, III, IV मध्ये मन परेको छान्नुहोस् (Wi-Fi मा डाउनलोड गर्नुहोस्)। अनि यहाँ फर्केर फेरि सुन्नुहोस्।</div>
-      <div class="set-h">ब्याकअप (नयाँ फोनमा सार्न)</div>
-      <p class="small">यो कोड कपी गरेर कतै राख्नुहोस् (जस्तै WhatsApp मा आफैंलाई पठाउनुहोस्)। नयाँ फोनमा तल टाँसेर "फिर्ता ल्याउनुहोस्" थिच्नुहोस्।</p>
+      <div class="set-h">Backup <span class="small">(नयाँ फोनमा सार्न)</span></div>
+      <p class="small">यो code Copy गरेर राख्नुहोस् (जस्तै WhatsApp मा)। नयाँ फोनमा तल Paste गरेर Restore थिच्नुहोस्।</p>
       <textarea id="bk" readonly>${esc(JSON.stringify(st))}</textarea>
-      <button class="btn white" data-a="copyBackup">📋 कपी गर्नुहोस्</button>
-      <textarea id="restore" placeholder="ब्याकअप कोड यहाँ टाँस्नुहोस्"></textarea>
-      <button class="btn white" data-a="restore">⤵️ फिर्ता ल्याउनुहोस्</button>
-      <div class="set-h">सबै मेटाउने</div>
-      <button class="btn white" data-a="reset">🗑️ सुरुदेखि सुरु गर्नुहोस्</button>
-      <p class="small center">संस्करण ${esc(window.APP_VERSION || '')}</p>`;
+      <button class="btn white" data-a="copyBackup">📋 Copy</button>
+      <textarea id="restore" placeholder="Paste backup code here"></textarea>
+      <button class="btn white" data-a="restore">⤵️ Restore</button>
+      <div class="set-h">Reset</div>
+      <button class="btn white" data-a="reset">🗑️ Delete all progress</button>
+      <p class="small center">Version ${esc(window.APP_VERSION || '')}</p>`;
     view(h, keepScroll);
   }
 
@@ -385,17 +384,17 @@
 
   // ---------- session screens
   const SEC = {
-    review: ['s-review', '🔁 दोहोर्याऔं'], learn: ['s-learn', '📖 सिकौं'], grammar: ['s-grammar', '💡 व्याकरण'],
-    speak: ['s-speak', '🗣️ बोल्नुहोस्'], talk: ['s-talk', '💬 कुराकानी'], quiz: ['s-quiz', '✏️ क्विज'],
+    review: ['s-review', '🔁 Review'], learn: ['s-learn', '📖 Learn'], grammar: ['s-grammar', '💡 Grammar'],
+    speak: ['s-speak', '🗣️ Speak'], talk: ['s-talk', '💬 Conversation'], quiz: ['s-quiz', '✏️ Quiz'],
   };
   const chip = (sec, extra) => `<span class="section ${SEC[sec][0]}">${SEC[sec][1]}${extra ? ' ' + extra : ''}</span>`;
   function topbar() {
     const pct = Math.round(100 * S.i / Math.max(1, S.steps.length - 1));
-    return `<div class="top"><button class="x" data-a="quit" aria-label="बन्द">✕</button><div class="bar"><i style="width:${pct}%"></i></div></div>`;
+    return `<div class="top"><button class="x" data-a="quit" aria-label="Close">✕</button><div class="bar"><i style="width:${pct}%"></i></div></div>`;
   }
-  const audioRow = text => `<div class="audio-row"><button class="round" data-a="say" data-v="${esc(text)}" aria-label="सुन्नुहोस्">🔊</button>
-    <button class="round small" data-a="slow" data-v="${esc(text)}" aria-label="बिस्तारै">🐢</button></div>`;
-  const nextBtn = (label, cls) => `<button class="btn ${cls || 'green'}" data-a="next">${label || 'अगाडि ➜'}</button>`;
+  const audioRow = text => `<div class="audio-row"><button class="round" data-a="say" data-v="${esc(text)}" aria-label="Listen">🔊</button>
+    <button class="round small" data-a="slow" data-v="${esc(text)}" aria-label="Slow">🐢</button></div>`;
+  const nextBtn = (label, cls) => `<button class="btn ${cls || 'green'}" data-a="next">${label || 'Next ➜'}</button>`;
 
   function render() {
     stopListen();
@@ -406,11 +405,11 @@
 
   function rIntro() {
     const L = S.L;
-    view(topbar() + `<div class="card"><div class="pic">${esc(L.emoji)}</div><div class="label">पाठ ${nn(L.n)}</div>
-      <div class="big-en" style="font-size:1.5rem">${esc(L.title_ne)}</div><div class="ne en">${esc(L.title_en)}</div>
+    view(topbar() + `<div class="card"><div class="pic">${esc(L.emoji)}</div><div class="label">Lesson ${L.n}</div>
+      <div class="big-en en" style="font-size:1.5rem">${esc(L.title_en)}</div><div class="ne">${esc(L.title_ne)}</div>
       ${L.intro ? `<div class="note">${esc(L.intro)}</div>` : ''}
       <ul class="intro-list">${L.items.slice(0, 4).map(it => `<li>${esc(it.emoji || '•')} <b class="en">${esc(it.en)}</b></li>`).join('')}${L.items.length > 4 ? '<li>...</li>' : ''}</ul></div>
-      <div class="spacer"></div>${nextBtn('सुरु गरौं ▶', '')}`);
+      <div class="spacer"></div>${nextBtn('Start ▶', '')}`);
   }
 
   function rLearn(s) {
@@ -434,17 +433,17 @@
       ${g.table ? `<table class="gtable">${g.table.map(r => `<tr><td class="en">${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>` : ''}
       ${(g.ex || []).map(e => `<div class="gex"><div class="t"><div class="en">${esc(e[0])}</div><div>${esc(e[1])}</div></div>
         <button class="round small" data-a="say" data-v="${esc(e[0])}">🔊</button></div>`).join('')}
-      </div><div class="spacer"></div>${nextBtn('बुझेँ ➜')}`);
+      </div><div class="spacer"></div>${nextBtn('OK ➜')}`);
   }
 
   function rSpeak(s) {
     const it = s.it;
     s.count = s.count || 0;
-    view(topbar() + chip('speak') + `<p class="q-title">सुन्नुहोस्, अनि ठूलो स्वरले <b>३ पटक</b> भन्नुहोस्।</p>
+    view(topbar() + chip('speak') + `<p class="q-title">सुन्नुहोस्, अनि ठूलो स्वरले <b>3 पटक</b> भन्नुहोस्।</p>
       <div class="card"><div class="big-en en">${esc(it.en)}</div><div class="pron">${pron(it.pron)}</div><div class="ne">${esc(it.ne)}</div>
       ${audioRow(it.en)}</div>
       <div class="dots" id="dots"></div>
-      <div class="audio-row">${SR && !micBlocked ? `<button class="round mic" id="mic" data-a="mic" aria-label="बोल्नुहोस्">🎤</button>` : ''}</div>
+      <div class="audio-row">${SR && !micBlocked ? `<button class="round mic" id="mic" data-a="mic" aria-label="Speak">🎤</button>` : ''}</div>
       <div class="heard center" id="heard">${SR && !micBlocked ? '🎤 थिचेर बोल्नुहोस्' : ''}</div>
       <div id="sayctl"></div>`);
     drawSpeak();
@@ -453,7 +452,7 @@
   function drawSpeak() {
     const s = S.steps[S.i];
     document.getElementById('dots').innerHTML = [0, 1, 2].map(i => `<i class="${i < s.count ? 'on' : ''}"></i>`).join('');
-    const rb = canRecord ? `<button class="btn white saidbtn" data-a="record">⏺ आफ्नो आवाज रेकर्ड गरेर सुन्नुहोस्</button>` : '';
+    const rb = canRecord ? `<button class="btn white saidbtn" data-a="record">⏺ Record & Listen</button>` : '';
     document.getElementById('sayctl').innerHTML = s.count >= 3
       ? `<div class="done-today">🎉 स्याबास! तीन पटक भन्नुभयो।</div>${rb}${nextBtn()}`
       : `<button class="btn white saidbtn" data-a="said">✓ मैले भनेँ</button>${rb}`;
@@ -487,12 +486,12 @@
     const ln = L.talk[s.at];
     let ctl;
     if (s.finished) {
-      ctl = `<div class="done-today">🎉 कुराकानी सकियो!</div><button class="btn white" data-a="talkAgain">🔁 फेरि गरौं</button>${nextBtn()}`;
+      ctl = `<div class="done-today">🎉 Conversation done!</div><button class="btn white" data-a="talkAgain">🔁 Again</button>${nextBtn()}`;
     } else if (ln.who === 'Y') {
       ctl = `${audioRow(ln.en)}<div class="audio-row">${SR && !micBlocked ? `<button class="round mic" id="mic" data-a="talkMic">🎤</button>` : ''}</div>
         <div class="heard center" id="heard"></div><button class="btn white saidbtn" data-a="talkSaid">✓ मैले भनेँ</button>`;
     } else {
-      ctl = `${audioRow(ln.en)}${nextBtn('अगाडि ➜', 'blue')}`.replace('data-a="next"', 'data-a="talkNext"');
+      ctl = `${audioRow(ln.en)}${nextBtn('Next ➜', 'blue')}`.replace('data-a="next"', 'data-a="talkNext"');
     }
     view(topbar() + chip('talk') + `<p class="q-title">${esc(L.talk_ne || 'यो कुराकानी गरौं। तपाईंको पालो आउँदा बोल्नुहोस्।')}</p>
       <div class="chat">${chat}</div>${ctl}`, s.at > 0);
@@ -543,9 +542,9 @@
     document.getElementById('line').innerHTML = s.placed.map((ti, k) => `<button class="tile" data-a="unplace" data-v="${k}">${esc(q.tiles[ti])}</button>`).join('');
     document.getElementById('tiles').innerHTML = q.tiles.map((w, i) => `<button class="tile ${s.placed.includes(i) ? 'used' : ''}" data-a="place" data-v="${i}">${esc(w)}</button>`).join('');
     const need = tokens(q.en).length;
-    document.getElementById('checkbox').innerHTML = S.answered ? '' : `<button class="btn" data-a="check" ${s.placed.length >= need ? '' : 'disabled'}>जाँच्नुहोस् ✓</button>`;
+    document.getElementById('checkbox').innerHTML = S.answered ? '' : `<button class="btn" data-a="check" ${s.placed.length >= need ? '' : 'disabled'}>Check ✓</button>`;
   }
-  const PRAISE = ['सही! 🎉', 'स्याबास! 👏', 'एकदम राम्रो! 🌟', 'वाह! सही! 💯'];
+  const PRAISE = ['Correct! 🎉', 'Very good! 👏', 'Excellent! 🌟', 'स्याबास! 💯'];
   function answer(ok, chosen) {
     if (S.answered) return;
     S.answered = true;
@@ -572,10 +571,10 @@
     if (q.t === 'build') drawBuild();
     const right = q.t === 'build' ? q.en : q.t === 'gap' ? q.full : q.t === 'listen' ? q.say + ' = ' + q.ans : q.ans;
     const fb = document.getElementById('fb');
-    fb.innerHTML = `<div class="feedback ${ok ? 'ok' : 'no'}"><div class="fb-t">${ok ? pickOne(PRAISE) : 'ठीक छ, सही उत्तर यो हो:'}</div>
+    fb.innerHTML = `<div class="feedback ${ok ? 'ok' : 'no'}"><div class="fb-t">${ok ? pickOne(PRAISE) : 'Correct answer:'}</div>
       ${ok && q.t !== 'build' ? '' : `<div class="fb-a en"><b>${esc(right)}</b></div>`}
       ${!ok && q.retry ? '' : !ok ? '<div class="small">यो फेरि पछि आउँछ।</div>' : ''}
-      ${nextBtn('अगाडि ➜', ok ? 'green' : '')}</div>`;
+      ${nextBtn('Next ➜', ok ? 'green' : '')}</div>`;
     fb.scrollIntoView({ block: 'end', behavior: 'smooth' });
     if (q.say) setTimeout(() => speak(q.say), 450);
   }
@@ -587,12 +586,12 @@
     const sk = streak();
     view(`<div class="confetti">🎉</div><div class="hello center">स्याबास!</div>
       <div class="stars">${'⭐'.repeat(stars)}</div>
-      <div class="card"><p>${S.total ? `${nn(S.right)} / ${nn(S.total)} सही` : ''}</p>
-      ${S.mode === 'lesson' ? `<p>✓ पाठ ${nn(S.L.n)} सकियो: ${esc(S.L.title_ne)}</p>` : '<p>✓ दोहोर्याइ सकियो</p>'}
-      <p>🔥 ${nn(sk)} दिन लगातार</p>
+      <div class="card"><p>${S.total ? `${S.right} / ${S.total} correct` : ''}</p>
+      ${S.mode === 'lesson' ? `<p>✓ Lesson ${S.L.n} done: ${esc(S.L.title_en)}</p>` : '<p>✓ Review done</p>'}
+      <p>🔥 ${sk}-day streak</p>
       <p class="small">यी शब्दहरू भोलि र पछि फेरि दोहोर्याइन्छ, ताकि नबिर्सियोस्।</p></div>
       <p class="center"><b>भोलि भेटौं! 🙏</b></p><div class="spacer"></div>
-      <button class="btn green" data-a="home">🏠 घर जाऔं</button>`);
+      <button class="btn green" data-a="home">🏠 Home</button>`);
   }
   function finish() {
     if (S.finished) return;
@@ -611,10 +610,10 @@
 
   function quitAsk() {
     stopAll();
-    view(`<div class="confetti">🤔</div><div class="hello center">पाठ छोड्ने हो?</div>
+    view(`<div class="confetti">🤔</div><div class="hello center">Exit lesson?</div>
       <p class="center sub">अहिले छोड्नुभयो भने यो पाठ फेरि सुरुदेखि गर्नुपर्छ।</p><div class="spacer"></div>
-      <button class="btn green huge" data-a="resume">▶ जारी राख्नुहोस्</button>
-      <button class="btn white" data-a="home">छोड्नुहोस्</button>`);
+      <button class="btn green huge" data-a="resume">▶ Continue</button>
+      <button class="btn white" data-a="home">Exit</button>`);
   }
 
   // ---------- actions (every tap goes through here)
@@ -661,13 +660,13 @@
     testVoice: () => speak('Hello! My name is Maya. Nice to meet you.'),
     copyBackup: async () => {
       const t = document.getElementById('bk');
-      try { await navigator.clipboard.writeText(t.value); settings('📋 कपी भयो!'); } catch (e) { t.select(); document.execCommand('copy'); }
+      try { await navigator.clipboard.writeText(t.value); settings('📋 Copied!'); } catch (e) { t.select(); document.execCommand('copy'); }
     },
     restore: () => {
       try {
         const s = JSON.parse(document.getElementById('restore').value);
         if (!s || s.v !== 1 || !s.cards) throw new Error('bad');
-        st = Object.assign(blank(), s); save(); applySize(); settings('✓ ब्याकअप फिर्ता आयो!');
+        st = Object.assign(blank(), s); save(); applySize(); settings('✓ Backup restored!');
       } catch (e) { settings('🙁 यो कोड मिलेन। पूरा कोड टाँस्नुहोस्।'); }
     },
     reset: (v, b) => {
