@@ -176,3 +176,24 @@ button { font: inherit; color: inherit; border: 0; background: none; cursor: poi
 textarea { width: 100%; min-height: 120px; font: 14px/1.4 monospace; border-radius: 16px; border: 3px solid var(--line); padding: 10px; }
 select { width: 100%; min-height: 60px; font: inherit; font-size: .9rem; border-radius: 16px; border: 3px solid var(--line); padding: 8px; background: #fff; }
 .small { font-size: .85rem; color: var(--soft); }
+
+/* Typing answers */
+textarea.write { font: 600 1.25rem/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 96px; padding: 14px 16px; border-radius: 22px; border: 3px solid var(--blue); background: #fff; margin: 6px 0; }
+textarea.write:focus { outline: none; border-color: var(--orange); }
+textarea.write:disabled { background: var(--green-bg); border-color: var(--green); color: var(--ink); }
+.wdiff { font-size: 1.2rem; font-weight: 700; margin: 8px 0 2px; line-height: 2; }
+.wdiff span { padding: 2px 6px; border-radius: 8px; }
+.w-ok { background: var(--green-bg); color: var(--green-d); }
+.w-bad { background: var(--red-bg); color: var(--red); }
+.w-bad.extra { text-decoration: line-through; }
+.w-miss { background: #fff1d6; color: #9a6400; }
+
+/* Syllables and mouth tips */
+.syl { display: flex; justify-content: center; align-items: center; gap: 6px; font-size: 1.35rem; color: var(--orange-d); margin: 4px 0; }
+.syl span { background: #fff1e8; border-radius: 12px; padding: 2px 10px; }
+.syl i { color: var(--soft); font-style: normal; }
+.tip { font-size: .95rem; color: var(--ink); background: #fff6d8; border-radius: 14px; padding: 6px 12px; margin: 6px 0; }
+
+/* Back-chaining */
+.chunked .dim { opacity: .3; }
+.say-now { font-size: 1.5rem; color: var(--blue-d); }

@@ -1,286 +1,466 @@
 {
-  "unit": 1, "title_ne": "नमस्ते! सुरुवात", "title_en": "Hello! The basics", "emoji": "👋",
+  "unit": 1, "title_ne": "वाक्य बनाउने आधार", "title_en": "Sentence building blocks", "emoji": "🧱",
   "lessons": [
     {
-      "id": "u1l1", "title_ne": "नमस्ते र बिदा", "title_en": "Hello and goodbye", "emoji": "👋",
-      "intro": "आज भेट्दा र छुट्टिँदा भन्ने शब्द सिकौं। हरेक शब्द सुन्नुहोस् र ठूलो स्वरले दोहोर्याउनुहोस्।",
+      "id": "u1l1", "title_ne": "नमस्ते! मेरो नाम ...", "title_en": "Hello! My name is ...", "emoji": "👋",
+      "intro": "पहिलो पाठमा आफ्नो परिचय दिने र 'कस्तो छ?' को जवाफ दिने पूरा वाक्य सिकौं। Sita को ठाउँमा आफ्नो नाम भन्न सक्नुहुन्छ।",
       "items": [
-        ["hello", "Hello!", "हे**लो**", "नमस्ते", "👋"],
-        ["morning", "Good morning!", "गुड **मर्**निङ", "शुभ प्रभात (बिहान भेट्दा)", "🌅", "बिहान १२ बजेसम्म भन्ने।"],
-        ["afternoon", "Good afternoon!", "गुड आफ़्टर**नून**", "नमस्ते (दिउँसो भेट्दा)", "☀️", "दिउँसो १२ बजेदेखि साँझ ५ बजेसम्म।"],
-        ["evening", "Good evening!", "गुड **ईव़्**निङ", "नमस्ते (साँझ भेट्दा)", "🌇"],
-        ["night", "Good night!", "गुड **नाइट**", "शुभ रात्रि (सुत्ने बेला)", "🌙", "Good night भेट्दा होइन, छुट्टिँदा वा सुत्न जाँदा मात्र भनिन्छ।"],
-        ["bye", "Goodbye!", "गुड**बाइ**", "बिदा, फेरि भेटौंला", "🙋‍♀️", "छोटकरीमा Bye! पनि भनिन्छ।"],
-        ["tomorrow", "See you tomorrow!", "सी यू टु**मो**रो", "भोलि भेटौंला!", "📅"]
+        ["hello", "Hello! My name is Sita.", "हेलो! माइ **नेम** इज़ सीता", "नमस्ते! मेरो नाम सीता हो।", "🙋‍♀️", "", {"alt": ["Hi! My name is Sita."]}],
+        ["yourname", "What is your name?", "ह्वाट इज़ योर **नेम**?", "तपाईंको नाम के हो?", "❓"],
+        ["howareyou", "How are you?", "हाउ आर **यू**?", "तपाईंलाई कस्तो छ?", "😊"],
+        ["fine", "I am fine, thank you.", "आइ ऍम **फ़ाइन**, **थ्याङ्क** यू", "मलाई ठिक छ, धन्यवाद।", "👍", "am नछुटाउनुहोस्: I am fine (I fine होइन)।", {"alt": ["I am fine, thanks.", "I am well, thank you."]}],
+        ["andyou", "And you?", "ऍन्ड **यू**?", "अनि तपाईंलाई?", "🔄"],
+        ["nice", "Nice to meet you.", "**नाइस** टु **मीट** यू", "तपाईंलाई भेटेर खुसी लाग्यो।", "🤝"],
+        ["bye", "Goodbye! See you tomorrow.", "गुड**बाइ**! सी यू टु**मो**रो", "बिदा! भोलि भेटौंला।", "👋", "", {"alt": ["Bye! See you tomorrow."]}]
       ],
       "grammar": {
         "title": "उच्चारण कसरी पढ्ने?",
         "lines": [
-          "हरेक अङ्ग्रेजी वाक्यमुनि नेपाली अक्षरमा उच्चारण लेखिएको छ।",
-          "जुन भागमुनि रेखा छ (जस्तै गुड **मर्**निङ), त्यो भाग अलि जोडले भन्नुहोस्।",
-          "थोप्ला (़) भएका अक्षर अङ्ग्रेजीका विशेष आवाज हुन्:"
+          "हरेक वाक्यमुनि नेपाली अक्षरमा उच्चारण छ। रेखा भएको भाग (जस्तै **नेम**) अलि जोडले भन्नुहोस्।",
+          "थोप्ला (़) भएका अक्षर अङ्ग्रेजीका विशेष आवाज हुन्: ज़ = z (is = इज़), फ़ = f (fine = फ़ाइन), व़ = v (very)।",
+          "समय अनुसारको नमस्ते पनि हेर्नुहोस्:"
         ],
-        "table": [
-          ["z  =  ज़", "सर्पको जस्तो ज़्ज़्ज़ आवाज (is = इज़)"],
-          ["f  =  फ़", "माथिल्लो दाँतले तल्लो ओठ छोएर हावा फाल्ने"],
-          ["v  =  व़", "फ़ जस्तै दाँत र ओठ, तर घाँटीबाट आवाज (very)"],
-          ["w  =  व", "ओठ गोलो पारेर (water)"]
-        ],
-        "ex": [["Good morning!", "शुभ प्रभात"], ["Good evening!", "साँझको नमस्ते"]]
+        "table": [["Good morning!", "बिहान"], ["Good afternoon!", "दिउँसो"], ["Good evening!", "साँझ"], ["Good night!", "सुत्ने बेला / राति छुट्टिँदा"]],
+        "ex": [["Good morning! How are you?", "शुभ प्रभात! कस्तो छ?"], ["I am fine, thank you. And you?", "ठिक छ, धन्यवाद। अनि तपाईंलाई?"]]
       },
-      "speak": ["hello", "morning", "tomorrow"],
+      "speak": ["hello", "fine", "nice"],
       "quiz": [
-        ["reply", "Good morning!", "Good morning!", ["Good night!", "Goodbye!"], "शुभ प्रभात!"],
-        ["mc", "राति सुत्न जाँदा के भन्ने?", "Good night!", ["Good morning!", "Hello!"]],
-        ["mc", "साँझ ६ बजे कसैलाई भेट्दा के भन्ने?", "Good evening!", ["Good night!", "Good morning!"]],
-        ["build", "See you tomorrow!", "भोलि भेटौंला!"]
+        ["reply", "What is your name?", "My name is Sita.", ["I am fine, thank you.", "Nice to meet you."], "तपाईंको नाम के हो?"],
+        ["reply", "How are you?", "I am fine, thank you.", ["I fine, thank you.", "My name is fine."], "तपाईंलाई कस्तो छ?"],
+        ["reply", "Nice to meet you.", "Nice to meet you too.", ["Goodbye!", "I am fine."]],
+        ["gap", "My name ___ Sita.", "is", ["am", "are"], "मेरो नाम सीता हो।"],
+        ["gap", "I ___ fine, thank you.", "am", ["is", "are"], "मलाई ठिक छ, धन्यवाद।"],
+        ["build", "What is your name?", "तपाईंको नाम के हो?"],
+        ["write", "तपाईंलाई भेटेर खुसी लाग्यो।", "Nice to meet you."]
       ]
     },
     {
-      "id": "u1l2", "title_ne": "मेरो नाम ... हो", "title_en": "My name is ...", "emoji": "🙋‍♀️",
-      "intro": "आफ्नो परिचय दिन सिकौं। Sita को ठाउँमा आफ्नो नाम भनेर अभ्यास गर्नुहोस्।",
-      "items": [
-        ["myname", "My name is Sita.", "माइ **नेम** इज़ सीता", "मेरो नाम सीता हो।", "🙋‍♀️", "Sita को ठाउँमा आफ्नो नाम भन्नुहोस्।"],
-        ["yourname", "What is your name?", "ह्वाट इज़ योर **नेम**?", "तपाईंको नाम के हो?", "❓"],
-        ["nice", "Nice to meet you.", "**नाइस** टु **मीट** यू", "तपाईंलाई भेटेर खुसी लाग्यो।", "🤝"],
-        ["nicetoo", "Nice to meet you too.", "नाइस टु मीट यू **टू**", "तपाईंलाई भेटेर मलाई पनि खुसी लाग्यो।", "😊"],
-        ["wherefrom", "Where are you from?", "**वे**यर आर यू फ़्रम?", "तपाईं कहाँको हुनुहुन्छ?", "🌏"],
-        ["fromdj", "I am from Darjeeling.", "आइ ऍम फ़्रम दार्**जी**लिङ", "म दार्जिलिङको हुँ।", "🏔️"],
-        ["thisis", "This is my son.", "**दिस** इज़ माइ **सन**", "यो मेरो छोरा हो।", "👦", "कसैको परिचय दिँदा This is ... भनिन्छ।"]
-      ],
-      "grammar": {
-        "title": "मेरो र तपाईंको",
-        "lines": ["प्रश्नको शब्दहरू याद गर्नुहोस्। उत्तर दिँदा प्रश्नकै शब्द प्रयोग हुन्छ।"],
-        "table": [["My", "मेरो"], ["Your", "तपाईंको"], ["What?", "के?"], ["Where?", "कहाँ?"]],
-        "ex": [["What is your name?", "तपाईंको नाम के हो?"], ["My name is Sita.", "मेरो नाम सीता हो।"]]
-      },
-      "speak": ["myname", "nice", "fromdj"],
-      "quiz": [
-        ["build", "My name is Sita.", "मेरो नाम सीता हो।"],
-        ["reply", "What is your name?", "My name is Sita.", ["I am fine.", "Good night!"], "तपाईंको नाम के हो?"],
-        ["reply", "Nice to meet you.", "Nice to meet you too.", ["My name is Sita.", "See you tomorrow!"]],
-        ["gap", "Where are you ___?", "from", ["name", "is"], "तपाईं कहाँको हुनुहुन्छ?"],
-        ["reply", "Where are you from?", "I am from Darjeeling.", ["My name is Sita.", "Good morning!"]]
-      ]
-    },
-    {
-      "id": "u1l3", "title_ne": "तपाईंलाई कस्तो छ?", "title_en": "How are you?", "emoji": "😊",
-      "intro": "कसैलाई भेट्दा सबैभन्दा पहिले सोधिने प्रश्न: How are you? यसको उत्तर दिन सिकौं।",
-      "items": [
-        ["howareyou", "How are you?", "हाउ आर **यू**?", "तपाईंलाई कस्तो छ?", "😊"],
-        ["fine", "I am fine, thank you.", "आइ ऍम **फ़ाइन**, **थ्याङ्क** यू", "मलाई ठिक छ, धन्यवाद।", "👍"],
-        ["andyou", "And you?", "ऍन्ड **यू**?", "अनि तपाईंलाई?", "🔄"],
-        ["verywell", "I am very well.", "आइ ऍम व़ेरी **वेल**", "म एकदम राम्रो छु।", "😄", "very मा व़ (दाँत र ओठ), well मा व (ओठ गोलो)।"],
-        ["notbad", "Not bad.", "नट **ब्याड**", "ठिकै छ।", "🙂"],
-        ["tired", "I am a little tired.", "आइ ऍम अ लिटल **टायर्ड**", "म अलि थाकेको छु।", "😮‍💨"],
-        ["thanks", "Thank you.", "**थ्याङ्क** यू", "धन्यवाद।", "🙏", "th: जिब्रोको टुप्पो दाँतको बीचमा राखेर 'थ' भन्नुहोस्।"]
-      ],
-      "grammar": {
-        "title": "छोटो रूप: I am = I'm",
-        "lines": ["बोल्दा मानिसहरू छोटो रूप धेरै प्रयोग गर्छन्। दुवै सही हुन्।"],
-        "table": [["I am → I'm", "आइम"], ["You are → You're", "योर"], ["It is → It's", "इट्स"]],
-        "ex": [["I'm fine, thank you.", "मलाई ठिक छ, धन्यवाद।"], ["It's okay.", "ठिकै छ।"]]
-      },
-      "speak": ["howareyou", "fine", "verywell"],
-      "quiz": [
-        ["reply", "How are you?", "I am fine, thank you.", ["My name is Sita.", "Good night!"], "तपाईंलाई कस्तो छ?"],
-        ["build", "I am fine, thank you.", "मलाई ठिक छ, धन्यवाद।"],
-        ["reply", "I'm fine. And you?", "I am very well, thank you.", ["Nice to meet you.", "Where are you from?"]],
-        ["gap", "How ___ you?", "are", ["is", "am"], "तपाईंलाई कस्तो छ?"]
-      ]
-    },
-    {
-      "id": "u1l4", "title_ne": "म हुँ, उहाँ हुनुहुन्छ", "title_en": "I am, you are, he is", "emoji": "👨‍👩‍👧",
-      "intro": "आज अङ्ग्रेजीको सबैभन्दा महत्त्वपूर्ण क्रिया सिकौं: am, is, are (हुँ, हो, छ)।",
+      "id": "u1l2", "title_ne": "म हुँ, तपाईं हुनुहुन्छ", "title_en": "I am, you are", "emoji": "🙋‍♀️",
+      "intro": "अङ्ग्रेजी वाक्यमा 'हुँ / हो' (am, are) कहिल्यै छुट्दैन। आज I am र You are राम्रोसँग सिकौं।",
       "items": [
         ["mother", "I am a mother.", "आइ ऍम अ **म**दर", "म आमा हुँ।", "👩‍👦"],
+        ["fromdj", "I am from Darjeeling.", "आइ ऍम फ़्रम दार्**जी**लिङ", "म दार्जिलिङको हुँ।", "🏔️"],
+        ["tired", "I am tired.", "आइ ऍम **टा**यर्ड", "म थाकेको छु।", "😮‍💨"],
+        ["happytoday", "I am happy today.", "आइ ऍम **ह्या**पी टुडे", "म आज खुसी छु।", "😊", "", {"alt": ["Today I am happy."]}],
         ["friend", "You are my friend.", "यू आर माइ **फ़्रेन्ड**", "तपाईं मेरो साथी हो।", "🤗"],
+        ["kind", "You are very kind.", "यू आर व़ेरी **काइन्ड**", "तपाईं धेरै दयालु हुनुहुन्छ।", "💖"],
+        ["right", "You are right.", "यू आर **राइट**", "तपाईंले ठिक भन्नुभयो।", "✔️"]
+      ],
+      "grammar": {
+        "title": "I am, You are",
+        "lines": [
+          "नेपालीमा 'हुँ' वाक्यको अन्त्यमा आउँछ: म आमा **हुँ**। अङ्ग्रेजीमा कसले भनेपछि तुरुन्तै: I **am** a mother।",
+          "क्रम सधैं यस्तै: कसले → am / are → के वा कस्तो।",
+          "I सँग सधैं am, You सँग सधैं are। I fine, You kind भन्नु गलत हो।"
+        ],
+        "table": [["I am ...", "म ... हुँ / छु"], ["You are ...", "तपाईं ... हो / हुनुहुन्छ"], ["I am a mother.", "म आमा हुँ।"], ["You are kind.", "तपाईं दयालु हुनुहुन्छ।"]],
+        "ex": [["I am a mother.", "म आमा हुँ।"], ["You are my friend.", "तपाईं मेरो साथी हो।"]]
+      },
+      "speak": ["mother", "fromdj", "kind"],
+      "quiz": [
+        ["gap", "I ___ a mother.", "am", ["are", "is"], "म आमा हुँ।"],
+        ["gap", "You ___ my friend.", "are", ["am", "is"], "तपाईं मेरो साथी हो।"],
+        ["gap", "I ___ from Darjeeling.", "am", ["are", "is"], "म दार्जिलिङको हुँ।"],
+        ["mc", "कुन वाक्य सही हो?", "I am happy.", ["I happy.", "I is happy."]],
+        ["mc", "कुन वाक्य सही हो?", "You are very kind.", ["You very kind.", "You am very kind."]],
+        ["build", "You are very kind.", "तपाईं धेरै दयालु हुनुहुन्छ।", ["am"]],
+        ["write", "म थाकेको छु।", "I am tired."]
+      ]
+    },
+    {
+      "id": "u1l3", "title_ne": "उहाँ हुनुहुन्छ, उनी हुन्, यो हो", "title_en": "He is, she is, it is", "emoji": "👨‍👩‍👧",
+      "intro": "अरू मान्छे र चीजहरूको कुरा गर्दा he, she, it र is प्रयोग हुन्छ।",
+      "items": [
         ["husband", "He is my husband.", "ही इज़ माइ **हज़्**बन्ड", "उहाँ मेरो श्रीमान् हुनुहुन्छ।", "👨"],
         ["daughter", "She is my daughter.", "शी इज़ माइ **डो**टर", "उनी मेरी छोरी हुन्।", "👧"],
-        ["hot", "It is hot today.", "इट इज़ **हट** टुडे", "आज गर्मी छ।", "🌞"],
-        ["happy", "We are happy.", "वी आर **ह्या**पी", "हामी खुसी छौं।", "😊"],
-        ["home", "They are at home.", "दे आर ऍट **होम**", "उनीहरू घरमा छन्।", "🏠"]
+        ["teacher", "She is a teacher.", "शी इज़ अ **टी**चर", "उनी शिक्षिका हुन्।", "👩‍🏫"],
+        ["athome", "He is at home.", "ही इज़ ऍट **होम**", "उहाँ घरमा हुनुहुन्छ।", "🏠"],
+        ["hot", "It is hot today.", "इट इज़ **हट** टुडे", "आज गर्मी छ।", "🌞", "मौसमको कुरामा It is ... भनिन्छ।", {"alt": ["Today it is hot.", "It is hot."]}],
+        ["bighouse", "It is a big house.", "इट इज़ अ बिग **हाउस**", "यो ठूलो घर हो।", "🏡", "", {"alt": ["This is a big house."]}],
+        ["kindman", "My father is a kind man.", "माइ **फ़ा**दर इज़ अ काइन्ड **म्यान**", "मेरो बाबा दयालु मान्छे हुनुहुन्छ।", "👴", "", {"alt": ["My dad is a kind man."]}]
       ],
       "grammar": {
-        "title": "am / is / are = हुँ / हो / छ",
+        "title": "he, she, it → is",
         "lines": [
-          "नेपालीमा 'हुँ, हो, छ' वाक्यको अन्त्यमा आउँछ। अङ्ग्रेजीमा भने सुरुतिरै आउँछ:",
-          "I **am** a mother. = म आमा **हुँ**।",
-          "कसको लागि कुन शब्द? यो तालिका याद गर्नुहोस्:"
+          "पुरुषलाई he (ही), महिलालाई she (शी), चीज, जनावर र मौसमलाई it (इट)।",
+          "नेपालीमा 'उहाँ' पुरुष र महिला दुवैलाई हुन्छ, तर अङ्ग्रेजीमा छुट्याउनुपर्छ।",
+          "he, she, it र एक जना मान्छेको नाम (My father, Maya) सँग सधैं **is**।"
         ],
-        "table": [["I am", "म ... हुँ / छु"], ["You are", "तपाईं ... हो / हुनुहुन्छ"], ["He is / She is", "उहाँ / उनी ... हो / छ"], ["It is", "यो ... हो / छ"], ["We are", "हामी ... हौं / छौं"], ["They are", "उनीहरू ... हुन् / छन्"]],
-        "ex": [["She is my daughter.", "उनी मेरी छोरी हुन्।"], ["They are at home.", "उनीहरू घरमा छन्।"]]
+        "table": [["He is ...", "उहाँ ... हुनुहुन्छ (पुरुष)"], ["She is ...", "उनी ... हुन् (महिला)"], ["It is ...", "यो ... हो / छ (चीज, मौसम)"], ["My father is ...", "मेरो बाबा ... हुनुहुन्छ"]],
+        "ex": [["Maya is my friend.", "माया मेरी साथी हुन्।"], ["It is cold.", "जाडो छ।"]]
       },
-      "speak": ["mother", "husband", "home"],
+      "speak": ["husband", "daughter", "kindman"],
       "quiz": [
         ["gap", "She ___ my daughter.", "is", ["am", "are"], "उनी मेरी छोरी हुन्।"],
-        ["gap", "I ___ a mother.", "am", ["is", "are"], "म आमा हुँ।"],
+        ["gap", "___ is my husband.", "He", ["She", "It"], "उहाँ मेरो श्रीमान् हुनुहुन्छ।"],
+        ["gap", "___ is my daughter.", "She", ["He", "It"], "उनी मेरी छोरी हुन्।"],
+        ["gap", "___ is hot today.", "It", ["He", "She"], "आज गर्मी छ।"],
+        ["mc", "कुन वाक्य सही हो?", "My son is a doctor.", ["My son are a doctor.", "My son a doctor."]],
+        ["build", "She is a teacher.", "उनी शिक्षिका हुन्।", ["he"]],
+        ["write", "उहाँ घरमा हुनुहुन्छ।", "He is at home."]
+      ]
+    },
+    {
+      "id": "u1l4", "title_ne": "हामी हौं, उनीहरू हुन्", "title_en": "We are, they are", "emoji": "👨‍👩‍👧‍👦",
+      "intro": "एकभन्दा बढी मान्छे वा चीजको कुरा गर्दा are। आज सबै (am, is, are) सँगै अभ्यास गरौं।",
+      "items": [
+        ["happy", "We are happy.", "वी आर **ह्या**पी", "हामी खुसी छौं।", "😊"],
+        ["home", "They are at home.", "दे आर ऍट **होम**", "उनीहरू घरमा छन्।", "🏠"],
+        ["india", "We are from India.", "वी आर फ़्रम **इन्**डिया", "हामी भारतका हौं।", "🇮🇳"],
+        ["mychildren", "They are my children.", "दे आर माइ **चिल्**ड्रन", "उनीहरू मेरा छोराछोरी हुन्।", "👨‍👩‍👧"],
+        ["delhi", "My son and daughter are in Delhi.", "माइ सन ऍन्ड डोटर आर इन **डे**ल्ही", "मेरो छोरा र छोरी दिल्लीमा छन्।", "🏙️"],
+        ["goodfriends", "We are good friends.", "वी आर गुड **फ़्रेन्**ड्ज़", "हामी असल साथी हौं।", "🤝"],
+        ["busy", "They are very busy.", "दे आर व़ेरी **बि**ज़ी", "उनीहरू धेरै व्यस्त छन्।", "🏃"]
+      ],
+      "grammar": {
+        "title": "am / is / are: पूरा तालिका",
+        "lines": [
+          "यो तालिका अङ्ग्रेजीको जग हो। राम्रोसँग याद गर्नुहोस्।",
+          "दुई जना वा बढी (My son **and** daughter) भए पनि **are**।"
+        ],
+        "table": [["I am", "म ... हुँ / छु"], ["You are", "तपाईं ... हुनुहुन्छ"], ["He / She / It is", "उहाँ / उनी / यो ... हो / छ"], ["We are", "हामी ... हौं / छौं"], ["They are", "उनीहरू ... हुन् / छन्"]],
+        "ex": [["We are happy.", "हामी खुसी छौं।"], ["My son and daughter are in Delhi.", "मेरो छोरा र छोरी दिल्लीमा छन्।"]]
+      },
+      "speak": ["home", "mychildren", "delhi"],
+      "quiz": [
+        ["gap", "We ___ happy.", "are", ["is", "am"], "हामी खुसी छौं।"],
         ["gap", "They ___ at home.", "are", ["is", "am"], "उनीहरू घरमा छन्।"],
-        ["build", "He is my husband.", "उहाँ मेरो श्रीमान् हुनुहुन्छ।"]
+        ["gap", "My son and daughter ___ in Delhi.", "are", ["is", "am"], "मेरो छोरा र छोरी दिल्लीमा छन्।"],
+        ["gap", "___ are my children.", "They", ["He", "She"], "उनीहरू मेरा छोराछोरी हुन्।"],
+        ["gap", "It ___ very cold today.", "is", ["are", "am"], "आज धेरै जाडो छ।"],
+        ["gap", "I ___ from Darjeeling.", "am", ["is", "are"], "म दार्जिलिङको हुँ।"],
+        ["build", "They are my children.", "उनीहरू मेरा छोराछोरी हुन्।", ["is"]],
+        ["write", "हामी असल साथी हौं।", "We are good friends."]
       ]
     },
     {
-      "id": "u1l5", "title_ne": "अङ्क १ देखि १०", "title_en": "Numbers 1 to 10", "emoji": "🔢",
-      "intro": "फोन नम्बर, पैसा, समय: सबैमा अङ्क चाहिन्छ। आज १ देखि १० सिकौं।",
+      "id": "u1l5", "title_ne": "आवाज: apple को ऍ", "title_en": "Sound: the ऍ in apple", "emoji": "🍎",
+      "intro": "आज एउटा आवाज मात्र: apple, cat, bag को 'ऍ'। यो नेपालीमा छैन, त्यसैले मुख चौडा खोलेर अभ्यास गर्नुपर्छ।",
       "items": [
-        ["n1", "one", "वन", "एक (१)", "1️⃣"],
-        ["n2", "two", "टू", "दुई (२)", "2️⃣"],
-        ["n3", "three", "थ्री", "तीन (३)", "3️⃣", "th: जिब्रो दाँतको बीचमा।"],
-        ["n4", "four", "फ़ोर", "चार (४)", "4️⃣"],
-        ["n5", "five", "फ़ाइव़", "पाँच (५)", "5️⃣"],
-        ["n6", "six", "सिक्स", "छ (६)", "6️⃣"],
-        ["n7", "seven", "**से**व़न", "सात (७)", "7️⃣"],
-        ["n8", "eight", "एट", "आठ (८)", "8️⃣"],
-        ["n9", "nine", "नाइन", "नौ (९)", "9️⃣"],
-        ["n10", "ten", "टेन", "दस (१०)", "🔟"]
+        ["apple", "This is an apple.", "दिस इज़ ऍन **ऍ**पल", "यो एउटा स्याउ हो।", "🍎", "", {"syl": "**ऍ**·पल", "tip": "ऍ: मुख चौडा खोलेर, 'ए' र 'आ' को बीचको आवाज। पल छोटो र हल्का, **'पाउल' होइन**।"}],
+        ["cat", "The cat is black.", "द **क्याट** इज़ ब्ल्याक", "बिरालो कालो छ।", "🐈‍⬛", "", {"tip": "cat र black दुवैमा उही ऍ। 'केट' वा 'कट' होइन।"}],
+        ["bag", "My bag is red.", "माइ **ब्याग** इज़ रेड", "मेरो झोला रातो छ।", "👜", "", {"tip": "bag = ब्याग, मुख चौडा। 'बेग' भनियो भने अर्कै शब्द (माग्नु) हुन्छ।"}],
+        ["man", "That man is my dad.", "द्याट **म्यान** इज़ माइ ड्याड", "त्यो मान्छे मेरो बाबा हो।", "👨", "", {"alt": ["That man is my father."], "tip": "man (म्यान) = एक जना। men (मेन) = धेरै जना।"}],
+        ["family", "My family is happy.", "माइ **फ़्या**मिली इज़ ह्यापी", "मेरो परिवार खुसी छ।", "👨‍👩‍👧", "", {"syl": "**फ़्या**·मि·ली"}]
       ],
       "grammar": {
-        "title": "११ देखि २० (हेरेर मात्र बुझ्नुहोस्)",
-        "lines": ["१३ देखि १९ सम्म अन्त्यमा -teen (टीन) आउँछ।"],
-        "table": [["11 eleven", "इले**व़न**"], ["12 twelve", "ट्वेल्व़"], ["13 thirteen", "थर्**टीन**"], ["15 fifteen", "फ़िफ़्**टीन**"], ["18 eighteen", "एट**टीन**"], ["20 twenty", "**ट्वे**न्टी"]],
-        "ex": [["I have two sons.", "मेरा दुई छोरा छन्।"], ["My phone number is nine eight three ...", "मेरो फोन नम्बर ९८३ ... हो।"]]
+        "title": "ऍ आवाज (apple, cat, bag)",
+        "lines": [
+          "ऍ बोल्दा मुख ठूलो खोल्नुहोस्, जिब्रो तल राख्नुहोस्। ऐनामा हेरेर अभ्यास गर्नुहोस्।",
+          "शब्दको अन्त्यमा -ple, -ble: 'पल', 'बल' छोटो। apple = **ऍ**पल, अ-पाउल होइन।",
+          "🐌 बटनले धेरै बिस्तारै सुनाउँछ। ⏺ Record गरेर आफ्नो आवाज तुलना गर्नुहोस्।"
+        ],
+        "table": [["apple", "ऍपल (अ-पाउल होइन)"], ["cat", "क्याट"], ["bag", "ब्याग"], ["man / men", "म्यान (एक) / मेन (धेरै)"], ["happy", "ह्यापी"]],
+        "ex": [["This is an apple.", "यो एउटा स्याउ हो।"], ["The black cat is happy.", "कालो बिरालो खुसी छ।"]]
       },
-      "speak": ["n3", "n7", "n10"],
+      "speak": ["apple", "cat", "family"],
       "quiz": [
-        ["mc", "सुन्नुहोस्: कुन अङ्क हो?", "8", ["3", "6"], "eight"],
-        ["mc", "सुन्नुहोस्: कुन अङ्क हो?", "5", ["9", "4"], "five"],
-        ["mc", "सुन्नुहोस्: कुन अङ्क हो?", "13", ["30", "3"], "thirteen"]
+        ["mc", "सुन्नुहोस्: कुन शब्द?", "bag", ["big", "beg"], "bag"],
+        ["mc", "सुन्नुहोस्: कुन शब्द?", "man", ["men", "main"], "man"],
+        ["mc", "सुन्नुहोस्: कुन शब्द?", "cat", ["cut", "kite"], "cat"],
+        ["mc", "apple को सही उच्चारण कुन हो?", "ऍ·पल (छोटो पल)", ["अ·पाउल", "ए·पल"]],
+        ["gap", "This is ___ apple.", "an", ["a", "the"], "यो एउटा स्याउ हो।"],
+        ["write", "मेरो झोला रातो छ।", "My bag is red."]
       ]
     },
     {
-      "id": "u1l6", "title_ne": "मेरो परिवार", "title_en": "My family", "emoji": "👨‍👩‍👧‍👦",
-      "intro": "परिवारका सदस्यहरूको नाम अङ्ग्रेजीमा सिकौं।",
+      "id": "u1l6", "title_ne": "होइन, छैन: not", "title_en": "Not: I am not, it is not", "emoji": "🙅‍♀️",
+      "intro": "'होइन' र 'छैन' भन्न am, is, are पछि not राख्नुहोस्।",
       "items": [
-        ["mum", "mother", "**म**दर", "आमा", "👩", "घरमा प्रायः mum (मम) भनिन्छ।"],
-        ["dad", "father", "**फ़ा**दर", "बाबा", "👨", "घरमा प्रायः dad (ड्याड) भनिन्छ।"],
-        ["son", "son", "सन", "छोरा", "👦"],
-        ["dau", "daughter", "**डो**टर", "छोरी", "👧"],
-        ["wife", "wife", "वाइफ़", "श्रीमती", "👰"],
-        ["bro", "brother", "**ब्र**दर", "दाजु / भाइ", "👨‍👦", "अङ्ग्रेजीमा दाजु र भाइ दुवैलाई brother भनिन्छ।"],
-        ["sis", "sister", "**सिस्**टर", "दिदी / बहिनी", "👭"],
-        ["children", "I have two children.", "आइ ह्याव़ टू **चिल्**ड्रन", "मेरा दुई छोराछोरी छन्।", "👨‍👩‍👧‍👦"]
+        ["nottired", "I am not tired.", "आइ ऍम **नट** टायर्ड", "म थाकेको छैन।", "💪"],
+        ["notcold", "It is not cold today.", "इट इज़ नट **कोल्ड** टुडे", "आज जाडो छैन।", "🌤️", "", {"alt": ["Today it is not cold.", "It is not cold."]}],
+        ["nothome", "They are not at home.", "दे आर नट ऍट **होम**", "उनीहरू घरमा छैनन्।", "🚪"],
+        ["notmyson", "He is not my son.", "ही इज़ नट माइ **सन**", "उहाँ मेरो छोरा होइन।", "🙅‍♂️"],
+        ["notmybag", "This is not my bag.", "दिस इज़ नट माइ **ब्याग**", "यो मेरो झोला होइन।", "👜", "", {"alt": ["It is not my bag."]}],
+        ["notbusy", "We are not busy.", "वी आर नट **बि**ज़ी", "हामी व्यस्त छैनौं।", "🛋️"],
+        ["noitisnot", "No, it is not.", "नो, इट इज़ **नट**", "होइन, होइन।", "❌", "", {"w": false}]
       ],
       "grammar": {
-        "title": "एक भन्दा बढी: -s",
-        "lines": ["एक भन्दा बढी भए शब्दको पछाडि -s थपिन्छ: one son, two son**s**।", "तर child (बच्चा) को बहुवचन children हो।"],
-        "table": [["one son → two sons", "छोरा → छोराहरू"], ["one sister → three sisters", "दिदी → दिदीहरू"], ["one child → two children", "बच्चा → बच्चाहरू"]],
-        "ex": [["I have two sons.", "मेरा दुई छोरा छन्।"], ["She is my sister.", "उनी मेरी बहिनी हुन्।"]]
+        "title": "not = होइन / छैन",
+        "lines": ["not सधैं am, is, are **पछि** आउँछ: I am **not** ... (I not am होइन)।", "नेपालीमा 'होइन/छैन' अन्त्यमा, अङ्ग्रेजीमा बीचमा।"],
+        "table": [["I am tired. → I am not tired.", "थाकेँ → थाकेको छैन"], ["It is cold. → It is not cold.", "जाडो छ → जाडो छैन"], ["They are home. → They are not home.", "घरमा छन् → घरमा छैनन्"]],
+        "ex": [["He is not my son.", "उहाँ मेरो छोरा होइन।"], ["We are not busy.", "हामी व्यस्त छैनौं।"]]
       },
-      "speak": ["children", "bro", "dau"],
+      "speak": ["nottired", "nothome", "notmyson"],
       "quiz": [
-        ["build", "I have two children.", "मेरा दुई छोराछोरी छन्।"],
-        ["gap", "I have two ___.", "sons", ["son", "a son"], "मेरा दुई छोरा छन्।"],
-        ["build", "She is my sister.", "उनी मेरी बहिनी हुन्।", ["he"]]
+        ["build", "I am not tired.", "म थाकेको छैन।", ["no"]],
+        ["build", "They are not at home.", "उनीहरू घरमा छैनन्।"],
+        ["gap", "It is ___ cold today.", "not", ["no", "do"], "आज जाडो छैन।"],
+        ["mc", "'उहाँ मेरो छोरा होइन' कुन सही?", "He is not my son.", ["He not is my son.", "He is no my son."]],
+        ["mc", "'हामी व्यस्त छैनौं' कुन सही?", "We are not busy.", ["We not busy.", "We is not busy."]],
+        ["write", "यो मेरो झोला होइन।", "This is not my bag.", ["It is not my bag."]]
       ]
     },
     {
-      "id": "u1l7", "title_ne": "यो के हो?", "title_en": "What is this?", "emoji": "☕",
-      "intro": "आफ्नो वरपरका चीजको नाम र 'यो', 'त्यो' भन्न सिकौं।",
+      "id": "u1l7", "title_ne": "प्रश्न: Is it ...? Are you ...?", "title_en": "Questions with is and are", "emoji": "🤔",
+      "intro": "is, are लाई वाक्यको सुरुमा ल्याउँदा प्रश्न बन्छ। छोटो जवाफ पनि सिकौं।",
       "items": [
-        ["whatthis", "What is this?", "ह्वाट इज़ **दिस**?", "यो के हो?", "❓"],
-        ["cup", "This is a cup.", "दिस इज़ अ **कप**", "यो एउटा कप हो।", "☕"],
-        ["bag", "That is a bag.", "द्याट इज़ अ **ब्याग**", "त्यो एउटा झोला हो।", "👜"],
-        ["apple", "This is an apple.", "दिस इज़ ऍन **ऍ**पल", "यो एउटा स्याउ हो।", "🍎"],
-        ["water", "water", "**वो**टर", "पानी", "💧", "w: ओठ गोलो पारेर 'वो'।"],
-        ["phone", "phone", "फ़ोन", "मोबाइल फोन", "📱"],
-        ["key", "key", "की", "साँचो", "🔑"]
+        ["iscold", "Is it cold today?", "इज़ इट **कोल्ड** टुडे?", "आज जाडो छ?", "🥶"],
+        ["yesitis", "Yes, it is.", "येस, इट **इज़**", "हो, छ।", "✅", "", {"w": false}],
+        ["areyoutired", "Are you tired?", "आर यू **टा**यर्ड?", "तपाईं थाक्नुभयो?", "😮‍💨"],
+        ["noiamnot", "No, I am not.", "नो, आइ ऍम **नट**", "अहँ, थाकेको छैन।", "🙂", "", {"w": false}],
+        ["isdaughter", "Is she your daughter?", "इज़ शी योर **डो**टर?", "उनी तपाईंकी छोरी हुन्?", "👧"],
+        ["aretheyhome", "Are they at home?", "आर दे ऍट **होम**?", "उनीहरू घरमा छन्?", "🏠"],
+        ["istea", "Is this tea?", "इज़ दिस **टी**?", "के यो चिया हो?", "🍵", "", {"alt": ["Is it tea?"]}]
       ],
       "grammar": {
-        "title": "this / that र a / an",
-        "lines": ["this = यो (नजिकको), that = त्यो (टाढाको)।", "एउटा चीज भन्दा a लगाइन्छ। तर शब्द अ, आ, इ, ए, ओ जस्तो आवाजबाट सुरु भए an लगाइन्छ।"],
-        "table": [["a cup, a bag, a key", "एउटा कप, झोला, साँचो"], ["an apple, an egg, an orange", "एउटा स्याउ, अण्डा, सुन्तला"]],
-        "ex": [["This is an egg.", "यो एउटा अण्डा हो।"], ["That is my phone.", "त्यो मेरो फोन हो।"]]
+        "title": "प्रश्न बनाउने: शब्दको ठाउँ साट्नुहोस्",
+        "lines": [
+          "It **is** cold. → **Is** it cold? ↗ (is अगाडि आयो)",
+          "प्रश्नको अन्त्यमा आवाज माथि उठाउनुहोस् ↗।",
+          "छोटो जवाफ: Yes + कसले + am/is/are। No + कसले + am/is/are + not।"
+        ],
+        "table": [["It is cold. → Is it cold?", "जाडो छ → जाडो छ?"], ["You are tired. → Are you tired?", "थाक्नुभयो → थाक्नुभयो?"], ["Yes, it is. / No, it is not.", "हो / होइन"], ["Yes, I am. / No, I am not.", "हो / अहँ"]],
+        "ex": [["Is she your daughter? Yes, she is.", "उनी तपाईंकी छोरी हुन्? हो।"], ["Are they at home? No, they are not.", "उनीहरू घरमा छन्? अहँ, छैनन्।"]]
       },
-      "speak": ["whatthis", "cup", "apple"],
+      "speak": ["iscold", "isdaughter", "istea"],
       "quiz": [
-        ["gap", "This is ___ apple.", "an", ["a", "is"], "यो एउटा स्याउ हो।"],
-        ["gap", "This is ___ cup.", "a", ["an", "is"], "यो एउटा कप हो।"],
-        ["reply", "What is this?", "This is a key.", ["I am fine.", "My name is Sita."]],
-        ["build", "That is a bag.", "त्यो एउटा झोला हो।"]
+        ["build", "Is it cold today?", "आज जाडो छ?"],
+        ["build", "Are they at home?", "उनीहरू घरमा छन्?", ["is"]],
+        ["reply", "Are you tired?", "No, I am not.", ["No, it is not.", "No, you are not."], "तपाईं थाक्नुभयो?"],
+        ["reply", "Is this tea?", "Yes, it is.", ["Yes, I am.", "Yes, you are."], "के यो चिया हो?"],
+        ["reply", "Is she your daughter?", "Yes, she is.", ["Yes, he is.", "Yes, I am."], "उनी तपाईंकी छोरी हुन्?"],
+        ["mc", "कुन प्रश्न सही हो?", "Are you happy?", ["You are happy?", "Is you happy?"]],
+        ["write", "के यो चिया हो?", "Is this tea?", ["Is it tea?"]]
       ]
     },
     {
-      "id": "u1l8", "title_ne": "हो कि होइन? प्रश्न सोध्ने", "title_en": "Yes or no?", "emoji": "🤔",
-      "intro": "'हो कि होइन' प्रश्न सोध्न र जवाफ दिन सिकौं।",
+      "id": "u1l8", "title_ne": "a कि an?", "title_en": "a or an?", "emoji": "🥚",
+      "intro": "एउटा चीज वा मान्छेको कुरा गर्दा a वा an चाहिन्छ। कहिले a, कहिले an? आवाज सुनेर छुट्याउने।",
       "items": [
-        ["istea", "Is this tea?", "इज़ दिस **टी**?", "के यो चिया हो?", "🍵"],
-        ["yesitis", "Yes, it is.", "येस, इट **इज़**", "हो, यो चिया नै हो।", "✅"],
-        ["noitisnt", "No, it isn't.", "नो, इट **इज़्**न्ट", "होइन, यो होइन।", "❌", "isn't = is not (होइन)।"],
-        ["areyouok", "Are you okay?", "आर यू ओ**के**?", "तपाईं ठिक हुनुहुन्छ?", "🤔"],
-        ["yesiam", "Yes, I am.", "येस, आइ **ऍम**", "हजुर, म ठिक छु।", "🙂"],
-        ["athome", "Is he at home?", "इज़ ही ऍट **होम**?", "के उहाँ घरमा हुनुहुन्छ?", "🏠"],
-        ["dontknow", "I don't know.", "आइ डोन्ट **नो**", "मलाई थाहा छैन।", "🤷‍♀️"]
+        ["cup", "This is a cup.", "दिस इज़ अ **कप**", "यो एउटा कप हो।", "☕", "", {"alt": ["It is a cup."]}],
+        ["egg", "It is an egg.", "इट इज़ ऍन **एग**", "यो एउटा अण्डा हो।", "🥚", "", {"alt": ["This is an egg."]}],
+        ["doctor", "He is a doctor.", "ही इज़ अ **डक्**टर", "उहाँ डाक्टर हुनुहुन्छ।", "👨‍⚕️"],
+        ["engineer", "She is an engineer.", "शी इज़ ऍन इन्जि**नियर**", "उनी इन्जिनियर हुन्।", "👩‍💻"],
+        ["oldhouse", "It is an old house.", "इट इज़ ऍन **ओल्ड्** हाउस", "यो पुरानो घर हो।", "🏚️", "", {"alt": ["This is an old house."]}],
+        ["orange", "This is an orange.", "दिस इज़ ऍन **ओ**रिन्ज", "यो एउटा सुन्तला हो।", "🍊", "", {"alt": ["It is an orange."]}],
+        ["redumbrella", "It is a red umbrella.", "इट इज़ अ रेड अम्**ब्रे**ला", "यो रातो छाता हो।", "☂️", "an umbrella, तर red अगाडि आयो भने a red umbrella।", {"alt": ["This is a red umbrella."]}]
       ],
       "grammar": {
-        "title": "प्रश्न बनाउने सजिलो तरिका",
-        "lines": ["is / are लाई वाक्यको सुरुमा ल्याउँदा प्रश्न बन्छ। नेपालीमा जस्तै आवाज अन्त्यमा माथि उठाउनुहोस् ↗।"],
-        "table": [["It is tea.", "यो चिया हो।"], ["Is it tea? ↗", "के यो चिया हो?"], ["You are okay.", "तपाईं ठिक हुनुहुन्छ।"], ["Are you okay? ↗", "तपाईं ठिक हुनुहुन्छ?"]],
-        "ex": [["Is she your daughter?", "के उनी तपाईंकी छोरी हुन्?"], ["Yes, she is.", "हो, उनी मेरी छोरी हुन्।"]]
+        "title": "a / an = एउटा",
+        "lines": [
+          "काम वा एउटा चीज भन्दा a/an नछुटाउनुहोस्: He is **a** doctor (He is doctor होइन)।",
+          "पछाडिको शब्द अ, आ, इ, ए, ओ जस्तो आवाजबाट सुरु भए **an**: an apple, an egg।",
+          "अरू सबैमा **a**: a cup, a doctor, a big house।",
+          "a/an पछाडिको शब्द हेर्ने: an umbrella तर a **red** umbrella।"
+        ],
+        "table": [["a cup, a bag, a doctor", "क, ब, ड आवाज → a"], ["an apple, an egg", "ऍ, ए आवाज → an"], ["an old house, an orange", "ओ आवाज → an"], ["an engineer, an umbrella", "इ, अ आवाज → an"]],
+        "ex": [["My son is an engineer.", "मेरो छोरा इन्जिनियर हो।"], ["This is a big egg.", "यो ठूलो अण्डा हो।"]]
       },
-      "speak": ["istea", "areyouok", "dontknow"],
+      "speak": ["egg", "engineer", "redumbrella"],
       "quiz": [
-        ["build", "Is this tea?", "के यो चिया हो?"],
-        ["build", "Are you okay?", "तपाईं ठिक हुनुहुन्छ?", ["is"]],
-        ["reply", "Is this your bag?", "Yes, it is.", ["Yes, I am.", "Good morning!"]],
-        ["reply", "Are you tired?", "No, I am not.", ["No, it isn't.", "This is a cup."], "तपाईं थाक्नुभयो?"]
+        ["gap", "He is ___ doctor.", "a", ["an", "the"], "उहाँ डाक्टर हुनुहुन्छ।"],
+        ["gap", "She is ___ engineer.", "an", ["a", "the"], "उनी इन्जिनियर हुन्।"],
+        ["gap", "It is ___ old house.", "an", ["a", "—"], "यो पुरानो घर हो।"],
+        ["gap", "It is ___ big house.", "a", ["an", "—"], "यो ठूलो घर हो।"],
+        ["gap", "This is ___ orange.", "an", ["a", "—"], "यो एउटा सुन्तला हो।"],
+        ["gap", "It is ___ red umbrella.", "a", ["an", "—"], "यो रातो छाता हो।"],
+        ["gap", "It is ___ umbrella.", "an", ["a", "—"], "यो छाता हो।"],
+        ["mc", "कुन वाक्य सही हो?", "She is a teacher.", ["She is teacher.", "She is an teacher."]],
+        ["write", "उहाँ डाक्टर हुनुहुन्छ।", "He is a doctor."]
       ]
     },
     {
-      "id": "u1l9", "title_ne": "विनम्र शब्दहरू", "title_en": "Polite words", "emoji": "🙏",
-      "intro": "अङ्ग्रेजी बोल्नेहरू please, thank you र sorry धेरै प्रयोग गर्छन्। आज यिनै सिकौं।",
+      "id": "u1l9", "title_ne": "the: त्यही खास चीज", "title_en": "the", "emoji": "🔑",
+      "intro": "the को अर्थ 'त्यो खास' हो: जुन चीज दुवैलाई थाहा छ, वा संसारमा एउटै मात्र छ।",
       "items": [
-        ["please", "please", "प्लीज़", "कृपया", "🙏"],
-        ["sorry", "Sorry!", "**सो**री", "माफ गर्नुहोस्!", "😔"],
-        ["excuse", "Excuse me.", "इक्स**क्यूज़्** मी", "सुन्नुहोस् त / अलि बाटो दिनुहोस्।", "🙋‍♀️", "कसैको ध्यान तान्दा वा भीडमा बाटो माग्दा।"],
-        ["noproblem", "No problem.", "नो **प्रब्**लम", "केही छैन, ठिकै छ।", "👌"],
-        ["welcome", "You're welcome.", "योर **वेल्**कम", "केही छैन (धन्यवादको जवाफ)", "😊"],
-        ["waterplease", "Water, please.", "**वो**टर, प्लीज़", "पानी दिनुहोस् न।", "💧"],
-        ["sithere", "Can I sit here?", "क्यान आइ **सिट** हियर?", "म यहाँ बस्न सक्छु?", "🪑"]
+        ["teahot", "The tea is very hot.", "द टी इज़ व़ेरी **हट**", "चिया धेरै तातो छ।", "🍵"],
+        ["dooropen", "The door is open.", "द डोर इज़ **ओ**पन", "ढोका खुला छ।", "🚪"],
+        ["wherekey", "Where is the key?", "वेयर इज़ द **की**?", "साँचो कहाँ छ?", "🔑"],
+        ["closewindow", "Please close the window.", "प्लीज़ क्लोज़ द **विन्**डो", "कृपया झ्याल बन्द गर्नुहोस्।", "🪟", "", {"alt": ["Close the window, please.", "Please shut the window."]}],
+        ["sunhot", "The sun is hot today.", "द सन इज़ **हट** टुडे", "आज घाम चर्को छ।", "☀️", "", {"alt": ["Today the sun is hot."]}],
+        ["catthecat", "This is a cat. The cat is black.", "दिस इज़ अ क्याट। द क्याट इज़ **ब्ल्याक**", "यो एउटा बिरालो हो। बिरालो कालो छ।", "🐈‍⬛"],
+        ["templenear", "The temple is near my house.", "द **टेम्**पल इज़ नियर माइ हाउस", "मन्दिर मेरो घर नजिकै छ।", "🛕"]
       ],
       "grammar": {
-        "title": "कुन कुराको के जवाफ?",
-        "lines": ["केही माग्दा वाक्यको अन्त्यमा please थप्नुहोस्। यसले बोली मीठो बनाउँछ।"],
-        "table": [["Thank you. → You're welcome.", "धन्यवाद → केही छैन"], ["Sorry! → No problem.", "माफ गर्नुहोस् → ठिकै छ"], ["Tea, please. → Here you are.", "चिया दिनुहोस् → लिनुहोस्"]],
-        "ex": [["Tea, please.", "चिया दिनुहोस् न।"], ["Here you are.", "लिनुहोस्।"]]
+        "title": "a र the को फरक",
+        "lines": [
+          "पहिलो पटक भन्दा: **a** cat (कुनै एउटा बिरालो)। त्यही बिरालोको फेरि कुरा गर्दा: **the** cat।",
+          "घरमा दुवैलाई थाहा भएको चीज: the door, the key, the kitchen।",
+          "एउटै मात्र भएको: the sun, the moon, the sky।",
+          "उच्चारण: the = द (छोटो)। the apple, the egg मा 'दी'।"
+        ],
+        "table": [["a cat → the cat", "एउटा बिरालो → त्यही बिरालो"], ["Where is the key?", "(हाम्रो) साँचो कहाँ छ?"], ["the sun, the moon", "एउटै मात्र"]],
+        "ex": [["I have a son. The son is in Delhi.", "मेरो एउटा छोरा छ। छोरा दिल्लीमा छ।"], ["The moon is beautiful.", "चन्द्रमा सुन्दर छ।"]]
       },
-      "speak": ["excuse", "welcome", "sithere"],
+      "speak": ["teahot", "wherekey", "catthecat"],
       "quiz": [
-        ["reply", "Thank you!", "You're welcome.", ["Sorry!", "Excuse me."], "धन्यवाद!"],
-        ["reply", "Sorry!", "No problem.", ["Please.", "Good night!"]],
-        ["mc", "भीडमा कसैको अगाडिबाट जानु पर्दा के भन्ने?", "Excuse me.", ["Thank you.", "Good night!"]],
-        ["build", "Can I sit here?", "म यहाँ बस्न सक्छु?"]
+        ["gap", "This is a cat. ___ cat is black.", "The", ["A", "An"], "यो एउटा बिरालो हो। बिरालो कालो छ।"],
+        ["gap", "Where is ___ key?", "the", ["a", "an"], "साँचो कहाँ छ?"],
+        ["gap", "___ sun is hot today.", "The", ["A", "An"], "आज घाम चर्को छ।"],
+        ["gap", "Please close ___ window.", "the", ["a", "an"], "कृपया झ्याल बन्द गर्नुहोस्।"],
+        ["gap", "He is ___ engineer.", "an", ["a", "the"], "उहाँ इन्जिनियर हुनुहुन्छ।"],
+        ["build", "Where is the key?", "साँचो कहाँ छ?", ["a"]],
+        ["write", "ढोका खुला छ।", "The door is open."]
       ]
     },
     {
-      "id": "u1l10", "title_ne": "कुराकानी: नयाँ छिमेकी", "title_en": "Talk: meeting a neighbour", "emoji": "🏡",
-      "intro": "अहिलेसम्म सिकेका कुरा मिलाएर पहिलो पूरा कुराकानी गरौं! माया तपाईंकी नयाँ छिमेकी हुन्।",
+      "id": "u1l10", "title_ne": "a, an, the कि केही पनि होइन?", "title_en": "a, an, the or nothing?", "emoji": "🧩",
+      "intro": "कहिलेकाहीँ a, an, the केही पनि चाहिँदैन: नाम, my/your, अनि चिया, पानी, भात जस्ता कुरामा।",
+      "items": [
+        ["maya", "Maya is my friend.", "माया इज़ माइ **फ़्रेन्ड**", "माया मेरी साथी हुन्।", "👩"],
+        ["sondoctor", "My son is a doctor.", "माइ सन इज़ अ **डक्**टर", "मेरो छोरा डाक्टर हो।", "👨‍⚕️"],
+        ["thedoctor", "The doctor is very kind.", "द डक्टर इज़ व़ेरी **काइन्ड**", "डाक्टर धेरै दयालु हुनुहुन्छ।", "🩺"],
+        ["rice", "Rice is ready.", "**राइस** इज़ रेडी", "भात तयार छ।", "🍚", "", {"alt": ["The rice is ready."]}],
+        ["milk", "Milk is good for you.", "**मिल्क** इज़ गुड फ़र यू", "दूध स्वास्थ्यको लागि राम्रो हुन्छ।", "🥛", "", {"alt": ["Milk is good for health.", "Milk is good for your health."]}],
+        ["kitchen", "She is in the kitchen.", "शी इज़ इन द **कि**चन", "उनी भान्सामा छिन्।", "🍳"],
+        ["apples", "Apples are good for you.", "**ऍ**पल्ज़ आर गुड फ़र यू", "स्याउ स्वास्थ्यको लागि राम्रो हुन्छ।", "🍎", "", {"alt": ["Apples are good for health.", "Apples are good for your health."]}]
+      ],
+      "grammar": {
+        "title": "कहिले केही पनि नचाहिने?",
+        "lines": [
+          "मान्छे र ठाउँको नाम: Maya, Darjeeling (the Maya होइन)।",
+          "my, your, his अगाडि: my son (a my son होइन)।",
+          "चिया, पानी, भात, दूध (गन्न नसकिने) सामान्य कुरा: Rice is ready। Milk is good।",
+          "धेरै चीजको सामान्य कुरा: Apples are good।"
+        ],
+        "table": [["a / an", "एउटा, पहिलो पटक, काम: a doctor"], ["the", "त्यो खास, थाहा भएको: the doctor"], ["— (केही होइन)", "नाम, my/your, चिया/भात, धेरै: Maya, my son, rice, apples"]],
+        "ex": [["I am from Darjeeling.", "म दार्जिलिङको हुँ।"], ["Tea is ready.", "चिया तयार छ।"]]
+      },
+      "speak": ["maya", "thedoctor", "apples"],
+      "quiz": [
+        ["gap", "___ Maya is my friend.", "—", ["The", "A"], "माया मेरी साथी हुन्।"],
+        ["gap", "My son is ___ doctor.", "a", ["the", "—"], "मेरो छोरा डाक्टर हो।"],
+        ["gap", "I am from ___ Darjeeling.", "—", ["the", "a"], "म दार्जिलिङको हुँ।"],
+        ["gap", "This is ___ my bag.", "—", ["a", "the"], "यो मेरो झोला हो।"],
+        ["gap", "He is ___ engineer.", "an", ["a", "—"], "उहाँ इन्जिनियर हुनुहुन्छ।"],
+        ["gap", "___ sun is very hot.", "The", ["A", "—"], "घाम धेरै चर्को छ।"],
+        ["gap", "She is in ___ kitchen.", "the", ["an", "—"], "उनी भान्सामा छिन्।"],
+        ["build", "Maya is my friend.", "माया मेरी साथी हुन्।", ["the"]],
+        ["write", "भात तयार छ।", "Rice is ready.", ["The rice is ready."]]
+      ]
+    },
+    {
+      "id": "u1l11", "title_ne": "यो, त्यो, यी, ती", "title_en": "This, that, these, those", "emoji": "👉",
+      "intro": "नजिक र टाढा, एउटा र धेरै: this, that, these, those। साथै धेरै भए -s।",
+      "items": [
+        ["thisbag", "This is my bag.", "दिस इज़ माइ **ब्याग**", "यो मेरो झोला हो।", "👜"],
+        ["thathouse", "That is my house.", "द्याट इज़ माइ **हाउस**", "त्यो मेरो घर हो।", "🏠"],
+        ["thesesons", "These are my sons.", "दीज़ आर माइ **सन्ज़**", "यी मेरा छोराहरू हुन्।", "👬"],
+        ["thosebooks", "Those are my books.", "दोज़ आर माइ **बुक्स**", "ती मेरा किताबहरू हुन्।", "📚"],
+        ["sweet", "These apples are sweet.", "दीज़ ऍपल्ज़ आर **स्वीट**", "यी स्याउहरू गुलिया छन्।", "🍎"],
+        ["thatman", "That man is my brother.", "द्याट म्यान इज़ माइ **ब्र**दर", "त्यो मान्छे मेरो दाजु हो।", "🧔"],
+        ["grandkids", "These are my grandchildren.", "दीज़ आर माइ **ग्र्यान्**चिल्ड्रन", "यी मेरा नाति-नातिना हुन्।", "👧"]
+      ],
+      "grammar": {
+        "title": "this / that / these / those",
+        "lines": [
+          "एउटा: this **is**, that **is**। धेरै: these **are**, those **are**।",
+          "धेरै भए नाममा -s: son → son**s**, book → book**s**। तर child → children, man → men।"
+        ],
+        "table": [["this", "यो (नजिक, एउटा)"], ["these", "यी (नजिक, धेरै)"], ["that", "त्यो (टाढा, एउटा)"], ["those", "ती (टाढा, धेरै)"], ["one child → two children", "बच्चा → बच्चाहरू"]],
+        "ex": [["This is my son. These are my daughters.", "यो मेरो छोरा। यी मेरा छोरीहरू।"], ["Those men are my brothers.", "ती मान्छेहरू मेरा दाजुभाइ हुन्।"]]
+      },
+      "speak": ["thesesons", "sweet", "grandkids"],
+      "quiz": [
+        ["gap", "___ are my sons.", "These", ["This", "That"], "यी मेरा छोराहरू हुन्।"],
+        ["gap", "___ is my house.", "That", ["Those", "These"], "त्यो मेरो घर हो।"],
+        ["gap", "These apples ___ sweet.", "are", ["is", "am"], "यी स्याउहरू गुलिया छन्।"],
+        ["gap", "This ___ my bag.", "is", ["are", "am"], "यो मेरो झोला हो।"],
+        ["mc", "धेरै बच्चा = ?", "two children", ["two childs", "two child"]],
+        ["build", "Those are my books.", "ती मेरा किताबहरू हुन्।", ["is"]],
+        ["write", "यी मेरा छोराहरू हुन्।", "These are my sons."]
+      ]
+    },
+    {
+      "id": "u1l12", "title_ne": "छ: have / has र अङ्कहरू", "title_en": "Have, has and numbers", "emoji": "🔢",
+      "intro": "आफूसँग के छ र कति छ भन्न सिकौं। अङ्क १ देखि १० वाक्यभित्रै।",
+      "items": [
+        ["twosons", "I have two sons.", "आइ ह्याव़ टू **सन्ज़**", "मेरा दुई छोरा छन्।", "👬"],
+        ["hascar", "She has a car.", "शी ह्याज़ अ **कार**", "उनीसँग गाडी छ।", "🚗"],
+        ["threegrand", "We have three grandchildren.", "वी ह्याव़ थ्री **ग्र्यान्**चिल्ड्रन", "हाम्रा तीन नाति-नातिना छन्।", "👨‍👩‍👧"],
+        ["bigfamily", "He has a big family.", "ही ह्याज़ अ बिग **फ़्या**मिली", "उहाँको ठूलो परिवार छ।", "👨‍👩‍👧‍👦"],
+        ["howmany", "How many children do you have?", "हाउ मेनी **चिल्**ड्रन डु यू ह्याव़?", "तपाईंका कति छोराछोरी छन्?", "❓"],
+        ["siblings", "I have one brother and two sisters.", "आइ ह्याव़ वन ब्रदर ऍन्ड टू **सिस्**टर्ज़", "मेरा एक दाजुभाइ र दुई दिदीबहिनी छन्।", "👭"],
+        ["tenrupees", "I have ten rupees.", "आइ ह्याव़ टेन **रु**पीज़", "मसँग दस रुपियाँ छ।", "💵"]
+      ],
+      "grammar": {
+        "title": "have / has र १-१०",
+        "lines": [
+          "I, you, we, they सँग **have**। he, she, it सँग **has**।",
+          "दुई वा बढी भए -s: two son**s**, three sister**s**।",
+          "अङ्क: one (वन) two (टू) three (थ्री) four (फ़ोर) five (फ़ाइव़) six (सिक्स) seven (सेव़न) eight (एट) nine (नाइन) ten (टेन)।"
+        ],
+        "table": [["I have / We have / They have", "मसँग / हामीसँग / उनीहरूसँग छ"], ["He has / She has", "उहाँसँग / उनीसँग छ"], ["one son → two sons", "छोरा → छोराहरू"]],
+        "ex": [["My sister has two daughters.", "मेरी बहिनीका दुई छोरी छन्।"], ["We have four cows.", "हाम्रा चार वटा गाई छन्।"]]
+      },
+      "speak": ["twosons", "howmany", "siblings"],
+      "quiz": [
+        ["gap", "She ___ a car.", "has", ["have", "is"], "उनीसँग गाडी छ।"],
+        ["gap", "I ___ two sons.", "have", ["has", "am"], "मेरा दुई छोरा छन्।"],
+        ["gap", "He ___ a big family.", "has", ["have", "are"], "उहाँको ठूलो परिवार छ।"],
+        ["gap", "I have two ___.", "sisters", ["sister", "sisteres"], "मेरा दुई दिदीबहिनी छन्।"],
+        ["mc", "सुन्नुहोस्: कति?", "3", ["13", "30"], "three"],
+        ["mc", "सुन्नुहोस्: कति?", "7", ["11", "17"], "seven"],
+        ["build", "How many children do you have?", "तपाईंका कति छोराछोरी छन्?"],
+        ["write", "उहाँको ठूलो परिवार छ।", "He has a big family."]
+      ]
+    },
+    {
+      "id": "u1l13", "title_ne": "आवाज: v (व़) र w (व)", "title_en": "Sound: v and w", "emoji": "👄",
+      "intro": "नेपालीमा v र w दुवैलाई 'व' भनिन्छ, तर अङ्ग्रेजीमा यी फरक आवाज हुन्। very र well मा फरक सुन्नुहोस्।",
+      "items": [
+        ["verywell", "I am very well.", "आइ ऍम **व़े**री **वेल**", "म एकदम सन्चै छु।", "😄", "", {"tip": "very: माथिका दाँतले तल्लो ओठ हल्का छोएर व़। well: ओठ गोलो पारेर व, दाँतले ओठ नछुने।"}],
+        ["water", "The water is very cold.", "द **वो**टर इज़ व़ेरी कोल्ड", "पानी धेरै चिसो छ।", "💧", "", {"tip": "water: ओठ गोलो (व)। very: दाँत र ओठ (व़)।"}],
+        ["village", "My village is very beautiful.", "माइ **व़ि**लिज इज़ व़ेरी ब्यूटिफ़ुल", "मेरो गाउँ धेरै सुन्दर छ।", "🏡", "", {"syl": "**व़ि**·लिज"}],
+        ["veg", "Vegetables are good for you.", "**व़ेज्**टबल्ज़ आर गुड फ़र यू", "तरकारी स्वास्थ्यको लागि राम्रो हुन्छ।", "🥦", "", {"syl": "**व़ेज्**·ट·बल्ज़", "alt": ["Vegetables are good for health.", "Vegetables are good for your health."]}],
+        ["window", "Where is the window?", "वेयर इज़ द **विन्**डो?", "झ्याल कहाँ छ?", "🪟"],
+        ["welcome", "Welcome to my home.", "**वेल्**कम टु माइ होम", "मेरो घरमा स्वागत छ।", "🏠", "", {"alt": ["Welcome to my house."]}]
+      ],
+      "grammar": {
+        "title": "v (व़) र w (व)",
+        "lines": [
+          "v (व़): माथिका दाँतले तल्लो ओठ छोएर, घाँटीबाट आवाज। 'भ' होइन।",
+          "w (व): ओठ गोलो पारेर (चुम्बन जस्तो), दाँत नछोई, अनि ओठ खोल्ने।",
+          "ऐनामा हेरेर भन्नुहोस्: very well, very well।"
+        ],
+        "table": [["v: very, village, vegetables, five", "दाँत + ओठ (व़)"], ["w: water, well, window, we, what", "गोलो ओठ (व)"], ["vest / west", "भेस्ट (गन्जी) / वेस्ट (पश्चिम)"]],
+        "ex": [["We are very well.", "हामी एकदम सन्चै छौं।"], ["What is in the village?", "गाउँमा के छ?"]]
+      },
+      "speak": ["verywell", "water", "village"],
+      "quiz": [
+        ["mc", "सुन्नुहोस्: कुन शब्द?", "vest", ["west", "best"], "vest"],
+        ["mc", "सुन्नुहोस्: कुन शब्द?", "wine", ["vine", "fine"], "wine"],
+        ["mc", "very को पहिलो आवाज कसरी बोल्ने?", "दाँतले ओठ छोएर (व़)", ["ओठ गोलो पारेर (व)", "भ जस्तै"]],
+        ["mc", "water को पहिलो आवाज कसरी बोल्ने?", "ओठ गोलो पारेर (व)", ["दाँतले ओठ छोएर (व़)", "भ जस्तै"]],
+        ["write", "पानी धेरै चिसो छ।", "The water is very cold."]
+      ]
+    },
+    {
+      "id": "u1l14", "title_ne": "कुराकानी: नयाँ छिमेकी", "title_en": "Talk: meeting a neighbour", "emoji": "🏡",
+      "intro": "भाग १ मा सिकेका सबै कुरा मिलाएर पूरा कुराकानी गरौं। माया तपाईंकी नयाँ छिमेकी हुन्।",
       "items": [
         ["neighbour", "I am your new neighbour.", "आइ ऍम योर न्यू **नेब**र", "म तपाईंको नयाँ छिमेकी हुँ।", "🏡"],
-        ["comein", "Please come in.", "प्लीज़ कम **इन**", "भित्र आउनुहोस्।", "🚪"],
+        ["comein", "Please come in.", "प्लीज़ कम **इन**", "भित्र आउनुहोस्।", "🚪", "", {"alt": ["Come in, please."]}],
         ["sometea", "Would you like some tea?", "वुड यू लाइक सम **टी**?", "चिया खानुहुन्छ?", "🍵"],
-        ["yesplease", "Yes, please.", "येस, **प्लीज़**", "हुन्छ, दिनुहोस्।", "😊"],
-        ["ohnice", "Oh, nice!", "ओ, **नाइस**!", "ओहो, राम्रो!", "✨"]
+        ["yesplease", "Yes, please.", "येस, **प्लीज़**", "हुन्छ, दिनुहोस्।", "😊", "", {"w": false}],
+        ["wherefrom", "Where are you from?", "**वे**यर आर यू फ़्रम?", "तपाईं कहाँको हुनुहुन्छ?", "🌏"],
+        ["housebig", "Your house is very beautiful.", "योर हाउस इज़ व़ेरी **ब्यू**टिफ़ुल", "तपाईंको घर धेरै सुन्दर छ।", "🏠"]
       ],
-      "speak": ["comein", "sometea"],
+      "speak": ["neighbour", "sometea", "wherefrom"],
       "people": {"A": "👩 माया (नयाँ छिमेकी)"},
-      "talk_ne": "माया बोलेपछि तपाईंको पालो। पहेँलो बबलको वाक्य बोल्नुहोस् (आफ्नो नाम भन्न सक्नुहुन्छ)।",
+      "talk_ne": "माया बोलेपछि तपाईंको पालो। पहेँलो बबलको वाक्य पूरा, एकै सासमा बोल्नुहोस्।",
       "talk": [
         ["A", "Hello! I am your new neighbour. My name is Maya.", "हेलो! आइ ऍम योर न्यू नेबर। माइ नेम इज़ माया।", "नमस्ते! म तपाईंको नयाँ छिमेकी हुँ। मेरो नाम माया हो।"],
         ["Y", "Hello! Nice to meet you. My name is Sita.", "हेलो! नाइस टु मीट यू। माइ नेम इज़ सीता।", "नमस्ते! तपाईंलाई भेटेर खुसी लाग्यो। मेरो नाम सीता हो।"],
         ["A", "Nice to meet you too. How are you?", "नाइस टु मीट यू टू। हाउ आर यू?", "मलाई पनि खुसी लाग्यो। तपाईंलाई कस्तो छ?"],
-        ["Y", "I am fine, thank you. And you?", "आइ ऍम फ़ाइन, थ्याङ्क यू। ऍन्ड यू?", "मलाई ठिक छ, धन्यवाद। अनि तपाईंलाई?"],
-        ["A", "I am very well, thank you.", "आइ ऍम व़ेरी वेल, थ्याङ्क यू।", "म एकदम राम्रो छु, धन्यवाद।"],
+        ["Y", "I am very well, thank you. And you?", "आइ ऍम व़ेरी वेल, थ्याङ्क यू। ऍन्ड यू?", "म एकदम सन्चै छु, धन्यवाद। अनि तपाईंलाई?"],
+        ["A", "I am fine, thank you.", "आइ ऍम फ़ाइन, थ्याङ्क यू।", "मलाई ठिक छ, धन्यवाद।"],
         ["Y", "Please come in. Would you like some tea?", "प्लीज़ कम इन। वुड यू लाइक सम टी?", "भित्र आउनुहोस्। चिया खानुहुन्छ?"],
-        ["A", "Yes, please. Thank you! Where are you from?", "येस, प्लीज़। थ्याङ्क यू! वेयर आर यू फ़्रम?", "हुन्छ, धन्यवाद! तपाईं कहाँको हुनुहुन्छ?"],
-        ["Y", "I am from Darjeeling.", "आइ ऍम फ़्रम दार्जीलिङ।", "म दार्जिलिङको हुँ।"],
-        ["A", "Oh, nice! Goodbye. See you tomorrow!", "ओ, नाइस! गुडबाइ। सी यू टुमोरो!", "ओहो, राम्रो! बिदा। भोलि भेटौंला!"],
+        ["A", "Yes, please. Your house is very beautiful!", "येस, प्लीज़। योर हाउस इज़ व़ेरी ब्यूटिफ़ुल!", "हुन्छ। तपाईंको घर धेरै सुन्दर छ!"],
+        ["Y", "Thank you. Where are you from?", "थ्याङ्क यू। वेयर आर यू फ़्रम?", "धन्यवाद। तपाईं कहाँको हुनुहुन्छ?"],
+        ["A", "I am from Kalimpong. Are you from Darjeeling?", "आइ ऍम फ़्रम कालिम्पोङ। आर यू फ़्रम दार्जीलिङ?", "म कालिम्पोङकी हुँ। तपाईं दार्जिलिङको हो?"],
+        ["Y", "Yes, I am. These are my grandchildren.", "येस, आइ ऍम। दीज़ आर माइ ग्र्यान्चिल्ड्रन।", "हो। यी मेरा नाति-नातिना हुन्।"],
+        ["A", "They are very sweet! Goodbye. See you tomorrow!", "दे आर व़ेरी स्वीट! गुडबाइ। सी यू टुमोरो!", "कति प्यारा! बिदा। भोलि भेटौंला!"],
         ["Y", "Goodbye! See you tomorrow!", "गुडबाइ! सी यू टुमोरो!", "बिदा! भोलि भेटौंला!"]
       ],
       "quiz": [
-        ["reply", "Would you like some tea?", "Yes, please.", ["I am from Darjeeling.", "Good night!"], "चिया खानुहुन्छ?"],
-        ["reply", "Hello! I am your new neighbour.", "Hello! Nice to meet you.", ["Goodbye!", "No, it isn't."]],
-        ["build", "Please come in.", "भित्र आउनुहोस्।"],
-        ["reply", "See you tomorrow!", "Goodbye! See you tomorrow!", ["Nice to meet you.", "Yes, it is."]]
+        ["reply", "Would you like some tea?", "Yes, please.", ["Yes, I am.", "Yes, it is."], "चिया खानुहुन्छ?"],
+        ["reply", "Are you from Darjeeling?", "Yes, I am.", ["Yes, it is.", "Yes, please."], "तपाईं दार्जिलिङको हो?"],
+        ["reply", "Hello! I am your new neighbour.", "Hello! Nice to meet you.", ["Goodbye!", "No, it is not."]],
+        ["gap", "These ___ my grandchildren.", "are", ["is", "am"], "यी मेरा नाति-नातिना हुन्।"],
+        ["build", "Would you like some tea?", "चिया खानुहुन्छ?"],
+        ["write", "भित्र आउनुहोस्।", "Please come in.", ["Come in, please.", "Come in."]]
       ]
     }
   ]
